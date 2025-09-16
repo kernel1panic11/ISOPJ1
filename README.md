@@ -1,25 +1,21 @@
-# Curso de Machine Learning
+# We're no strangers to love...
 
-Este repositorio contiene el material del curso de Machine Learning desarrollado por Mireia Consarnau.
+![Como programar en html](https://raw.githubusercontent.com/kernel1panic11/ISOPJ1/main/rick.png?raw=true)
 
-## Contenido
-
-- Índice y enlaces a las unidades del curso.
-- Recursos en formato PDF, vídeos, y Google Colab.
-- Código y ejemplos prácticos.
-
-## Uso
-
-Este repositorio está preparado para ser publicado con GitHub Pages.  
-Puedes ver la versión web pública en:  
-https://mireiaconsarnau.github.io/machine_learning/
-
-## Licencia
-
-El contenido está bajo licencia [Creative Commons BY-NC-SA 3.0 ES](LICENSE.md).
-
-
----
-
-© 2025 Mireia Consarnau
-
+                      ooo$$$$$$$$$$$$$$$ooo
+                  o$$$$$$$$$$$$$$$$$$$$$$$$$$$o
+               o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o
+             o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o
+           o$$$$$$$$"   "$$$$$$$$$$$$$$$"   "$$$$$$$$o
+          $$$$$$$$$"      "$$$$$$$$$$$"      "$$$$$$$$$
+         $$$$$$$$$          $$$$$$$$$          $$$$$$$$$
+        $$$$$$$$$            $$$$$$$            $$$$$$$$$
+        $$$$$$$$$            $$$$$$$            $$$$$$$$$
+        $$$$$$$$$$$oo       o$$$$$$$o       oo$$$$$$$$$$$
+        "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
+         "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
+          "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
+           o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o
+             o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o
+              "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
+                 ""$$$$$$$$$$$$$$$$$$$$$$$$$$$""
