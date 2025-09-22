@@ -9,7 +9,7 @@ layout: default
 <div class="content-section">
   <h2 class="sub">¡Bienvenido al Circo!</h2>
 
-  Este repositorio contiene todo el material del curso desarrollado por **[kernel1panic11](https://github.com/kernel1panic11/)**, hago lo que medianamente puedo y creo, no espereis que este github sea el mas profesional porque la verdad que no tengo ni idea que estoy haciendo
+  Este repositorio contiene todo el material del curso desarrollado por <strong><a href="https://github.com/kernel1panic11/" target="_blank">kernel1panic11</a>, hago lo que medianamente puedo y creo, no espereis que este github sea el mas profesional porque la verdad que no tengo ni idea que estoy haciendo
   
 </div>
 
