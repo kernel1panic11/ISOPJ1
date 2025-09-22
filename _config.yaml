@@ -1,10 +1,10 @@
-theme: minima
+# Archivo _config.yml actualizado
 
-sass:
-  style: compressed
-
+# Plugins de Jekyll
 plugins:
   - jekyll-seo-tag
 
-include:
-  - assets/css/custom.css
+# Excluir archivos que no necesita procesar
+exclude:
+  - Gemfile
+  - Gemfile.lock
