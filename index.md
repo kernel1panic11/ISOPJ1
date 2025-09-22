@@ -1,51 +1,21 @@
 ---
 layout: default
+title: "Unidad 1: Virtualización e Instalación"
 ---
 
 <main class="contenedor-principal">
-    
-<h1 class="titulo">Implantación de Sistemas Operativos</h1>
+    <h1 class="titulo">Unidad 1</h1>
 
-<div class="content-section">
-  <h2 class="sub">¡Bienvenido al Curso!</h2>
+    <div class="content-section">
+        <h2 class="sub">Sprint 1: Instalación y Configuración Inicial</h2>
 
-  Este repositorio contiene todo el material del curso desarrollado por **Mireia Consarnau**, diseñado para llevarte desde los conceptos básicos hasta la implementación avanzada de sistemas.
-  
-  <img src="https://raw.githubusercontent.com/kernel1panic11/ISOPJ1/main/assetscss/photo_2025-09-22_12-41-21.jpg" alt="Esquema del curso" class="course-image">
-</div>
-
-<div class="loading-bar"><div class="loading-progress"></div></div>
-
-<div class="content-section">
-  <h2 class="sub">Contenido del Curso 🖥️</h2>
-  <ul class="projects-list">
-    <li><a href="unidad1/unidad1.md"><i class="fa-solid fa-book"></i><span>Unidad 1. Introducción a los Sistemas Operativos y Planificación</span></a></li>
-    <li><a href="unidad2/unidad2.md"><i class="fa-brands fa-windows"></i><span>Unidad 2. Implantación y Configuración de Sistemas Windows</span></a></li>
-    <li><a href="unidad3/unidad3.md"><i class="fa-brands fa-linux"></i><span>Unidad 3. Implantación y Configuración de Sistemas Linux</span></a></li>
-    <li><a href="unidad4/unidad4.md"><i class="fa-solid fa-shield-halved"></i><span>Unidad 4. Administración Avanzada y Seguridad</span></a></li>
-    <li><a href="unidad5/unidad5.md"><i class="fa-solid fa-server"></i><span>Unidad 5. Virtualización y Contenedores</span></a></li>
-  </ul>
-</div>
-
-<div class="content-section">
-  <h2 class="sub">Recursos Adicionales</h2>
-  <ul class="projects-list">
-    <li><a href="ras.md"><i class="fa-solid fa-graduation-cap"></i><span>Relación entre Unidades y Resultados de Aprendizaje (RAs)</span></a></li>
-    <li><a href="faqs/faqs.md"><i class="fa-solid fa-circle-question"></i><span>Preguntas Frecuentes (FAQs)</span></a></li>
-  </ul>
-</div>
-
-<div class="footer-text">
-    <p>&copy; 2025 Mireia Consarnau.</p>
-    <p>
-        Este curso se distribuye bajo la licencia 
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-            Creative Commons BY-NC-SA 4.0 Internacional
-        </a>.
-    </p>
-    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-        <img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
-    </a>
-</div>
-
+        <ul class="projects-list">
+            <li><a><i class="fa-solid fa-server"></i><span>Virtualización e instalación de Ubuntu</span></a></li>
+            <li><a><i class="fa-solid fa-file-signature"></i><span>Llicències</span></a></li>
+            <li><a><i class="fa-solid fa-list-check"></i><span>Gestor de arranque y dualboots</span></a></li>
+            <li><a><i class="fa-solid fa-rotate-left"></i><span>Puntos de restauración</span></a></li>
+            <li><a><i class="fa-solid fa-network-wired"></i><span>Configuración de xarxa</span></a></li>
+            <li><a><i class="fa-solid fa-terminal"></i><span>Comandes generals i instal·lacions</span></a></li>
+        </ul>
+    </div>
 </main>
