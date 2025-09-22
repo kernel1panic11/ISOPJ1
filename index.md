@@ -44,10 +44,7 @@ Explora cada unidad y domina las competencias clave:
 
 <br>
 
-## Recursos Adicionales
 
-* ### [Relación entre Unidades y Resultados de Aprendizaje (RAs)](ras.md)
-* ### [Preguntas Frecuentes (FAQs)](faqs/faqs.md)
 
 </div>
 
