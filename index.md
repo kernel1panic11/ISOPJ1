@@ -5,16 +5,15 @@ layout: default
 <main class="contenedor-principal">
     
 <h1 class="titulo">Implantación de Sistemas Operativos</h1>
-
+<div class="loading-bar"><div class="loading-progress"></div></div>
 <div class="content-section">
-  <h2 class="sub">¡Bienvenido al Curso!</h2>
+  <h2 class="sub">¡Bienvenido al Circo!</h2>
 
-  Este repositorio contiene todo el material del curso desarrollado por **Mireia Consarnau**, diseñado para llevarte desde los conceptos básicos hasta la implementación avanzada de sistemas.
+  Este repositorio contiene todo el material del curso desarrollado por **[kernel1panic11](https://github.com/kernel1panic11/)**, hago lo que medianamente puedo y 
   
-  <img src="https://raw.githubusercontent.com/kernel1panic11/ISOPJ1/main/assetscss/photo_2025-09-22_12-41-21.jpg" alt="Esquema del curso" class="course-image">
 </div>
 
-<div class="loading-bar"><div class="loading-progress"></div></div>
+
 
 <div class="content-section">
   <h2 class="sub">Contenido del Curso 🖥️</h2>
@@ -28,11 +27,7 @@ layout: default
 </div>
 
 <div class="content-section">
-  <h2 class="sub">Recursos Adicionales</h2>
-  <ul class="projects-list">
-    <li><a href="ras.md"><i class="fa-solid fa-graduation-cap"></i><span>Relación entre Unidades y Resultados de Aprendizaje (RAs)</span></a></li>
-    <li><a href="faqs/faqs.md"><i class="fa-solid fa-circle-question"></i><span>Preguntas Frecuentes (FAQs)</span></a></li>
-  </ul>
+  <img src="https://raw.githubusercontent.com/kernel1panic11/ISOPJ1/main/assetscss/photo_2025-09-22_12-41-21.jpg" alt="Esquema del curso" class="course-image">
 </div>
 
 <div class="footer-text">
