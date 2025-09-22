@@ -11,8 +11,6 @@ layout: default
 
   Este repositorio contiene todo el material del curso desarrollado por <strong><a href="https://github.com/kernel1panic11/" target="_blank">kernel1panic11</a>, hago lo que medianamente puedo y creo, no espereis que este github sea el mas profesional porque la verdad que no tengo ni idea que estoy haciendo
   
-</div>
-
 <div class="content-section">
   <h2 class="sub">Contenido del Curso 🖥️</h2>
 <ul class="projects-list">
