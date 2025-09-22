@@ -2,7 +2,7 @@
    Tema y tokens de diseño
    ========================= */
 :root {
-  --bg-image: url('https://gv3sys.uk/back.gif');
+  --bg-image: url('back.gif');
   --overlay: rgba(10, 20, 30, 0.75);
   --text: #eafcff;
   --text-soft: #c7f6ff;
