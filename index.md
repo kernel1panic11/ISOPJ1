@@ -36,7 +36,7 @@ layout: default
 </div>
 
 <div class="footer-text">
-    <p>&copy; 2025 Mireia Consarnau.</p>
+    <p>&copy; 2025 kernel1panic11</p>
     <p>
         Este curso se distribuye bajo la licencia 
         <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
