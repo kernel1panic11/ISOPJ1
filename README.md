@@ -21,4 +21,4 @@ El contenido está organizado de la siguiente manera para facilitar el acceso a 
 * **kernel1panic11**
 
 
-![Blade Runner 2049](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpics.filmaffinity.com%2Fblade_runner_2049-735410644-large.jpg&f=1&nofb=1&ipt=d1620f1201a4decb9ab5f06d8810cca8cf1cc5d4dcd74f34f8ae13999e91ad43)
+![Blade Runner 2049](https://github.com/kernel1panic11/ISOPJ1/blob/main/assetscss/SSvid.net--Chainsaw-Man-Kobeni-Higashiyama-Wallpaper-Engine_1080p.gif)
