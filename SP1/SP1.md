@@ -69,7 +69,7 @@ Comienza la instalación:
 
 ---
 
-En mi caso, como se puede observar, no estoy utilizando las opciones convencionales.  
+En mi caso, como se puede observar, no estoy utilizando las opciones de clase.  
 Se nota por la interfaz gráfica: he utilizado **Pop!_OS**, que está basado en **Ubuntu 22.05 LTS**, y el sistema de archivos es **Btrfs**.  
 
 He elegido estas opciones por los siguientes motivos:
