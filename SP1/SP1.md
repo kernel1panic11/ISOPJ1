@@ -77,6 +77,7 @@ Y ahora reinicianos la vm
 
 Resultado: 
 
+<img width="1270" height="833" alt="image" src="https://github.com/user-attachments/assets/4563312d-1c12-455e-9f85-e4fae4da302d" />
 
 
 ---
