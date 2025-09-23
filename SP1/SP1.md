@@ -1,95 +1,83 @@
-# Unidad 1
-
-Ubuntu como tal utiliza varios tipos de licencia, las que utiliza son las siguientes:
-
-- 🔹 **Núcleo Linux** → Licencia **GPLv2** (GNU General Public License, versión 2).  
-- 🔹 **Aplicaciones GNU** (coreutils, bash, etc.) → Principalmente **GPLv3** y otras licencias GNU (LGPL, AGPL, etc.).  
-- 🔹 **Bibliotecas** → Muchas bajo **LGPL** (permite usarlas en software propietario).  
-- 🔹 **Documentación** → Generalmente bajo **GNU Free Documentation License (GFDL)** o **Creative Commons**.  
-- 🔹 **Paquetes incluidos** → Cada paquete conserva su propia licencia (puede ser GPL, MIT, Apache, BSD, etc.).  
-- 🔹 **Marcas registradas de Ubuntu** → El software es libre, pero los logos, nombre y *branding* de Ubuntu están bajo las **Ubuntu Trademark Guidelines** de Canonical.  
-
+---
+layout: default
+title: "Unidad 1: Introducción a los Sistemas Operativos y Planificación"
 ---
 
-# Instalación de Ubuntu
+<main class="contenedor-principal">
+    
+<h1 class="titulo">Unidad 1. Introducción a los Sistemas Operativos y Planificación</h1>
+<div class="loading-bar"><div class="loading-progress"></div></div>
 
-Primero iniciamos la ISO, en mi caso estoy usando **VMware** (me es más cómodo).
+<div class="content-section">
+  <h2 class="sub">Tipos de Licencia en Ubuntu</h2>
+    <p>
+        Ubuntu como tal utiliza varios tipos de licencia, las que utiliza son las siguientes:
+    </p>
+    <ul>
+        <li>🔹 <strong>Núcleo Linux</strong> → Licencia <strong>GPLv2</strong> (GNU General Public License, versión 2).</li>
+        <li>🔹 <strong>Aplicaciones GNU</strong> (coreutils, bash, etc.) → Principalmente <strong>GPLv3</strong> y otras licencias GNU (LGPL, AGPL, etc.).</li>
+        <li>🔹 <strong>Bibliotecas</strong> → Muchas bajo <strong>LGPL</strong> (permite usarlas en software propietario).</li>
+        <li>🔹 <strong>Documentación</strong> → Generalmente bajo <strong>GNU Free Documentation License (GFDL)</strong> o <strong>Creative Commons</strong>.</li>
+        <li>🔹 <strong>Paquetes incluidos</strong> → Cada paquete conserva su propia licencia (puede ser GPL, MIT, Apache, BSD, etc.).</li>
+        <li>🔹 <strong>Marcas registradas de Ubuntu</strong> → El software es libre, pero los logos, nombre y <em>branding</em> de Ubuntu están bajo las <strong>Ubuntu Trademark Guidelines</strong> de Canonical.</li>
+    </ul>
+</div>
 
-Empezamos creando la tabla de particiones.  
-Por defecto viene **MSDOS** por tema de compatibilidad, pero lo he cambiado a **GPT** ya que puede soportar discos duros con mucho mayor volumen.
+<div class="content-section">
+  <h2 class="sub">Instalación de Ubuntu en VMware</h2>
+  <p>
+      Primero iniciamos la ISO, en mi caso estoy usando <strong>VMware</strong> (me es más cómodo).
+  </p>
+  <p>
+      Empezamos creando la tabla de particiones. Por defecto viene <strong>MSDOS</strong> por tema de compatibilidad, pero lo he cambiado a <strong>GPT</strong> ya que puede soportar discos duros con mucho mayor volumen.
+  </p>
+  <img src="https://github.com/user-attachments/assets/bc0a7fd2-dffc-40a3-a2ee-62d773f53012" alt="Tabla GPT" class="course-image">
+  
+  <p>Aquí he creado la primera partición, que será la <strong>home</strong> y será de 20 GB.</p>
+  <img src="https://github.com/user-attachments/assets/e8813fc1-d89c-4024-8009-0ec6ee1109f3" alt="Partición home" class="course-image">
 
-![Tabla GPT](https://github.com/user-attachments/assets/bc0a7fd2-dffc-40a3-a2ee-62d773f53012)
+  <p>Ahora creamos la <strong>swap</strong>, en mi caso le pondré 1 GB.</p>
+  <img src="https://github.com/user-attachments/assets/fda501cb-dac0-4033-a51c-30ad34dd693e" alt="Partición swap" class="course-image">
 
-Aquí he creado la primera partición, que será la **home** y será de 20 GB.
+  <p>Y ahora estamos creando la <strong>raíz (/)</strong>.</p>
+  <img src="https://github.com/user-attachments/assets/979c2479-2bf9-4114-956b-3d85937224a1" alt="Partición raíz" class="course-image">
 
-![Partición home](https://github.com/user-attachments/assets/e8813fc1-d89c-4024-8009-0ec6ee1109f3)
+  <h4>Resultado final de las particiones:</h4>
+  <img src="https://github.com/user-attachments/assets/abf758cc-b67a-4593-aa73-c25040783cb0" alt="Particiones" class="course-image">
 
-Ahora creamos la **swap**, en mi caso le pondré 1 GB.
+  <p>Durante el proceso me di cuenta de que me había dejado la partición <strong>boot</strong>. He vuelto al editor y la he creado, ya que es necesaria para que el sistema operativo pueda arrancar.</p>
+  <img src="https://github.com/user-attachments/assets/8eee9a3d-adbf-486b-b05e-6eba551ab3a3" alt="Creación de partición boot" class="course-image">
+</div>
 
-![Partición swap](https://github.com/user-attachments/assets/fda501cb-dac0-4033-a51c-30ad34dd693e)
+<div class="content-section">
+    <h2 class="sub">Post-Instalación y Personalización</h2>
+    <p>
+        Después de instalar, se puede ver que el hostname es "pop-os". Lo voy a cambiar editando el archivo <code>/etc/hostname</code>.
+    </p>
+    <img width="1283" height="918" alt="image" src="https://github.com/user-attachments/assets/47756089-5f51-4f5f-a99a-d271bfc01505" class="course-image" />
+    <p>
+        Una vez modificado, reiniciamos la máquina virtual para aplicar los cambios. El resultado es el nuevo hostname:
+    </p>
+    <img width="1270" height="833" alt="image" src="https://github.com/user-attachments/assets/4563312d-1c12-455e-9f85-e4fae4da302d" class="course-image" />
+</div>
 
-Y ahora estamos creando la **raíz (/)**.
+<div class="content-section">
+    <h2 class="sub">Elección de Pop!_OS y Btrfs</h2>
+    <p>
+        Como se puede observar, no estoy utilizando una instalación estándar de Ubuntu. He elegido <strong>Pop!_OS</strong> (basado en Ubuntu 22.04 LTS) con el sistema de archivos <strong>Btrfs</strong> por los siguientes motivos:
+    </p>
+    <ul>
+        <li>
+            <strong>Sistema de archivos Btrfs:</strong> Permite crear <em>snapshots</em> del sistema sin tener que hacer copias de seguridad completas. Si una actualización falla, puedo revertir los cambios de forma rápida y segura.
+        </li>
+        <li>
+            <strong>Pop!_OS en lugar de Ubuntu estándar:</strong>
+            <ul>
+                <li><strong>Preferencia personal:</strong> Me resulta más amigable visualmente.</li>
+                <li><strong>Razones técnicas:</strong> Viene con más <em>drivers</em> preinstalados y no usa <em>Snap</em>, sino <strong>APT</strong>, que en mi opinión rinde mucho mejor.</li>
+            </ul>
+        </li>
+    </ul>
+</div>
 
-![Partición raíz](https://github.com/user-attachments/assets/979c2479-2bf9-4114-956b-3d85937224a1)
-
-Resultado final:
-
-![Particiones](https://github.com/user-attachments/assets/abf758cc-b67a-4593-aa73-c25040783cb0)
-
-Aplicamos los cambios:
-
-![Aplicar cambios](https://github.com/user-attachments/assets/277f1508-19aa-4df1-8c1c-3a15de066b88)
-
-Marcamos la raíz:
-
-![Raíz](https://github.com/user-attachments/assets/bd455cfe-09f9-4094-ac63-12d5a43dbc92)
-
-Marcamos la **swap**:
-
-![Swap](https://github.com/user-attachments/assets/0de7225b-03fd-4898-b889-2f37f34c75fd)
-
-Marcamos la **home**:
-
-![Home](https://github.com/user-attachments/assets/b8e48d67-d849-4339-98c3-a64c8d93f9ef)
-
-Durante el proceso me di cuenta de que me había dejado la partición **boot**.  
-He vuelto al editor, como se ve en la foto, y la he creado.  
-Esta partición es necesaria para que el sistema operativo pueda arrancar.
-
-![Boot](https://github.com/user-attachments/assets/8eee9a3d-adbf-486b-b05e-6eba551ab3a3)
-
-Le indico qué partición es la **boot**:
-
-![Asignar boot](https://github.com/user-attachments/assets/bd7d7a20-996e-4b85-8182-95f790a784b2)
-
-Comienza la instalación:
-
-![Instalación 1](https://github.com/user-attachments/assets/7757bdb8-230b-4c3b-8e49-87ce11263de0)  
-![Instalación 2](https://github.com/user-attachments/assets/d54c95f1-cbcf-49c8-877a-156e1ee1a951)
-
-Despues de instalar, se puede ver que el hostname es "pop-os" ahora lo voy a a cambiar editando el /etc/hostname
-
-<img width="1283" height="918" alt="image" src="https://github.com/user-attachments/assets/47756089-5f51-4f5f-a99a-d271bfc01505" />
-<img width="1092" height="619" alt="image" src="https://github.com/user-attachments/assets/b19586df-4e78-4e62-af48-6e836733f00a" />
-
-Y ahora reinicianos la vm
-
-
-Resultado: 
-
-<img width="1270" height="833" alt="image" src="https://github.com/user-attachments/assets/4563312d-1c12-455e-9f85-e4fae4da302d" />
-
-
----
-
-En mi caso, como se puede observar, no estoy utilizando las opciones de clase.  
-Se nota por la interfaz gráfica: he utilizado **Pop!_OS**, que está basado en **Ubuntu 22.05 LTS**, y el sistema de archivos es **Btrfs**.  
-
-He elegido estas opciones por los siguientes motivos:
-
-- **Sistema de archivos Btrfs** → permite crear *snapshots* del sistema sin tener que hacer copias de seguridad completas.  
-  Si una actualización falla, puedo revertir los cambios de forma rápida y segura.  
-- **Pop!_OS en lugar de Ubuntu estándar**:
-  - Preferencia personal: me resulta más amigable visualmente.  
-  - Razones técnicas: viene con más *drivers* que Ubuntu no trae por defecto y no usa *Snap*, sino **APT**, que rinde mucho mejor.  
-  *Snap* funciona como una máquina virtual para cada programa, mientras que APT gestiona paquetes de forma más eficiente.  
+</main>
