@@ -67,6 +67,18 @@ Comienza la instalación:
 ![Instalación 1](https://github.com/user-attachments/assets/7757bdb8-230b-4c3b-8e49-87ce11263de0)  
 ![Instalación 2](https://github.com/user-attachments/assets/d54c95f1-cbcf-49c8-877a-156e1ee1a951)
 
+Despues de instalar, se puede ver que el hostname es "pop-os" ahora lo voy a a cambiar editando el /etc/hostname
+
+<img width="1283" height="918" alt="image" src="https://github.com/user-attachments/assets/47756089-5f51-4f5f-a99a-d271bfc01505" />
+<img width="1092" height="619" alt="image" src="https://github.com/user-attachments/assets/b19586df-4e78-4e62-af48-6e836733f00a" />
+
+Y ahora reinicianos la vm
+
+
+Resultado: 
+
+
+
 ---
 
 En mi caso, como se puede observar, no estoy utilizando las opciones de clase.  
