@@ -5,17 +5,20 @@ title: "Unidad 1: Virtualización e Instalación"
 
 <main class="contenedor-principal">
     <h1 class="titulo">Unidad 1</h1>
+Ubuntu como tal utiliza varios tipos de licencia, las que utiliza son las siguientes: 
 
-    <div class="content-section">
-        <h2 class="sub">Sprint 1: Instalación y Configuración Inicial</h2>
+🔹 Núcleo Linux → Licencia GPLv2 (GNU General Public License, versión 2).
 
-        <ul class="projects-list">
-            <li><a><i class="fa-solid fa-server"></i><span>Virtualización e instalación de Ubuntu</span></a></li>
-            <li><a><i class="fa-solid fa-file-signature"></i><span>Llicències</span></a></li>
-            <li><a><i class="fa-solid fa-list-check"></i><span>Gestor de arranque y dualboots</span></a></li>
-            <li><a><i class="fa-solid fa-rotate-left"></i><span>Puntos de restauración</span></a></li>
-            <li><a><i class="fa-solid fa-network-wired"></i><span>Configuración de xarxa</span></a></li>
-            <li><a><i class="fa-solid fa-terminal"></i><span>Comandes generals i instal·lacions</span></a></li>
-        </ul>
-    </div>
+🔹 Aplicaciones GNU (coreutils, bash, etc.) → Principalmente GPLv3 y otras licencias GNU (LGPL, AGPL, etc.).
+
+🔹 Bibliotecas → Muchas bajo LGPL (permite usarlas en software propietario).
+
+🔹 Documentación → Generalmente bajo GNU Free Documentation License (GFDL) o Creative Commons.
+
+🔹 Paquetes incluidos → Cada paquete conserva su propia licencia (puede ser GPL, MIT, Apache, BSD, etc.).
+
+🔹 Marcas registradas de Ubuntu → El software es libre, pero los logos, nombre y branding de Ubuntu están bajo las Ubuntu Trademark Guidelines de Canonical.
+
+ <h1 class="titulo">Instalacion de Ubuntu</h1>
+
 </main>
