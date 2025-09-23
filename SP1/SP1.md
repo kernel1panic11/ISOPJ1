@@ -1,4 +1,4 @@
-layout: default
+<img width="1152" height="739" alt="image" src="https://github.com/user-attachments/assets/e121cec1-2b59-4f82-a783-5900c41e1cbc" />layout: default
 title: "Unidad 1: Virtualización e Instalación"
 ---
 
@@ -45,6 +45,26 @@ Y el resultado:
 Ahora aplicamos los cambios 
 
 <img width="882" height="628" alt="image" src="https://github.com/user-attachments/assets/277f1508-19aa-4df1-8c1c-3a15de066b88" />
+
+Y ahora le marco donde quiero que me instale la raiz
+
+<img width="1336" height="799" alt="image" src="https://github.com/user-attachments/assets/bd455cfe-09f9-4094-ac63-12d5a43dbc92" />
+
+La swap
+
+<img width="1106" height="774" alt="image" src="https://github.com/user-attachments/assets/0de7225b-03fd-4898-b889-2f37f34c75fd" />
+
+La home
+
+<img width="1313" height="736" alt="image" src="https://github.com/user-attachments/assets/b8e48d67-d849-4339-98c3-a64c8d93f9ef" />
+
+Y durante el proceso me he dado cuenta que me he dejado la particion "boot" he vuelto al editor como se ve en la foto y la he creado, esta particion es para que el sistema operativo, como indica su nombre pueda arrancar
+
+<img width="1152" height="739" alt="image" src="https://github.com/user-attachments/assets/8eee9a3d-adbf-486b-b05e-6eba551ab3a3" />
+
+Y ahora le indico que particon es la boot 
+
+<img width="898" height="628" alt="image" src="https://github.com/user-attachments/assets/bd7d7a20-996e-4b85-8182-95f790a784b2" />
 
 
 En mi caso, como se puede observar, no estoy utilizando las opciones convencionales, se nota por la interfaz grafica, he utilizado popOS! que esta basado en ubuntu 22.05 LTS, y el sistema de archivos es BTRFS, he elegido estas opciones por lo siguientes motivos 
