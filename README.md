@@ -7,7 +7,7 @@
 
 Este repositorio almacena las prácticas, ejercicios y materiales desarrollados para una asignatura, probablemente relacionada con Sistemas Operativos o similar. El proyecto está estructurado en unidades y seminarios prácticos.
 
-## 🗂️ Estructura del Repositorio
+## 🗂️ Estructura del Repitorio
 
 El contenido está organizado de la siguiente manera para facilitar el acceso a los materiales del curso:
 
@@ -20,5 +20,4 @@ El contenido está organizado de la siguiente manera para facilitar el acceso a 
 
 * **kernel1panic11**
 
-
-![Blade Runner 2049](https://github.com/kernel1panic11/ISOPJ1/blob/main/assetscss/SSvid.net--Chainsaw-Man-Kobeni-Higashiyama-Wallpaper-Engine_1080p.gif)
+<img src="https://raw.githubusercontent.com/kernel1panic11/ISOPJ1/main/assetscss/SSvid.net--Chainsaw-Man-Kobeni-Higashiyama-Wallpaper-Engine_1080p.gif" alt="Chainsaw Man Kobeni GIF" width="100%">
