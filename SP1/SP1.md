@@ -1,4 +1,3 @@
-<img width="1152" height="739" alt="image" src="https://github.com/user-attachments/assets/e121cec1-2b59-4f82-a783-5900c41e1cbc" />layout: default
 title: "Unidad 1: Virtualización e Instalación"
 ---
 
