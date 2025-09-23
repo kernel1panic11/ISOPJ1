@@ -65,8 +65,13 @@ Y ahora le indico que particon es la boot
 
 <img width="898" height="628" alt="image" src="https://github.com/user-attachments/assets/bd7d7a20-996e-4b85-8182-95f790a784b2" />
 
+Y comezamos con la instalacion
 
-En mi caso, como se puede observar, no estoy utilizando las opciones convencionales, se nota por la interfaz grafica, he utilizado popOS! que esta basado en ubuntu 22.05 LTS, y el sistema de archivos es BTRFS, he elegido estas opciones por lo siguientes motivos 
+<img width="1318" height="860" alt="image" src="https://github.com/user-attachments/assets/7757bdb8-230b-4c3b-8e49-87ce11263de0" />
+<img width="1291" height="803" alt="image" src="https://github.com/user-attachments/assets/d54c95f1-cbcf-49c8-877a-156e1ee1a951" />
+
+
+En mi caso, como se puede observar, no estoy utilizando las opciones convencionales, se nota por la interfaz grafica, he utilizado popOS! que esta basado en ubuntu 22.05 LTS, y el sistema de archivos es BTRFS, he elegido estas opciones por lo siguientes motivos: El sistema de archivos BTRFS es porque este sistema te permite crear Snapshoots del sistema sin tener que hacer copias de seguridad enteras, entonces si va mal una actualizacion, lo que hace la Snapshot es hace copia de seguridad de las versiones anteriores de los paquetes que se van a actualizar, y si sale mal puedo revertir los cambios, entonces es por seguirdad, y el sistema operativo es por preferencias personales y tecnicas, las personales es porque me parece mas amigable a la vista, y las personales es porque vienen con muchos drivers que ubuntu no tiene por defecto y tampoco viene con snap por defecto, utiliza apt, y apt rinde mucho mas que snap, ya que snap es una programa en una maquina virtual
 
 
 </main>
