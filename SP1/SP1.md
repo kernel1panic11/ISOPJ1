@@ -2,8 +2,8 @@
 
 ### Unidad 1: Virtualización e Instalación
 
-\<main class="contenedor-principal"\>
-    \<h1 class="titulo"\>Unidad 1\</h1\>
+<main class="contenedor-principal"\>
+    <h1 class="titulo"\>Unidad 1\</h1\>
 Ubuntu como tal utiliza varios tipos de licencia, las que utiliza son las siguientes:
 
 🔹 Núcleo Linux → Licencia GPLv2 (GNU General Public License, versión 2).
