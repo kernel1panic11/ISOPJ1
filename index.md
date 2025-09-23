@@ -14,7 +14,7 @@ layout: default
 <div class="content-section">
   <h2 class="sub">Contenido del Curso 🖥️</h2>
 <ul class="projects-list">
-    <li><a href="https://github.com/kernel1panic11/ISOPJ1/blob/main/SP1/SP1.md"><i class="fa-solid fa-book"></i><span>Unidad 1. Introducción a los Sistemas Operativos y Planificación</span></a></li>
+    <li><a href="SP1/SP1.md"><i class="fa-solid fa-book"></i><span>Unidad 1. Introducción a los Sistemas Operativos y Planificación</span></a></li>
     <li><a href="SP2/SP2.md"><i class="fa-brands fa-windows"></i><span>Unidad 2. Implantación y Configuración de Sistemas Windows</span></a></li>
     <li><a href="SP3/SP3.md"><i class="fa-brands fa-linux"></i><span>Unidad 3. Implantación y Configuración de Sistemas Linux</span></a></li>
     <li><a href="SP4/SP4.md"><i class="fa-solid fa-shield-halved"></i><span>Unidad 4. Administración Avanzada y Seguridad</span></a></li>
