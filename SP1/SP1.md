@@ -89,6 +89,10 @@ title: "Unidad 1: Introducción a los Sistemas Operativos y Planificación"
         <img width="887" height="663" alt="Selección del disco duro para instalar Windows" src="https://github.com/user-attachments/assets/57788b14-88d2-4920-ab7f-772f8d86f83d" class="course-image" />
         <p>Empezamos la instalación:</p>
         <img width="1270" height="796" alt="Proceso de instalación de Windows" src="https://github.com/user-attachments/assets/4d5c311c-0498-482b-98ac-2a955f082184" class="course-image" />
+        <p>Ya ha terminado la instalacion de windows 11 </p> 
+        <img width="1712" height="880" alt="image" src="https://github.com/user-attachments/assets/2c9c7395-cc71-4eb8-8a79-d217f4c81139" />
+
     </div>
+
 
 </main>
