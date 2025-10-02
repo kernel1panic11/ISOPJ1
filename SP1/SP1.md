@@ -98,6 +98,9 @@
     <img width="571" height="100" alt="image" src="https://github.com/user-attachments/assets/bd498b8e-633d-4eed-9131-feb577c1be93" />
     <p>Y ahora lo que hago es ejecutar: sudo update-grub, para que se actualize el grub</p>
     <img width="801" height="241" alt="image" src="https://github.com/user-attachments/assets/7e9a5100-b372-468d-8fd3-d109e30bd426" />
+    <p>Y como se puede comprobar, ahora en el grub aparece el Ubuntu y Windows</p>
+    <img width="1143" height="748" alt="image" src="https://github.com/user-attachments/assets/3165cf72-ac23-4cd6-a3cf-bd603e370bd4" />
+    
 
 </div>
 </main>
