@@ -93,8 +93,11 @@ title: "Unidad 1: Introducción a los Sistemas Operativos y Planificación"
         <video src="2025-10-02 12-30-44.mp4" controls width="100%"></video>
         <p>Ahora lo que hago es me voy a la UEFI de la maquina virtual y arranco en el cd donde tengo el super grub para restaurar el grub </p>
         <img width="708" height="501" alt="image" src="https://github.com/user-attachments/assets/f9b144dc-789e-4629-9fe3-fec4ed53611b" />
+        <p> Ahora en el Super Grub2 Disk elijo la opicon de "Detect and show boot methods" </p> 
+        <img width="723" height="415" alt="image" src="https://github.com/user-attachments/assets/b6a805aa-163c-4fdc-b9df-9349f2adae81" />    
+        <p>Una vez aquí lo que hay  que hacer es selecionar donde tengo el linux para que arranque </p>
+        <img width="704" height="459" alt="image" src="https://github.com/user-attachments/assets/06ddc8d9-ea7a-4789-bb7b-d92b53b36018" />
         
-
     </div>
 
 
