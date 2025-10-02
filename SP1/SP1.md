@@ -1,4 +1,4 @@
-<main class="contenedor-principal">
+<img width="1030" height="763" alt="image" src="https://github.com/user-attachments/assets/cff54830-fb2d-4e79-b91a-6cf9444ec5db" /><main class="contenedor-principal">
 <h1 class="titulo">Unidad 1. Introducción a los Sistemas Operativos y Planificación</h1>
 <div class="loading-bar"><div class="loading-progress"></div></div>
 
@@ -100,6 +100,9 @@
     <img width="801" height="241" alt="image" src="https://github.com/user-attachments/assets/7e9a5100-b372-468d-8fd3-d109e30bd426" />
     <p>Y como se puede comprobar, ahora en el grub aparece el Ubuntu y Windows</p>
     <img width="1143" height="748" alt="image" src="https://github.com/user-attachments/assets/3165cf72-ac23-4cd6-a3cf-bd603e370bd4" />
+    <p>Y para finalizar me he tomado la libertad para instalar un tema al grub</p>
+    <img width="1030" height="763" alt="image" src="https://github.com/user-attachments/assets/e6d2f939-98a7-47a0-b877-a6b107415d85" />
+
     
 
 </div>
