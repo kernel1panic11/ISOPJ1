@@ -89,8 +89,6 @@ title: "Unidad 1: Introducción a los Sistemas Operativos y Planificación"
         <img width="887" height="663" alt="Selección del disco duro para instalar Windows" src="https://github.com/user-attachments/assets/57788b14-88d2-4920-ab7f-772f8d86f83d" class="course-image" />
         <p>Empezamos la instalación:</p>
         <img width="1270" height="796" alt="Proceso de instalación de Windows" src="https://github.com/user-attachments/assets/4d5c311c-0498-482b-98ac-2a955f082184" class="course-image" />
-        <p>Ya ha terminado la instalación de Windows 11:</p>
-        <img width="1696" height="868" alt="image" src="https://github.com/user-attachments/assets/aee68bb7-9289-458b-b4b1-f4fb009038e9" />
         <p>Aquí dejo un video como se puede ver que el unico sistema que arranca es Windows 11</p>
         <video src="2025-10-02 12-30-44.mp4" controls width="100%"></video>
     </div>
