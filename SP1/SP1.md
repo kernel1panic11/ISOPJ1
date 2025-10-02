@@ -90,7 +90,7 @@ title: "Unidad 1: Introducción a los Sistemas Operativos y Planificación"
         <p>Empezamos la instalación:</p>
         <img width="1270" height="796" alt="Proceso de instalación de Windows" src="https://github.com/user-attachments/assets/4d5c311c-0498-482b-98ac-2a955f082184" class="course-image" />
         <p>Ya ha terminado la instalación de Windows 11:</p>
-        <img width="1712" height="880" alt="Instalación completada de Windows 11" src="https://github.com/user-attachments/assets/2c9c7395-cc71-4eb8-8a79-d217f4c81139" class="course-image" />
+        <img width="1696" height="868" alt="image" src="https://github.com/user-attachments/assets/aee68bb7-9289-458b-b4b1-f4fb009038e9" />
         <p>Aquí dejo un video como se puede ver que el unico sistema que arranca es Windows 11</p>
         <video src="2025-10-02 12-30-44.mp4" controls width="100%"></video>
     </div>
