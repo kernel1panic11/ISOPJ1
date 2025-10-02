@@ -6,7 +6,6 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
 <main class="contenedor-principal">
     <h1 class="titulo">Unidad 1. Introducción a los Sistemas Operativos y Planificación</h1>
     <div class="loading-bar"><div class="loading-progress"></div>
-
     <div class="content-section">
         <h2 class="sub">Tipos de Licencia en Ubuntu</h2>
         <p>
@@ -21,7 +20,6 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
             <li><b>Marcas registradas de Ubuntu</b> → El software es libre, pero los logos, el nombre y el <i>branding</i> de Ubuntu están bajo las <i>Ubuntu Trademark Guidelines</i> de Canonical.</li>
         </ul>
     </div>
-
     <div class="content-section">
         <h2 class="sub">Instalación de Ubuntu en VMware</h2>
         <p>
@@ -34,20 +32,15 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
         
         <p>Aquí he creado la primera partición, que será la <code>/home</code> y tendrá 20 GB.</p>
         <img src="https://github.com/user-attachments/assets/e8813fc1-d89c-4024-8009-0ec6ee1109f3" alt="Partición home" class="course-image" />
-
         <p>Ahora creamos la partición <b>swap</b>, que en mi caso será de 1 GB.</p>
         <img src="https://github.com/user-attachments/assets/fda501cb-dac0-4033-a51c-30ad34dd693e" alt="Partición swap" class="course-image" />
-
         <p>Y ahora estamos creando la <b>raíz</b> (<code>/</code>).</p>
         <img src="https://github.com/user-attachments/assets/979c2479-2bf9-4114-956b-3d85937224a1" alt="Partición raíz" class="course-image" />
-
         <h4>Resultado final de las particiones:</h4>
         <img src="https://github.com/user-attachments/assets/abf758cc-b67a-4593-aa73-c25040783cb0" alt="Particiones" class="course-image" />
-
         <p>Durante el proceso, me di cuenta de que me había olvidado de la partición <code>/boot</code>. He vuelto al editor y la he creado, ya que es necesaria para que el sistema operativo pueda arrancar.</p>
         <img src="https://github.com/user-attachments/assets/8eee9a3d-adbf-486b-b05e-6eba551ab3a3" alt="Creación de partición boot" class="course-image" />
     </div>
-
     <div class="content-section">
         <h2 class="sub">Post-Instalación y Personalización</h2>
         <p>
@@ -59,7 +52,6 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
         </p>
         <img width="1270" height="833" alt="Resultado del nuevo hostname en la terminal" src="https://github.com/user-attachments/assets/4563312d-1c12-455e-9f85-e4fae4da302d" class="course-image" />
     </div>
-
     <div class="content-section">
         <h2 class="sub">Elección de Pop!_OS y Btrfs</h2>
         <p>
@@ -78,7 +70,6 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
             </li>
         </ul>
     </div>
-
     <div class="content-section"> 
         <h2 class="sub">Restaurando el GRUB</h2>
         <p>Ahora instalo Windows 11 para que sobrescriba el GRUB de Ubuntu y así poder restaurarlo más tarde.</p>
