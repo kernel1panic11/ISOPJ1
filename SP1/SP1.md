@@ -84,6 +84,7 @@ title: "Unidad 1: Introducción a los Sistemas Operativos y Planificación"
     <h2 class="sub">Restaurando el grub</h2>
     <p>Ahora lo que hago es instalar windows 11 para que sobre escriba el grub de ubuntu, para luego poderlo restaurar mas tarde</p>
     <p>Ahora empezamos la instalacion de windows 11 </p>
+    <img width="965" height="675" alt="image" src="https://github.com/user-attachments/assets/0d92dbdc-aa5a-4ce4-94bf-8374aa783d78" />
 </div>
 
 </main>
