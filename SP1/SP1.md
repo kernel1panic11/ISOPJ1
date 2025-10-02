@@ -46,7 +46,7 @@ title: "Unidad 1: Introducción a los Sistemas Operativos y Planificación"
         <img src="https://github.com/user-attachments/assets/abf758cc-b67a-4593-aa73-c25040783cb0" alt="Particiones" class="course-image" />
 
         <p>Durante el proceso me di cuenta de que me había dejado la partición boot. He vuelto al editor y la he creado, ya que es necesaria para que el sistema operativo pueda arrancar.</p>
-        <img src="https.github.com/user-attachments/assets/8eee9a3d-adbf-486b-b05e-6eba551ab3a3" alt="Creación de partición boot" class="course-image" />
+        <img src="https://github.com/user-attachments/assets/8eee9a3d-adbf-486b-b05e-6eba551ab3a3" alt="Creación de partición boot" class="course-image" />
     </div>
 
     <div class="content-section">
@@ -81,13 +81,13 @@ title: "Unidad 1: Introducción a los Sistemas Operativos y Planificación"
     </div>
 
     <div class="content-section"> 
-        <h2 class="sub">Restaurando el grub</h2>
-        <p>Ahora lo que hago es instalar windows 11 para que sobre escriba el grub de ubuntu, para luego poderlo restaurar mas tarde</p>
-        <p>Ahora empezamos la instalacion de windows 11 </p>
+        <h2 class="sub">Restaurando el GRUB</h2>
+        <p>Ahora lo que hago es instalar Windows 11 para que sobrescriba el GRUB de Ubuntu, para luego poderlo restaurar más tarde.</p>
+        <p>Ahora empezamos la instalación de Windows 11:</p>
         <img width="965" height="675" alt="Comienzo de la instalación de Windows 11" src="https://github.com/user-attachments/assets/0d92dbdc-aa5a-4ce4-94bf-8374aa783d78" class="course-image" />
-        <p>Selecionamos el disco duro</p>
+        <p>Seleccionamos el disco duro:</p>
         <img width="887" height="663" alt="Selección del disco duro para instalar Windows" src="https://github.com/user-attachments/assets/57788b14-88d2-4920-ab7f-772f8d86f83d" class="course-image" />
-        <p> Empezamos la instalacion</p>
+        <p>Empezamos la instalación:</p>
         <img width="1270" height="796" alt="Proceso de instalación de Windows" src="https://github.com/user-attachments/assets/4d5c311c-0498-482b-98ac-2a955f082184" class="course-image" />
     </div>
 
