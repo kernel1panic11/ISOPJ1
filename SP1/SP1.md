@@ -85,6 +85,12 @@ title: "Unidad 1: Introducción a los Sistemas Operativos y Planificación"
     <p>Ahora lo que hago es instalar windows 11 para que sobre escriba el grub de ubuntu, para luego poderlo restaurar mas tarde</p>
     <p>Ahora empezamos la instalacion de windows 11 </p>
     <img width="965" height="675" alt="image" src="https://github.com/user-attachments/assets/0d92dbdc-aa5a-4ce4-94bf-8374aa783d78" />
+    <p>Selecionamos el disco duro</p>
+    <img width="887" height="663" alt="image" src="https://github.com/user-attachments/assets/57788b14-88d2-4920-ab7f-772f8d86f83d" />
+    <p> Empezamos la instalacion</p>
+    <img width="1270" height="796" alt="image" src="https://github.com/user-attachments/assets/4d5c311c-0498-482b-98ac-2a955f082184" />
+
+
 </div>
 
 </main>
