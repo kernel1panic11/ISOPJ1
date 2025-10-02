@@ -91,6 +91,10 @@ title: "Unidad 1: Introducción a los Sistemas Operativos y Planificación"
         <img width="1270" height="796" alt="Proceso de instalación de Windows" src="https://github.com/user-attachments/assets/4d5c311c-0498-482b-98ac-2a955f082184" class="course-image" />
         <p>Aquí dejo un video como se puede ver que el unico sistema que arranca es Windows 11</p>
         <video src="2025-10-02 12-30-44.mp4" controls width="100%"></video>
+        <p>Ahora lo que hago es me voy a la UEFI de la maquina virtual y arranco en el cd donde tengo el super grub para restaurar el grub </p>
+        <img width="708" height="501" alt="image" src="https://github.com/user-attachments/assets/f9b144dc-789e-4629-9fe3-fec4ed53611b" />
+        
+
     </div>
 
 
