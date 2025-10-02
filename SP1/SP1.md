@@ -31,22 +31,22 @@ title: "Unidad 1: Introducción a los Sistemas Operativos y Planificación"
         <p>
             Empezamos creando la tabla de particiones. Por defecto viene MSDOS por tema de compatibilidad, pero lo he cambiado a GPT ya que puede soportar discos duros con mucho mayor volumen.
         </p>
-        <img src="https://github.com/user-attachments/assets/bc0a7fd2-dffc-40a3-a2ee-62d773f53012" alt="Tabla GPT" class="course-image">
+        <img src="https://github.com/user-attachments/assets/bc0a7fd2-dffc-40a3-a2ee-62d773f53012" alt="Tabla GPT" class="course-image" />
         
         <p>Aquí he creado la primera partición, que será la home y será de 20 GB.</p>
-        <img src="https://github.com/user-attachments/assets/e8813fc1-d89c-4024-8009-0ec6ee1109f3" alt="Partición home" class="course-image">
+        <img src="https://github.com/user-attachments/assets/e8813fc1-d89c-4024-8009-0ec6ee1109f3" alt="Partición home" class="course-image" />
 
         <p>Ahora creamos la swap, en mi caso le pondré 1 GB.</p>
-        <img src="https://github.com/user-attachments/assets/fda501cb-dac0-4033-a51c-30ad34dd693e" alt="Partición swap" class="course-image">
+        <img src="https://github.com/user-attachments/assets/fda501cb-dac0-4033-a51c-30ad34dd693e" alt="Partición swap" class="course-image" />
 
         <p>Y ahora estamos creando la raíz (/).</p>
-        <img src="https://github.com/user-attachments/assets/979c2479-2bf9-4114-956b-3d85937224a1" alt="Partición raíz" class="course-image">
+        <img src="https://github.com/user-attachments/assets/979c2479-2bf9-4114-956b-3d85937224a1" alt="Partición raíz" class="course-image" />
 
         <h4>Resultado final de las particiones:</h4>
-        <img src="https://github.com/user-attachments/assets/abf758cc-b67a-4593-aa73-c25040783cb0" alt="Particiones" class="course-image">
+        <img src="https://github.com/user-attachments/assets/abf758cc-b67a-4593-aa73-c25040783cb0" alt="Particiones" class="course-image" />
 
         <p>Durante el proceso me di cuenta de que me había dejado la partición boot. He vuelto al editor y la he creado, ya que es necesaria para que el sistema operativo pueda arrancar.</p>
-        <img src="https://github.com/user-attachments/assets/8eee9a3d-adbf-486b-b05e-6eba551ab3a3" alt="Creación de partición boot" class="course-image">
+        <img src="https.github.com/user-attachments/assets/8eee9a3d-adbf-486b-b05e-6eba551ab3a3" alt="Creación de partición boot" class="course-image" />
     </div>
 
     <div class="content-section">
@@ -54,11 +54,11 @@ title: "Unidad 1: Introducción a los Sistemas Operativos y Planificación"
         <p>
             Después de instalar, se puede ver que el hostname es "pop-os". Lo voy a cambiar editando el archivo <code>/etc/hostname</code>.
         </p>
-        <img width="1283" height="918" alt="image" src="https://github.com/user-attachments/assets/47756089-5f51-4f5f-a99a-d271bfc01505" class="course-image" />
+        <img width="1283" height="918" alt="Editando el archivo de hostname" src="https://github.com/user-attachments/assets/47756089-5f51-4f5f-a99a-d271bfc01505" class="course-image" />
         <p>
             Una vez modificado, reiniciamos la máquina virtual para aplicar los cambios. El resultado es el nuevo hostname:
         </p>
-        <img width="1270" height="833" alt="image" src="https://github.com/user-attachments/assets/4563312d-1c12-455e-9f85-e4fae4da302d" class="course-image" />
+        <img width="1270" height="833" alt="Resultado del nuevo hostname en la terminal" src="https://github.com/user-attachments/assets/4563312d-1c12-455e-9f85-e4fae4da302d" class="course-image" />
     </div>
 
     <div class="content-section">
@@ -84,11 +84,11 @@ title: "Unidad 1: Introducción a los Sistemas Operativos y Planificación"
         <h2 class="sub">Restaurando el grub</h2>
         <p>Ahora lo que hago es instalar windows 11 para que sobre escriba el grub de ubuntu, para luego poderlo restaurar mas tarde</p>
         <p>Ahora empezamos la instalacion de windows 11 </p>
-        <img width="965" height="675" alt="image" src="https://github.com/user-attachments/assets/0d92dbdc-aa5a-4ce4-94bf-8374aa783d78" />
+        <img width="965" height="675" alt="Comienzo de la instalación de Windows 11" src="https://github.com/user-attachments/assets/0d92dbdc-aa5a-4ce4-94bf-8374aa783d78" class="course-image" />
         <p>Selecionamos el disco duro</p>
-        <img width="887" height="663" alt="image" src="https://github.com/user-attachments/assets/57788b14-88d2-4920-ab7f-772f8d86f83d" />
+        <img width="887" height="663" alt="Selección del disco duro para instalar Windows" src="https://github.com/user-attachments/assets/57788b14-88d2-4920-ab7f-772f8d86f83d" class="course-image" />
         <p> Empezamos la instalacion</p>
-        <img width="1270" height="796" alt="image" src="https://github.com/user-attachments/assets/4d5c311c-0498-482b-98ac-2a955f082184" />
+        <img width="1270" height="796" alt="Proceso de instalación de Windows" src="https://github.com/user-attachments/assets/4d5c311c-0498-482b-98ac-2a955f082184" class="course-image" />
     </div>
 
 </main>
