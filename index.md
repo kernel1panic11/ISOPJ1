@@ -15,11 +15,11 @@ layout: default
 <div class="content-section">
   <h2 class="sub">Contenido del Curso 🖥️</h2>
 <ul class="projects-list">
-    <li><a href="{{ '/SP1/SP1.html' | relative_url }}"><i class="fa-solid fa-book"></i><span>Unidad 1. Introducción a los Sistemas Operativos y Planificación</span></a></li>
-    <li><a href="{{ '/SP2/SP2.html' | relative_url }}"><i class="fa-brands fa-windows"></i><span>Unidad 2. Implantación y Configuración de Sistemas Windows</span></a></li>
-    <li><a href="{{ '/SP3/SP3.html' | relative_url }}"><i class="fa-brands fa-linux"></i><span>Unidad 3. Implantación y Configuración de Sistemas Linux</span></a></li>
-    <li><a href="{{ '/SP4/SP4.html' | relative_url }}"><i class="fa-solid fa-shield-halved"></i><span>Unidad 4. Administración Avanzada y Seguridad</span></a></li>
-    <li><a href="{{ '/SP5/SP5.html' | relative_url }}"><i class="fa-solid fa-server"></i><span>Unidad 5. Virtualización y Contenedores</span></a></li>
+    <li><a href="{{ '/SP1/SP1.md' | relative_url }}"><i class="fa-solid fa-book"></i><span>Unidad 1. Introducción a los Sistemas Operativos y Planificación</span></a></li>
+    <li><a href="{{ '/SP2/SP2.md' | relative_url }}"><i class="fa-brands fa-windows"></i><span>Unidad 2. Implantación y Configuración de Sistemas Windows</span></a></li>
+    <li><a href="{{ '/SP3/SP3.md' | relative_url }}"><i class="fa-brands fa-linux"></i><span>Unidad 3. Implantación y Configuración de Sistemas Linux</span></a></li>
+    <li><a href="{{ '/SP4/SP4.md' | relative_url }}"><i class="fa-solid fa-shield-halved"></i><span>Unidad 4. Administración Avanzada y Seguridad</span></a></li>
+    <li><a href="{{ '/SP5/SP5.md' | relative_url }}"><i class="fa-solid fa-server"></i><span>Unidad 5. Virtualización y Contenedores</span></a></li>
   </ul>
 </div>
 
