@@ -15,16 +15,16 @@ layout: default
 <div class="content-section">
   <h2 class="sub">Contenido del Curso 🖥️</h2>
 <ul class="projects-list">
-    <li><a href="SP1/SP1.html"><i class="fa-solid fa-book"></i><span>Unidad 1. Introducción a los Sistemas Operativos y Planificación</span></a></li>
-    <li><a href="SP2/SP2.md"><i class="fa-brands fa-windows"></i><span>Unidad 2. Implantación y Configuración de Sistemas Windows</span></a></li>
-    <li><a href="SP3/SP3.md"><i class="fa-brands fa-linux"></i><span>Unidad 3. Implantación y Configuración de Sistemas Linux</span></a></li>
-    <li><a href="SP4/SP4.md"><i class="fa-solid fa-shield-halved"></i><span>Unidad 4. Administración Avanzada y Seguridad</span></a></li>
-    <li><a href="SP5/SP5.md"><i class="fa-solid fa-server"></i><span>Unidad 5. Virtualización y Contenedores</span></a></li>
+    <li><a href="{{ '/SP1/SP1.md' | relative_url }}"><i class="fa-solid fa-book"></i><span>Unidad 1. Introducción a los Sistemas Operativos y Planificación</span></a></li>
+    <li><a href="{{ '/SP2/SP2.md' | relative_url }}"><i class="fa-brands fa-windows"></i><span>Unidad 2. Implantación y Configuración de Sistemas Windows</span></a></li>
+    <li><a href="{{ '/SP3/SP3.md' | relative_url }}"><i class="fa-brands fa-linux"></i><span>Unidad 3. Implantación y Configuración de Sistemas Linux</span></a></li>
+    <li><a href="{{ '/SP4/SP4.md' | relative_url }}"><i class="fa-solid fa-shield-halved"></i><span>Unidad 4. Administración Avanzada y Seguridad</span></a></li>
+    <li><a href="{{ '/SP5/SP5.md' | relative_url }}"><i class="fa-solid fa-server"></i><span>Unidad 5. Virtualización y Contenedores</span></a></li>
   </ul>
 </div>
 
 <div class="content-section">
-  <img src="https://raw.githubusercontent.com/kernel1panic11/ISOPJ1/main/assetscss/photo_2025-09-22_12-41-21.jpg" alt="Esquema del curso" class="course-image">
+  <img src="{{ '/assetscss/photo_2025-09-22_12-41-21.jpg' | relative_url }}" alt="Esquema del curso" class="course-image">
 </div>
 
 <div class="footer-text">
