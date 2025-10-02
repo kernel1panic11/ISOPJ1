@@ -97,6 +97,11 @@ title: "Unidad 1: Introducción a los Sistemas Operativos y Planificación"
         <img width="723" height="415" alt="image" src="https://github.com/user-attachments/assets/b6a805aa-163c-4fdc-b9df-9349f2adae81" />    
         <p>Una vez aquí lo que hay  que hacer es selecionar donde tengo el linux para que arranque </p>
         <img width="704" height="459" alt="image" src="https://github.com/user-attachments/assets/06ddc8d9-ea7a-4789-bb7b-d92b53b36018" />
+        <p>Una vez he iniciado el linux lo que voy a hacer es ir a la  terminal y allí buscar la particion donde tengo que instalar el grub</p>
+        <p>En mi caso como se puede ver la particion donde tengo que instalar el grub es: nvme0n1p1 </p> 
+        <img width="678" height="288" alt="image" src="https://github.com/user-attachments/assets/72064912-529e-4012-85f5-886cb07d3486" />
+        <p>Una vez tengo la particion localizada, lo que tengo que hacer es: </p>
+
         
     </div>
 
