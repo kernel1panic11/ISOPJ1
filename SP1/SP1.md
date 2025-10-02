@@ -93,7 +93,11 @@
     <img width="704" height="459" alt="Selección del sistema Linux" src="https://github.com/user-attachments/assets/06ddc8d9-ea7a-4789-bb7b-d92b53b36018" class="course-image" />
     <p>Una vez he iniciado el Linux lo que voy a hacer es ir a la terminal y allí buscar la partición donde tengo que instalar el GRUB.</p>
     <p>En mi caso como se puede ver la partición donde tengo que instalar el GRUB es: <code>nvme0n1p1</code>.</p> 
-    <img width="678" height="288" alt="Listado de particiones del sistema" src="https://github.com/user-attachments/assets/72064912-529e-4012-85f5-886cb07d3486" class="course-image" />
+    <img width="669" height="245" alt="image" src="https://github.com/user-attachments/assets/4756322d-e097-487d-a6a1-1bde5f1d21f8" />
     <p>Una vez tengo la partición localizada, lo que tengo que hacer es: <code>sudo grub-install /dev/nvme0n1p1</code>.</p>
+    <img width="571" height="100" alt="image" src="https://github.com/user-attachments/assets/bd498b8e-633d-4eed-9131-feb577c1be93" />
+    <p>Y ahora lo que hago es ejecutar: sudo update-grub, para que se actualize el grub</p>
+    <img width="801" height="241" alt="image" src="https://github.com/user-attachments/assets/7e9a5100-b372-468d-8fd3-d109e30bd426" />
+
 </div>
 </main>
