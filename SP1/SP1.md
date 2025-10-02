@@ -5,7 +5,7 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
 
 <main class="contenedor-principal">
     <h1 class="titulo">Unidad 1. Introducción a los Sistemas Operativos y Planificación</h1>
-    <div class="loading-bar"><div class="loading-progress"></div></div>
+    <div class="loading-bar"><div class="loading-progress"></div>
 
     <div class="content-section">
         <h2 class="sub">Tipos de Licencia en Ubuntu</h2>
