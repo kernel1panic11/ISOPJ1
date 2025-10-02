@@ -89,14 +89,14 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
         <img width="704" height="459" alt="Selección del sistema Linux" src="https://github.com/user-attachments/assets/06ddc8d9-ea7a-4789-bb7b-d92b53b36018" class="course-image" />
         <p>Una vez he iniciado Linux, voy a la terminal para buscar la partición de arranque.</p>
         <p>En mi caso, como se puede ver, la partición EFI donde se instalará el GRUB es <code>nvme0n1p1</code>.</p> 
-        <img width="669" height="245" alt="image" src="https://github.com/user-attachments/assets/4756322d-e097-487d-a6a1-1bde5f1d21f8" />
+        <img width="669" height="245" alt="image" src="https://github.com/user-attachments/assets/4756322d-e097-487d-a6a1-1bde5f1d21f8" class="course-image"/>
         <p>Una vez localizada, instalo el GRUB en el disco principal (el gestor de arranque se instalará en la partición EFI automáticamente):</p>
         <pre><code>sudo grub-install /dev/nvme0n1</code></pre>
         <p>Y ahora ejecuto el siguiente comando para que el GRUB se actualice y detecte todos los sistemas operativos:</p>
         <pre><code>sudo update-grub</code></pre>
         <p>Como se puede comprobar, ahora en el menú del GRUB aparecen tanto Pop!_OS (identificado como Ubuntu) como Windows.</p>
-        <img width="1143" height="748" alt="image" src="https://github.com/user-attachments/assets/3165cf72-ac23-4cd6-a3cf-bd603e370bd4" />
+        <img width="1143" height="748" alt="image" src="https://github.com/user-attachments/assets/3165cf72-ac23-4cd6-a3cf-bd603e370bd4" class="course-image"/>
         <p>Para finalizar, me he tomado la libertad de instalar un tema para el GRUB.</p>
-        <img width="1030" height="763" alt="image" src="https://github.com/user-attachments/assets/e6d2f939-98a7-47a0-b877-a6b107415d85" />
+        <img width="1030" height="763" alt="image" src="https://github.com/user-attachments/assets/e6d2f939-98a7-47a0-b877-a6b107415d85" class="course-image"/>
     </div>
 </main>
