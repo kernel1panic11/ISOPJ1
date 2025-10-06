@@ -5,7 +5,7 @@
 
 ## 📜 Descripción
 
-Este repositorio almacena las prácticas, ejercicios y materiales desarrollados para una asignatura, probablemente relacionada con Sistemas Operativos o similar. El proyecto está estructurado en unidades y seminarios prácticos.
+Este repositorio almacena las prácticas, ejercicios y materiales desarrollados para la asignatura de Sistemas Operativos. El proyecto está estructurado en unidades y seminarios prácticos.
 
 ## 🗂️ Estructura del Repitorio
 
