@@ -24,6 +24,7 @@ body {
   color: var(--text);
   min-height: 100vh;
   background: center/cover fixed no-repeat var(--bg-image);
+  zoom: 0.8; /* <-- Aquí está el cambio */
 }
 main {
   padding-top: 3.5rem;
