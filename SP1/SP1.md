@@ -43,28 +43,28 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
     <div class="content-section">
         <h2 class="sub">Post-Instalación y Personalización</h2>
         <p>
-            Después de instalar, se puede ver que el <i>hostname</i> es «pop-os». Lo voy a cambiar editando el archivo <code>/etc/hostname</code>.
+            Después de instalar, se puede ver que el hostname es "pop-os". Lo voy a cambiar editando el archivo <code>/etc/hostname</code>.
         </p>
         <img width="1283" height="918" alt="Editando el archivo de hostname" src="https://github.com/user-attachments/assets/47756089-5f51-4f5f-a99a-d271bfc01505" class="course-image" />
         <p>
-            Una vez modificado, reiniciamos la máquina virtual para aplicar los cambios. El resultado es el nuevo <i>hostname</i>:
+            Una vez modificado, reiniciamos la máquina virtual para aplicar los cambios. El resultado es el nuevo hostname:
         </p>
         <img width="1270" height="833" alt="Resultado del nuevo hostname en la terminal" src="https://github.com/user-attachments/assets/4563312d-1c12-455e-9f85-e4fae4da302d" class="course-image" />
     </div>
     <div class="content-section">
         <h2 class="sub">Elección de Pop!_OS y Btrfs</h2>
         <p>
-            Como se puede observar, no estoy utilizando una instalación estándar de Ubuntu. He elegido <b>Pop!_OS</b> (basado en Ubuntu 22.04 LTS) con el sistema de archivos <b>Btrfs</b> por los siguientes motivos:
+            Como se puede observar, no estoy utilizando una instalación estándar de Ubuntu. He elegido Pop!_OS (basado en Ubuntu 22.04 LTS) con el sistema de archivos <b>Btrfs</b> por los siguientes motivos:
         </p>
         <ul>
             <li>
-                <b>Sistema de archivos Btrfs</b>: Permite crear <i>snapshots</i> del sistema sin tener que hacer copias de seguridad completas. Si una actualización falla, puedo revertir los cambios de forma rápida y segura.
+                <b>Sistema de archivos Btrfs</b>: Permite crear snapshots del sistema sin tener que hacer copias de seguridad completas. Si una actualización falla, puedo revertir los cambios de forma rápida y segura.
             </li>
             <li>
                 <b>Pop!_OS en lugar de Ubuntu estándar</b>:
                 <ul>
                     <li><b>Preferencia personal</b>: Me resulta más amigable visualmente.</li>
-                    <li><b>Razones técnicas</b>: Viene con más <i>drivers</i> preinstalados y no usa Snap, sino APT, que en mi opinión rinde mucho mejor.</li>
+                    <li><b>Razones técnicas</b>: Viene con más drivers preinstalados y no usa Snap, sino APT, que en mi opinión rinde mucho mejor.</li>
                 </ul>
             </li>
         </ul>
