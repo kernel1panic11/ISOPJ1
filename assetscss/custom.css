@@ -24,7 +24,7 @@ body {
   color: var(--text);
   min-height: 100vh;
   background: center/cover fixed no-repeat var(--bg-image);
-  zoom: 0.8; /* <-- Aquí está el cambio */
+  zoom: 0.8; 
 }
 main {
   padding-top: 3.5rem;
@@ -48,7 +48,7 @@ body::before {
 
 /* Contenedor principal “glass” */
 .contenedor-principal {
-  width: min(90%, 860px);
+  width: min(90%, 960px);
   margin: 0 auto;
   padding: clamp(1rem, 2.5vw + 1rem, 2rem);
   background: var(--overlay);
