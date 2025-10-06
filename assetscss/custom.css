@@ -14,7 +14,7 @@
   --shadow-green: 0 0 14px rgba(74, 255, 50, 0.55);
 }
 
-/* Reset sensato */
+/* Reset */
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
@@ -47,7 +47,7 @@ body::before {
 
 /* Contenedor principal “glass” */
 .contenedor-principal {
-  width: min(92%, 760px);
+  width: min(90%, 860px);
   margin: 0 auto;
   padding: clamp(1rem, 2.5vw + 1rem, 2rem);
   background: var(--overlay);
