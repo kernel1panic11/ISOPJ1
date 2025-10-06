@@ -24,8 +24,8 @@ layout: default
 </div>
 
 <div class="content-section">
-  <img src="{{ '/assetscss/photo_2025-09-22_12-41-21.jpg' | relative_url }}" alt="Esquema del curso" class="course-image">
-</div>
+<video src="{{ '/assetscss/Scrolling.webm' | relative_url }}" autoplay loop muted class="course-image">
+</video></div>
 
 <div class="footer-text">
     <p>&copy; 2025 kernel1panic11</p>
