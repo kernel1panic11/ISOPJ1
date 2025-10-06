@@ -24,8 +24,9 @@ layout: default
 </div>
 
 <div class="content-section">
-<video src="{{ '/assetscss/Scrolling.webm' | relative_url }}" autoplay loop muted class="course-image">
-</video></div>
+<video src="{{ '/assetscss/Scrolling.mp4' | relative_url }}" autoplay loop muted class="course-image">
+</video>
+</div>
 
 <div class="footer-text">
     <p>&copy; 2025 kernel1panic11</p>
