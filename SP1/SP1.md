@@ -98,4 +98,8 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
         <p>Para finalizar, me he tomado la libertad de instalar un tema para el GRUB.</p>
         <img width="1030" height="763" alt="image" src="https://github.com/user-attachments/assets/e6d2f939-98a7-47a0-b877-a6b107415d85" class="course-image"/>
     </div>
+    <div class="navigation-links">
+        <a href="{{ '/' | relative_url }}"><i class="fa-solid fa-house"></i> Volver al Inicio</a>
+        <a href="{{ '/SP2/SP2.html' | relative_url }}">Siguiente Práctica <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
 </main>
