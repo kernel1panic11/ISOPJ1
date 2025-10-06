@@ -102,4 +102,9 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
         <a href="{{ '/' | relative_url }}"><i class="fa-solid fa-house"></i> Volver al Inicio</a>
         <a href="{{ '/SP2/SP2.html' | relative_url }}">Siguiente Práctica <i class="fa-solid fa-arrow-right"></i></a>
     </div>
+<style>
+  body {
+    --bg-image: url('../assetscss/pract1.gif');
+  }
+</style>
 </main>
