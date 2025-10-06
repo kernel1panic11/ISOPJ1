@@ -24,7 +24,12 @@ layout: default
 </div>
 
 <div class="content-section">
-<video src="{{ '/assetscss/Scrolling.mp4' | relative_url }}" autoplay loop muted class="course-image">
+<video autoplay loop muted class="course-image">
+  <source src="{{ '/assetscss/mi-video.webm' | relative_url }}" type="video/webm">
+  
+  <source src="{{ '/assetscss/Scrolling.mp4' | relative_url }}" type="video/mp4">
+  
+  Tu navegador no soporta la etiqueta de video.
 </video>
 </div>
 
