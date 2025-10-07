@@ -132,6 +132,9 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
     <p>Ahora empezamos con la restauracion</p>
     <img width="596" height="635" alt="image" src="https://github.com/user-attachments/assets/8707c77f-6ed4-486b-8c79-21f62a34c63c" />
     <img width="1711" height="870" alt="image" src="https://github.com/user-attachments/assets/92c7984a-ad81-4ec7-bcd6-7ad29b02890f" />
+    <p>Y ahora como se puede ver se ha hecho la restauracion</p>
+    <img width="810" height="204" alt="image" src="https://github.com/user-attachments/assets/b723d7b7-f57a-482a-aedc-86da5b38b303" />
+    
 
 
 
