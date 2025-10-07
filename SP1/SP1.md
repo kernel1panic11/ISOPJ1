@@ -98,6 +98,31 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
         <p>Para finalizar, me he tomado la libertad de instalar un tema para el GRUB.</p>
         <img width="1030" height="763" alt="image" src="https://github.com/user-attachments/assets/e6d2f939-98a7-47a0-b877-a6b107415d85" class="course-image"/>
     </div>
+<div class="content-section">
+    <h2 class="sub">Snapshoots</h2>
+       <p>Instalando el timeshift</p> 
+        <img width="539" height="65" alt="image" src="https://github.com/user-attachments/assets/5dea6417-9e21-4ae4-b443-5f3a80ca9a54" />
+    <p>Comprobamos que esta el disco duro que hay que formatear para hacer la snapshot, en mi caso es sdb</p>
+    <img width="744" height="355" alt="image" src="https://github.com/user-attachments/assets/e01e6baf-1ee1-4842-9037-040306418097" />
+    <p>Ahora le damos formato al disco duro</p>
+    <img width="813" height="472" alt="image" src="https://github.com/user-attachments/assets/78fbaab3-51b6-4550-ae2f-47dfd9de2761" />
+    <img width="813" height="401" alt="image" src="https://github.com/user-attachments/assets/bed432f7-f040-44d3-ab26-bd9faba426d3" />
+    <p>Y ahora le damos un formato de archivos al disco duro</p>
+    <img width="816" height="371" alt="image" src="https://github.com/user-attachments/assets/30b7ff1f-ba2d-4d7b-8119-66be3a362736" />
+    <p>Ahora he creado una carpeta en mi home donde montare el disco para facilitarme la vida</p>
+    <img width="638" height="85" alt="image" src="https://github.com/user-attachments/assets/4d7213c3-2c67-4761-8471-eb653a768c21" />
+    <p>Montamos el disco</p>
+    <img width="511" height="59" alt="image" src="https://github.com/user-attachments/assets/ead1cfa5-80ce-466a-998c-25e1c592fd63" />
+    <p>Ahora creamos una carpeta y un archivo para demostrar que funciona</p>
+    <img width="561" height="151" alt="image" src="https://github.com/user-attachments/assets/e423cb51-613c-4c4c-b7a9-00a827517201" />
+    <p>Ahora iniciamos el timeshift para hacer la snapshot y elejimos el disco duro que vamos a usar</p>
+    <img width="603" height="578" alt="image" src="https://github.com/user-attachments/assets/e443261e-8e76-4765-80c6-fab64337502d" />
+
+
+
+
+</div>
+    
     <div class="navigation-links">
         <a href="{{ '/' | relative_url }}"><i class="fa-solid fa-house"></i> Volver al Inicio</a>
         <a href="{{ '/SP2/SP2.html' | relative_url }}">Siguiente Práctica <i class="fa-solid fa-arrow-right"></i></a>
