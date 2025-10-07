@@ -143,7 +143,11 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
     <img width="760" height="419" alt="image" src="https://github.com/user-attachments/assets/acdf6282-934b-4ec7-bfa0-55e588a14333" />
     <p>Comprovamos que tiene internet</p>
     <img width="818" height="401" alt="image" src="https://github.com/user-attachments/assets/3f9093a4-9a05-43ad-bd04-1c35cbda18b4" />
-    
+    <p>Ahora otra forma de configurar el net-plan</p>
+    <img width="813" height="529" alt="image" src="https://github.com/user-attachments/assets/6dc03076-8886-4893-8e71-631e054b29d1" />
+    <p>Y ahora aplicamos las configuraciones y comprobamos que da el internet</p>
+    <img width="814" height="231" alt="image" src="https://github.com/user-attachments/assets/a007c45b-ae6f-44e8-97d5-dd141ee29685" />
+
 
 
 
