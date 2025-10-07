@@ -134,16 +134,25 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
     <img width="1711" height="870" alt="image" src="https://github.com/user-attachments/assets/92c7984a-ad81-4ec7-bcd6-7ad29b02890f" />
     <p>Y ahora como se puede ver se ha hecho la restauracion</p>
     <img width="810" height="204" alt="image" src="https://github.com/user-attachments/assets/b723d7b7-f57a-482a-aedc-86da5b38b303" />
+</div>
+<div>
+    <h2 class="sub">Configuracion de IP</h2>
+    <p>Ahora emepzamos configurando la IP, por ahora usamos el Network Manager</p>
+    <img width="751" height="373" alt="image" src="https://github.com/user-attachments/assets/55113c25-5a9f-443b-8a90-e4a18d8cc483" />
+    <p>Y ahora lo comprobamos por terminal que se ha cambiado la ip</p>
+    <img width="760" height="419" alt="image" src="https://github.com/user-attachments/assets/acdf6282-934b-4ec7-bfa0-55e588a14333" />
+    <p>Comprovamos que tiene internet</p>
+    <img width="818" height="401" alt="image" src="https://github.com/user-attachments/assets/3f9093a4-9a05-43ad-bd04-1c35cbda18b4" />
+    
+
+
+
     
 
 
 
 
     
-    
-
-
-
 </div>
     
     <div class="navigation-links">
