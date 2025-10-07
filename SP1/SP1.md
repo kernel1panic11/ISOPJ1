@@ -116,8 +116,15 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
     <p>Ahora creamos una carpeta y un archivo para demostrar que funciona</p>
     <img width="561" height="151" alt="image" src="https://github.com/user-attachments/assets/e423cb51-613c-4c4c-b7a9-00a827517201" />
     <p>Ahora iniciamos el timeshift para hacer la snapshot y elejimos el disco duro que vamos a usar</p>
-    <img width="603" height="578" alt="image" src="https://github.com/user-attachments/assets/e443261e-8e76-4765-80c6-fab64337502d" />
+    <img width="566" height="567" alt="image" src="https://github.com/user-attachments/assets/a8cc7849-8768-4ddc-b3e1-f01051153e44" />
+    <p>Y ahora le indicamos que al arranque haga la snapshoot</p>
+    <img width="595" height="575" alt="image" src="https://github.com/user-attachments/assets/00167fbf-7d28-4609-9f61-6cede626316a" />
+    <p>Y elejimos que archivos y carpetas queremos hacer snapshot de</p>
+    <img width="585" height="196" alt="image" src="https://github.com/user-attachments/assets/71c369dc-d07e-4e2a-86b9-0010feb1ed1c" />
+    <p>Ahora reinicio la maquina virtual y vuelvo a iniciarla para que se haga la snapshot</p>
 
+    
+    
 
 
 
