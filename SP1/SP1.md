@@ -101,52 +101,52 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
 <div class="content-section">
     <h2 class="sub">Snapshots</h2>
        <p>Instalando Timeshift</p> 
-        <img width="539" height="65" alt="image" src="https://github.com/user-attachments/assets/5dea6417-9e21-4ae4-b443-5f3a80ca9a54" />
+        <img width="539" height="65" alt="image" src="https://github.com/user-attachments/assets/5dea6417-9e21-4ae4-b443-5f3a80ca9a54" class="course-image" />
     <p>Comprobamos que está el disco duro que hay que formatear para hacer la snapshot; en mi caso es sdb</p>
-    <img width="744" height="355" alt="image" src="https://github.com/user-attachments/assets/e01e6baf-1ee1-4842-9037-040306418097" />
+    <img width="744" height="355" alt="image" src="https://github.com/user-attachments/assets/e01e6baf-1ee1-4842-9037-040306418097" class="course-image" />
     <p>Ahora le damos formato al disco duro</p>
-    <img width="813" height="472" alt="image" src="https://github.com/user-attachments/assets/78fbaab3-51b6-4550-ae2f-47dfd9de2761" />
-    <img width="813" height="401" alt="image" src="https://github.com/user-attachments/assets/bed432f7-f040-44d3-ab26-bd9faba426d3" />
+    <img width="813" height="472" alt="image" src="https://github.com/user-attachments/assets/78fbaab3-51b6-4550-ae2f-47dfd9de2761" class="course-image" />
+    <img width="813" height="401" alt="image" src="https://github.com/user-attachments/assets/bed432f7-f040-44d3-ab26-bd9faba426d3" class="course-image" />
     <p>Y ahora le damos un formato de archivos al disco duro</p>
-    <img width="816" height="371" alt="image" src="https://github.com/user-attachments/assets/30b7ff1f-ba2d-4d7b-8119-66be3a362736" />
+    <img width="816" height="371" alt="image" src="https://github.com/user-attachments/assets/30b7ff1f-ba2d-4d7b-8119-66be3a362736" class="course-image" />
     <p>Ahora he creado una carpeta en mi home donde montaré el disco para facilitarme la vida</p>
-    <img width="638" height="85" alt="image" src="https://github.com/user-attachments/assets/4d7213c3-2c67-4761-8471-eb653a768c21" />
+    <img width="638" height="85" alt="image" src="https://github.com/user-attachments/assets/4d7213c3-2c67-4761-8471-eb653a768c21" class="course-image" />
     <p>Montamos el disco</p>
-    <img width="511" height="59" alt="image" src="https://github.com/user-attachments/assets/ead1cfa5-80ce-466a-998c-25e1c592fd63" />
+    <img width="511" height="59" alt="image" src="https://github.com/user-attachments/assets/ead1cfa5-80ce-466a-998c-25e1c592fd63" class="course-image" />
     <p>Ahora creamos una carpeta y un archivo para demostrar que funciona</p>
-    <img width="561" height="151" alt="image" src="https://github.com/user-attachments/assets/e423cb51-613c-4c4c-b7a9-00a827517201" />
+    <img width="561" height="151" alt="image" src="https://github.com/user-attachments/assets/e423cb51-613c-4c4c-b7a9-00a827517201" class="course-image" />
     <p>Ahora iniciamos el Timeshift para hacer la snapshot y elegimos el disco duro que vamos a usar</p>
-    <img width="566" height="567" alt="image" src="https://github.com/user-attachments/assets/a8cc7849-8768-4ddc-b3e1-f01051153e44" />
+    <img width="566" height="567" alt="image" src="https://github.com/user-attachments/assets/a8cc7849-8768-4ddc-b3e1-f01051153e44" class="course-image" />
     <p>Y ahora le indicamos que al arranque haga la snapshot</p>
-    <img width="595" height="575" alt="image" src="https://github.com/user-attachments/assets/00167fbf-7d28-4609-9f61-6cede626316a" />
+    <img width="595" height="575" alt="image" src="https://github.com/user-attachments/assets/00167fbf-7d28-4609-9f61-6cede626316a" class="course-image" />
     <p>Y elegimos qué archivos y carpetas queremos hacer snapshot de</p>
-    <img width="585" height="196" alt="image" src="https://github.com/user-attachments/assets/71c369dc-d07e-4e2a-86b9-0010feb1ed1c" />
+    <img width="585" height="196" alt="image" src="https://github.com/user-attachments/assets/71c369dc-d07e-4e2a-86b9-0010feb1ed1c" class="course-image" />
     <p>Ahora reinicio la máquina virtual y vuelvo a iniciarla para que se haga la snapshot</p>
     <p>Ahora se ha creado la snapshot</p>
-    <img width="797" height="639" alt="image" src="https://github.com/user-attachments/assets/fafc6273-4b26-4cfa-b68a-d889ccb4d21f" />
+    <img width="797" height="639" alt="image" src="https://github.com/user-attachments/assets/fafc6273-4b26-4cfa-b68a-d889ccb4d21f" class="course-image" />
     <p>Lo que haré para comprobar que la snapshot funciona es: crearé un archivo y una carpeta en mi home y luego restauraré; si se ha creado bien, estos archivos se borrarán</p>
-    <img width="790" height="159" alt="image" src="https://github.com/user-attachments/assets/c095f00b-4066-4b9b-9866-7ff72c5429c1" />
+    <img width="790" height="159" alt="image" src="https://github.com/user-attachments/assets/c095f00b-4066-4b9b-9866-7ff72c5429c1" class="course-image" />
     <p>Ahora comenzamos con la restauración</p>
-    <img width="791" height="644" alt="image" src="https://github.com/user-attachments/assets/15202ccd-d9a4-4e0a-b3c1-01317ccbe84d" />
-    <img width="501" height="605" alt="image" src="https://github.com/user-attachments/assets/5978f547-e82b-4a2b-ae17-69214e95d6fc" />
+    <img width="791" height="644" alt="image" src="https://github.com/user-attachments/assets/15202ccd-d9a4-4e0a-b3c1-01317ccbe84d" class="course-image" />
+    <img width="501" height="605" alt="image" src="https://github.com/user-attachments/assets/5978f547-e82b-4a2b-ae17-69214e95d6fc" class="course-image" />
     <p>Ahora empezamos con la restauración</p>
-    <img width="596" height="635" alt="image" src="https://github.com/user-attachments/assets/8707c77f-6ed4-486b-8c79-21f62a34c63c" />
-    <img width="1711" height="870" alt="image" src="https://github.com/user-attachments/assets/92c7984a-ad81-4ec7-bcd6-7ad29b02890f" />
+    <img width="596" height="635" alt="image" src="https://github.com/user-attachments/assets/8707c77f-6ed4-486b-8c79-21f62a34c63c" class="course-image" />
+    <img width="1711" height="870" alt="image" src="https://github.com/user-attachments/assets/92c7984a-ad81-4ec7-bcd6-7ad29b02890f" class="course-image" />
     <p>Y ahora, como se puede ver, se ha hecho la restauración</p>
-    <img width="810" height="204" alt="image" src="https://github.com/user-attachments/assets/b723d7b7-f57a-482a-aedc-86da5b38b303" />
+    <img width="810" height="204" alt="image" src="https://github.com/user-attachments/assets/b723d7b7-f57a-482a-aedc-86da5b38b303" class="course-image" />
 </div>
 <div>
     <h2 class="sub">Configuración de IP</h2>
     <p>Ahora empezamos configurando la IP, por ahora usamos el NetworkManager</p>
-    <img width="751" height="373" alt="image" src="https://github.com/user-attachments/assets/55113c25-5a9f-443b-8a90-e4a18d8cc483" />
+    <img width="751" height="373" alt="image" src="https://github.com/user-attachments/assets/55113c25-5a9f-443b-8a90-e4a18d8cc483" class="course-image" />
     <p>Y ahora comprobamos por terminal que se ha cambiado la IP</p>
-    <img width="760" height="419" alt="image" src="https://github.com/user-attachments/assets/acdf6282-934b-4ec7-bfa0-55e588a14333" />
+    <img width="760" height="419" alt="image" src="https://github.com/user-attachments/assets/acdf6282-934b-4ec7-bfa0-55e588a14333" class="course-image" />
     <p>Comprobamos que tiene internet</p>
-    <img width="818" height="401" alt="image" src="https://github.com/user-attachments/assets/3f9093a4-9a05-43ad-bd04-1c35cbda18b4" />
+    <img width="818" height="401" alt="image" src="https://github.com/user-attachments/assets/3f9093a4-9a05-43ad-bd04-1c35cbda18b4" class="course-image" />
     <p>Ahora otra forma de configurar: el netplan</p>
-    <img width="813" height="529" alt="image" src="https://github.com/user-attachments/assets/6dc03076-8886-4893-8e71-631e054b29d1" />
+    <img width="813" height="529" alt="image" src="https://github.com/user-attachments/assets/6dc03076-8886-4893-8e71-631e054b29d1" class="course-image" />
     <p>Y ahora aplicamos las configuraciones y comprobamos que da el internet</p>
-    <img width="814" height="231" alt="image" src="https://github.com/user-attachments/assets/a007c45b-ae6f-44e8-97d5-dd141ee29685" />    
+    <img width="814" height="231" alt="image" src="https://github.com/user-attachments/assets/a007c45b-ae6f-44e8-97d5-dd141ee29685" class="course-image" />    
 </div>
 <div>
      <h2 class="sub">Instalación de aplicaciones</h2>
