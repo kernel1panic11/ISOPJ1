@@ -125,7 +125,7 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
     <p>Ahora se ha creado la snapshot</p>
     <img width="797" height="639" alt="image" src="[https://github.com/user-attachments/assets/fafc6273-4b26-4cfa-b68a-d889ccb4d21f](https://github.com/user-attachments/assets/fafc6273-4b26-4cfa-b68a-d889ccb4d21f)" />
     <p>Lo que haré para comprobar que la snapshot funciona es: crearé un archivo y una carpeta en mi home y luego restauraré; si se ha creado bien, estos archivos se borrarán</p>
-    <img width="790" height="159" alt="image" src="[https://github.com/user-attachments/assets/c095f00b-4066-4b9b-9866-7ff72c5429c1](https://github.com/user-attachments/assets/c095f00b-4066-4b9b-9866-7ff72c5429c1)" />
+    <img width="790" height="159" alt="image" src="https://github.com/user-attachments/assets/c095f00b-4066-4b9b-9866-7ff72c5429c1" />
     <p>Ahora comenzamos con la restauración</p>
     <img width="791" height="644" alt="image" src="[https://github.com/user-attachments/assets/15202ccd-d9a4-4e0a-b3c1-01317ccbe84d](https://github.com/user-attachments/assets/15202ccd-d9a4-4e0a-b3c1-01317ccbe84d)" />
     <img width="501" height="605" alt="image" src="[https://github.com/user-attachments/assets/5978f547-e82b-4a2b-ae17-69214e95d6fc](https://github.com/user-attachments/assets/5978f547-e82b-4a2b-ae17-69214e95d6fc)" />
