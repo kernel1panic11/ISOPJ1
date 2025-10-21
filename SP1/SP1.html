@@ -6,11 +6,11 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
 <main class="contenedor-principal">
     <h1 class="titulo">Unidad 1. Introducción a los Sistemas Operativos y Planificación</h1> 
     <div class="loading-bar"><div class="loading-progress"></div></div> 
-</div>
     <div class="navigation-links">
         <a href="{{ '/' | relative_url }}"><i class="fa-solid fa-house"></i> Volver al Inicio</a>
         <a href="{{ '/SP2/SP2.html' | relative_url }}">Siguiente Práctica <i class="fa-solid fa-arrow-right"></i></a>
     </div>
+
     <div class="content-section">
         <h2 class="sub">Tipos de Licencia en Ubuntu</h2>
         <p>
@@ -103,7 +103,7 @@ s
         <p>Como se puede comprobar, ahora en el menú del GRUB aparecen tanto Pop!_OS (identificado como Ubuntu) como Windows.</p>
         <img width="1143" height="748" alt="image" src="https://github.com/user-attachments/assets/3165cf72-ac23-4cd6-a3cf-bd603e370bd4" class="course-image"/>
         <p>Para finalizar, me he tomado la libertad de instalar un tema para el GRUB.</p>
-        <img width="1030" height="763" alt="image" src="https://github.com/user-attachments/assets/e6d2f939-98a7-47a0-b877-a6b107415d85" class="course-image"/>
+  G     <img width="1030" height="763" alt="image" src="https://github.com/user-attachments/assets/e6d2f939-98a7-47a0-b877-a6b107415d85" class="course-image"/>
     </div>
 <div class="content-section">
     <h2 class="sub">Snapshots</h2>
@@ -142,11 +142,10 @@ s
     <p>Y ahora, como se puede ver, se ha hecho la restauración</p>
     <img width="810" height="204" alt="image" src="https://github.com/user-attachments/assets/b723d7b7-f57a-482a-aedc-86da5b38b303" class="course-image" />
 </div>
-<div>
-    <h2 class="sub">Configuración de IP</h2>
+<div class="content-section">     <h2 class="sub">Configuración de IP</h2>
     <p>Ahora empezamos configurando la IP, por ahora usamos el NetworkManager</p>
     <img width="751" height="373" alt="image" src="https://github.com/user-attachments/assets/55113c25-5a9f-443b-8a90-e4a18d8cc483" class="course-image" />
-    <p>Y ahora comprobamos por terminal que se ha cambiado la IP<assetscss/pract1.gif/p>
+    <p>Y ahora comprobamos por terminal que se ha cambiado la IP</p>
     <img width="760" height="419" alt="image" src="https://github.com/user-attachments/assets/acdf6282-934b-4ec7-bfa0-55e588a14333" class="course-image" />
     <p>Comprobamos que tiene internet</p>
     <img width="818" height="401" alt="image" src="https://github.com/user-attachments/assets/3f9093a4-9a05-43ad-bd04-1c35cbda18b4" class="course-image" />
@@ -155,15 +154,46 @@ s
     <p>Y ahora aplicamos las configuraciones y comprobamos que da el internet</p>
     <img width="814" height="231" alt="image" src="https://github.com/user-attachments/assets/a007c45b-ae6f-44e8-97d5-dd141ee29685" class="course-image" />    
 </div>
-<div>
-     <h2 class="sub">Instalación de aplicaciones y "pining packages"</h2>
-     <p>He hecho las cosas de una forma un poco distinta, en mi caso como ubuntu me estaba dando algunos problemas, he cambiado a debian 13 directamente para este apartado, lo que hare es instalar el audacity y luego me movere a la rama inestable de debian para obtener una version mas moderna, se que podria indicarle al apt que me instale un paquete anterior con apt install "nombre paquete"="version paquete", pero me resulta mas como así</p>
-     <p>Empezamos instalando apt con "apt install audacity -y" le pongo el -y para que se instale automaticamente sin pedir confirmacion</p>
+<div class="content-section">      <h2 class="sub">Instalación de aplicaciones y "pining packages"</h2>
+     <p>He hecho las cosas de una forma un poco distinta, en mi caso como ubuntu me estaba dando algunos problemas, he cambiado a debian 13 directamente para este apartado, lo que hare es instalar el audacity y luego me movere a la rama inestable de debian para obtener una version mas moderna, se que podria indicarle al apt que me instale un paquete anterior con apt install "nombre paquete"="version paquete", pero me resulta mas cómodo así</p>
+     <p>Empezamos instalando apt con "apt install audacity -y" le pongo el -y para que se instale automáticamente sin pedir confirmación</p>
      <img width="586" height="94" alt="image" src="https://github.com/user-attachments/assets/b06d8ba7-62c0-42ca-8fdf-1b40c59c66fd" class="course-image" />
     <p>Ahora una vez instalado audacity comprobamos que se ha instalado y que se ejecuta</p>
     <img width="1125" height="703" alt="image" src="https://github.com/user-attachments/assets/74cd8433-842f-41f7-a0f3-9318e92da91d" class="course-image"/>
-<style>
-body {
-    --bg-image: url('/assetscss/pract1.gif');
-  }
+</div>
 </main>
+
+<style>
+/* Arreglo 1: Fondo de la página SP1 */
+body {
+    --bg-image: url('../assetscss/pract1.gif');
+}
+
+/* Arreglo 3: Barra de navegación fija en la parte inferior */
+.navigation-links {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+
+    /* Replicar el estilo del contenedor principal */
+    width: min(90%, 960px); /* Misma anchura que .contenedor-principal */
+    background: var(--overlay);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--border);
+    border-bottom: 0; /* Sin borde inferior */
+    border-radius: 14px 14px 0 0; /* Esquinas superiores redondeadas */
+    box-shadow: var(--shadow-neon);
+
+    /* Sobrescribir estilos de custom.css si es necesario */
+    margin-top: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Dejar espacio al final del contenido para que no lo tape la barra */
+main.contenedor-principal {
+    padding-bottom: 100px; /* Ajusta este valor si la barra es más alta */
+}
+</style>
