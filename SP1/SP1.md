@@ -2,9 +2,6 @@
 layout: default
 title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
 ---
-body {
-    --bg-image: url('../assetscss/pract1.gif');
-  }
 <main class="contenedor-principal">
     <h1 class="titulo">Unidad 1. Introducción a los Sistemas Operativos y Planificación</h1> 
     <div class="loading-bar"><div class="loading-progress"></div></div>
@@ -67,6 +64,7 @@ body {
                 <ul>
                     <li>Preferencia personal: Me resulta más amigable visualmente.</li>
                     <li>Razones técnicas: Viene con más drivers preinstalados y no usa Snap, sino APT, que en mi opinión rinde mucho mejor.</li>
+Añadir una seccion de instalacion de apps
                 </ul>
             </li>
         </ul>
@@ -82,6 +80,7 @@ body {
         <img width="1270" height="796" alt="Proceso de instalación de Windows" src="https://github.com/user-attachments/assets/4d5c311c-0498-482b-98ac-2a955f082184" class="course-image" />
         <p>Aquí dejo un vídeo donde se puede ver que el único sistema que arranca es Windows 11:</p>
         <video src="2025-10-02 12-30-44.mp4" controls width="100%" class="course-image"></video>
+s
         <p>Ahora, me dirijo a la UEFI de la máquina virtual y arranco desde el CD donde tengo Super Grub2 Disk para restaurar el GRUB.</p>
         <img width="708" height="501" alt="Acceso a la UEFI de la máquina virtual" src="https://github.com/user-attachments/assets/f9b144dc-789e-4629-9fe3-fec4ed53611b" class="course-image" />
         <p>En el menú de Super Grub2 Disk, elijo la opción «Detect and show boot methods».</p>
@@ -159,6 +158,8 @@ body {
         <a href="{{ '/SP2/SP2.html' | relative_url }}">Siguiente Práctica <i class="fa-solid fa-arrow-right"></i></a>
     </div>
 <style>
-
+body {
+    --bg-image: url('../assetscss/pract1.gif');
+  }
 </style>
 </main>
