@@ -4,7 +4,12 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
 ---
 <main class="contenedor-principal">
     <h1 class="titulo">Unidad 1. Introducción a los Sistemas Operativos y Planificación</h1> 
-    <div class="loading-bar"><div class="loading-progress"></div></div>
+    <div class="loading-bar"><div class="loading-progress"></div></div> 
+</div>
+    <div class="navigation-links">
+        <a href="{{ '/' | relative_url }}"><i class="fa-solid fa-house"></i> Volver al Inicio</a>
+        <a href="{{ '/SP2/SP2.html' | relative_url }}">Siguiente Práctica <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
     <div class="content-section">
         <h2 class="sub">Tipos de Licencia en Ubuntu</h2>
         <p>
@@ -150,13 +155,15 @@ s
     <img width="814" height="231" alt="image" src="https://github.com/user-attachments/assets/a007c45b-ae6f-44e8-97d5-dd141ee29685" class="course-image" />    
 </div>
 <div>
-     <h2 class="sub">Instalación de aplicaciones</h2>
+     <h2 class="sub">Instalación de aplicaciones y "pining packages"</h2>
+     <p>He hecho las cosas de una forma un poco distinta, en mi caso como ubuntu me estaba dando algunos problemas, he cambiado a debian 13 directamente para este apartado, lo que hare es instalar el audacity y luego me movere a la rama inestable de debian para obtener una version mas moderna, se que podria indicarle al apt que me instale un paquete anterior con apt install "nombre paquete"="version paquete", pero me resulta mas como así</p>
+     <p>Empezamos instalando apt con "apt install audacity -y" le pongo el -y para que se instale automaticamente sin pedir confirmacion</p>
+     <img width="586" height="94" alt="image" src="https://github.com/user-attachments/assets/b06d8ba7-62c0-42ca-8fdf-1b40c59c66fd" class="course-image" />
+    <p>Ahora una vez instalado audacity comprobamos que se ha instalado y que se ejecuta</p>
+    <img width="1125" height="703" alt="image" src="https://github.com/user-attachments/assets/74cd8433-842f-41f7-a0f3-9318e92da91d" class="course-image"/>
 
-</div>
-    <div class="navigation-links">
-        <a href="{{ '/' | relative_url }}"><i class="fa-solid fa-house"></i> Volver al Inicio</a>
-        <a href="{{ '/SP2/SP2.html' | relative_url }}">Siguiente Práctica <i class="fa-solid fa-arrow-right"></i></a>
-    </div>
+     
+
 <style>
 body {
     --bg-image: url('../assetscss/pract1.gif');
