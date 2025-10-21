@@ -173,12 +173,18 @@ s
 	<p>He puesto el "Pin: release *" ya que eso indica que coja cualquier version, es decir que si tengo instalda la 1.4 que coja la que tenga instalda, y el "Pin-Priority: -1" porque así le indico a apt que nunca lo actualize, bajo ninguna circunstancia</p>
 	<img width="677" height="214" alt="image" src="https://github.com/user-attachments/assets/97e3fc4d-fa95-44b6-8231-f21fe11bda79" class="course-image"/>
 	<p>Ahora lo que he hecho es con el comando "apt-cache policy audacity" es comprobar que la politica de que no se actualize se cumple, el </p>
+	<p> Ahora empezamos el sistema </p>
+	<img width="699" height="43" alt="image" src="https://github.com/user-attachments/assets/a85f6026-0a06-4279-b1f4-1454356ab70a" class="course-image"/>
+	<p>Ahora despues de actualizar comprobamos la version con "apt-cache policy" </p>
 	
+
 
 
 </div>
 <div class="content-section"> 
 	<p>Metodo B:</p>
+	<p>La opcion "B" consiste enn instalar una version mas antigua, pinearla y probar a que no se actualize </p>
+	<p>Empezamos, primero lo que hare es buscar con instalando el paquete con "apt install audacity </p>
 	
 </div>
 </main>
