@@ -2,7 +2,9 @@
 layout: default
 title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
 ---
-
+body {
+    --bg-image: url('../assetscss/pract1.gif');
+  }
 <main class="contenedor-principal">
     <h1 class="titulo">Unidad 1. Introducción a los Sistemas Operativos y Planificación</h1> 
     <div class="loading-bar"><div class="loading-progress"></div></div>
@@ -157,8 +159,6 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
         <a href="{{ '/SP2/SP2.html' | relative_url }}">Siguiente Práctica <i class="fa-solid fa-arrow-right"></i></a>
     </div>
 <style>
-  body {
-    --bg-image: url('../assetscss/pract1.gif');
-  }
+
 </style>
 </main>
