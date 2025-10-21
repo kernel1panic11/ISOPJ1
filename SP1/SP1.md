@@ -176,6 +176,7 @@ s
 	<p> Ahora empezamos el sistema </p>
 	<img width="699" height="43" alt="image" src="https://github.com/user-attachments/assets/a85f6026-0a06-4279-b1f4-1454356ab70a" class="course-image"/>
 	<p>Ahora despues de actualizar comprobamos la version con "apt-cache policy" </p>
+	<img width="745" height="89" alt="image" src="https://github.com/user-attachments/assets/5fd10c5c-b857-44d6-bf47-2aa13229094b" />
 	
 
 
