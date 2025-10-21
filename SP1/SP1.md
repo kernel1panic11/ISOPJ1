@@ -5,9 +5,9 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
 
 <main class="contenedor-principal">
     <h1 class="titulo">Unidad 1. Introducción a los Sistemas Operativos y Planificación</h1> 
-    <div class="loading-bar"><div class="loading-progress"></div></div> 
-    
-    <div class="navigation-links">
+    <div class="loading-bar"><div class="loading-progress"></div></div> 
+    
+    <div class="navigation-links">
         <a href="{{ '/' | relative_url }}"><i class="fa-solid fa-house"></i> Volver al Inicio</a>
         <a href="{{ '/SP2/SP2.html' | relative_url }}">Siguiente Práctica <i class="fa-solid fa-arrow-right"></i></a>
     </div>
@@ -71,7 +71,6 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
                 <ul>
                     <li>Preferencia personal: Me resulta más amigable visualmente.</li>
                     <li>Razones técnicas: Viene con más drivers preinstalados y no usa Snap, sino APT, que en mi opinión rinde mucho mejor.</li>
-Añadir una seccion de instalacion de apps
                 </ul>
             </li>
         </ul>
@@ -87,7 +86,6 @@ Añadir una seccion de instalacion de apps
       	<img width="1270" height="796" alt="Proceso de instalación de Windows" src="https://github.com/user-attachments/assets/4d5c311c-0498-482b-98ac-2a955f082184" class="course-image" />
       	<p>Aquí dejo un vídeo donde se puede ver que el único sistema que arranca es Windows 11:</p>
       	<video src="2025-10-02 12-30-44.mp4" controls width="100%" class="course-image"></video>
-s
       	<p>Ahora, me dirijo a la UEFI de la máquina virtual y arranco desde el CD donde tengo Super Grub2 Disk para restaurar el GRUB.</p>
       	<img width="708" height="501" alt="Acceso a la UEFI de la máquina virtual" src="https://github.com/user-attachments/assets/f9b144dc-789e-4629-9fe3-fec4ed53611b" class="course-image" />
       	<p>En el menú de Super Grub2 Disk, elijo la opción «Detect and show boot methods».</p>
@@ -104,7 +102,7 @@ s
       	<p>Como se puede comprobar, ahora en el menú del GRUB aparecen tanto Pop!_OS (identificado como Ubuntu) como Windows.</p>
       	<img width="1143" height="748" alt="image" src="https://github.com/user-attachments/assets/3165cf72-ac23-4cd6-a3cf-bd603e370bd4" class="course-image"/>
       	<p>Para finalizar, me he tomado la libertad de instalar un tema para el GRUB.</p>
-  	G   	<img width="1030" height="763" alt="image" src="https://github.com/user-attachments/assets/e6d2f939-98a7-47a0-b877-a6b107415d85" class="course-image"/>
+    	<img width="1030" height="763" alt="image" src="https://github.com/user-attachments/assets/e6d2f939-98a7-47a0-b877-a6b107415d85" class="course-image"/>
     </div>
 <div class="content-section">
     <h2 class="sub">Snapshots</h2>
@@ -143,7 +141,7 @@ s
     <p>Y ahora, como se puede ver, se ha hecho la restauración</p>
     <img width="810" height="204" alt="image" src="https://github.com/user-attachments/assets/b723d7b7-f57a-482a-aedc-86da5b38b303" class="course-image" />
 </div>
-<div class="content-section"> 
+<div class="content-section"> 
 	<h2 class="sub">Configuración de IP</h2>
     <p>Ahora empezamos configurando la IP, por ahora usamos el NetworkManager</p>
     <img width="751" height="373" alt="image" src="https://github.com/user-attachments/assets/55113c25-5a9f-443b-8a90-e4a18d8cc483" class="course-image" />
@@ -156,36 +154,28 @@ s
     <p>Y ahora aplicamos las configuraciones y comprobamos que da el internet</p>
     <img width="814" height="231" alt="image" src="https://github.com/user-attachments/assets/a007c45b-ae6f-44e8-97d5-dd141ee29685" class="course-image" />    
 </div>
-<div class="content-section"> 
-	<h2 class="sub">Instalación de aplicaciones y "pining packages"</h2>
-	Metodo A:
+<div class="content-section"> 
+	<h2 class="sub">Instalación de aplicaciones y "pinning packages"</h2>
+	<p>Método A:</p>
 </div>
-<div class="content-section"> 
-     <p>He hecho las cosas de una forma un poco distinta, en mi caso como ubuntu me estaba dando algunos problemas, he cambiado a debian 13 directamente para este apartado, lo que hare es instalar el audacity y luego me movere a la rama inestable de debian para obtener una version mas moderna, se que podria indicarle al apt que me instale un paquete anterior con apt install "nombre paquete"="version paquete", pero me resulta mas cómodo así</p>
-     <p>Empezamos instalando apt con "apt install audacity -y" le pongo el -y para que se instale automáticamente sin pedir confirmación</p>
-     <img width="586" height="94" alt="image" src="https://github.com/user-attachments/assets/b06d8ba7-62c0-42ca-8fdf-1b40c59c66fd" class="course-image" />
-    <p>Ahora una vez instalado audacity comprobamos que se ha instalado y que se ejecuta</p>
-    <img width="1125" height="703" alt="image" src="https://github.com/user-attachments/assets/74cd8433-842f-41f7-a0f3-9318e92da91d" class="course-image"/>
+<div class="content-section"> 
+     <p>He hecho las cosas de una forma un poco distinta, en mi caso como Ubuntu me estaba dando algunos problemas, he cambiado a Debian 13 directamente para este apartado, lo que haré es instalar el Audacity y luego me moveré a la rama inestable de Debian para obtener una versión más moderna, sé que podría indicarle al apt que me instale un paquete anterior con apt install "nombre paquete"="version paquete", pero me resulta más cómodo así</p>
+     <p>Empezamos instalando apt con "apt install audacity -y" le pongo el -y para que se instale automáticamente sin pedir confirmación</p>
+     <img width="586" height="94" alt="image" src="https://github.com/user-attachments/assets/b06d8ba7-62c0-42ca-8fdf-1b40c59c66fd" class="course-image" />
+    <p>Ahora una vez instalado Audacity comprobamos que se ha instalado y que se ejecuta</p>
+    <img width="1125" height="703" alt="image" src="https://github.com/user-attachments/assets/74cd8433-842f-41f7-a0f3-9318e92da91d" class="course-image"/>
 	<p>Ahora editamos las repos </p>
 	<img width="920" height="423" alt="image" src="https://github.com/user-attachments/assets/b31b957a-9d70-44a3-b41b-a4dd88035cb1" class="course-image"/>
-	<p>Antes de empezar la actualizacion voy a ir a "/etc/apt/preferences.d/"  y allí creare un archivo nuevo que le puedo poner el nombre que yo quiera, en mi caso le pondra "pin"</p>
+	<p>Antes de empezar la actualización voy a ir a "/etc/apt/preferences.d/"  y allí crearé un archivo nuevo que le puedo poner el nombre que yo quiera, en mi caso le pondré "pin"</p>
 	<img width="884" height="111" alt="image" src="https://github.com/user-attachments/assets/ece28511-e737-4faf-8595-4111c7e15d11" class="course-image"/>
-	<p>He puesto el "Pin: release *" ya que eso indica que coja cualquier version, es decir que si tengo instalda la 1.4 que coja la que tenga instalda, y el "Pin-Priority: -1" porque así le indico a apt que nunca lo actualize, bajo ninguna circunstancia</p>
+	<p>He puesto el "Pin: release *" ya que eso indica que coja cualquier versión, es decir que si tengo instalada la 1.4 que coja la que tenga instalada, y el "Pin-Priority: -1" porque así le indico a apt que nunca lo actualice, bajo ninguna circunstancia</p>
 	<img width="677" height="214" alt="image" src="https://github.com/user-attachments/assets/97e3fc4d-fa95-44b6-8231-f21fe11bda79" class="course-image"/>
-	<p>Ahora lo que he hecho es con el comando "apt-cache policy audacity" es comprobar que la politica de que no se actualize se cumple, el </p>
+	<p>Ahora lo que he hecho es con el comando "apt-cache policy audacity" es comprobar que la política de que no se actualice se cumple.</p>
 	<p> Ahora empezamos el sistema </p>
 	<img width="699" height="43" alt="image" src="https://github.com/user-attachments/assets/a85f6026-0a06-4279-b1f4-1454356ab70a" class="course-image"/>
-	<p>Ahora despues de actualizar comprobamos la version con "apt-cache policy" </p>
+	<p>Ahora después de actualizar comprobamos la versión con "apt-cache policy" </p>
 	<img width="745" height="89" alt="image" src="https://github.com/user-attachments/assets/5fd10c5c-b857-44d6-bf47-2aa13229094b" />
-</div>
-<div class="content-section"> 
-	<p>Metodo B:</p>
-	<p>La opcion "B" consiste enn instalar una version mas antigua, pinearla y probar a que no se actualize </p>
-	<p>Empezamos, primero lo que hare es buscar con instalando el paquete con "apt install audacity </p>
 	
-</div>
-</main>
-
 <style>
 :root {
     --bg-image: url('../assetscss/pract1.gif');
@@ -194,24 +184,24 @@ s
 
 .navigation-links {
 
-    position: sticky;
+    position: sticky;
 
-    top: 1rem; 
-    z-index: 100;
+    top: 1rem; 
+    z-index: 100;
 
 
-    background: var(--overlay);
-    backdrop-filter: blur(8px);
-    border: 1px solid var(--border);
-    border-radius: var(--radius); /
-    box-shadow: var(--shadow-neon);
-    margin-top: 1.5rem; 
-    margin-bottom: 1.5rem;
-    padding: 1rem 1.2rem; 
-    border-top: 1px solid var(--border); 
+    background: var(--overlay);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--border);
+    border-radius: var(--radius); /
+    box-shadow: var(--shadow-neon);
+    margin-top: 1.5rem; 
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.2rem; 
+    border-top: 1px solid var(--border); 
 }
 
 main.contenedor-principal {
-    padding-bottom: 2.5rem; 
+    padding-bottom: 2.5rem; 
 }
 </style>
