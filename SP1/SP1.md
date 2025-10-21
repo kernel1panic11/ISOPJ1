@@ -7,7 +7,7 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
     <h1 class="titulo">Unidad 1. Introducción a los Sistemas Operativos y Planificación</h1> 
     <div class="loading-bar"><div class="loading-progress"></div></div> 
     
-        <div class="navigation-links">
+    <div class="navigation-links">
         <a href="{{ '/' | relative_url }}"><i class="fa-solid fa-house"></i> Volver al Inicio</a>
         <a href="{{ '/SP2/SP2.html' | relative_url }}">Siguiente Práctica <i class="fa-solid fa-arrow-right"></i></a>
     </div>
