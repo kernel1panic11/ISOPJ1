@@ -6,7 +6,8 @@ title: "Unidad 1. Introducción a los Sistemas Operativos y Planificación"
 <main class="contenedor-principal">
     <h1 class="titulo">Unidad 1. Introducción a los Sistemas Operativos y Planificación</h1> 
     <div class="loading-bar"><div class="loading-progress"></div></div> 
-    <div class="navigation-links">
+    
+        <div class="navigation-links">
         <a href="{{ '/' | relative_url }}"><i class="fa-solid fa-house"></i> Volver al Inicio</a>
         <a href="{{ '/SP2/SP2.html' | relative_url }}">Siguiente Práctica <i class="fa-solid fa-arrow-right"></i></a>
     </div>
@@ -74,36 +75,36 @@ Añadir una seccion de instalacion de apps
                 </ul>
             </li>
         </ul>
-    </div>
+  	</div>
     <div class="content-section">
         <h2 class="sub">Restaurando el GRUB</h2>
         <p>Ahora instalo Windows 11 para que sobrescriba el GRUB de Ubuntu y así poder restaurarlo más tarde.</p>
         <p>Empezamos la instalación de Windows 11:</p>
-        <img width="965" height="675" alt="Comienzo de la instalación de Windows 11" src="https://github.com/user-attachments/assets/0d92dbdc-aa5a-4ce4-94bf-8374aa783d78" class="course-image" />
-        <p>Seleccionamos el disco duro:</p>
-        <img width="887" height="663" alt="Selección del disco duro para instalar Windows" src="https://github.com/user-attachments/assets/57788b14-88d2-4920-ab7f-772f8d86f83d" class="course-image" />
-        <p>Comienza la instalación:</p>
-        <img width="1270" height="796" alt="Proceso de instalación de Windows" src="https://github.com/user-attachments/assets/4d5c311c-0498-482b-98ac-2a955f082184" class="course-image" />
-        <p>Aquí dejo un vídeo donde se puede ver que el único sistema que arranca es Windows 11:</p>
-        <video src="2025-10-02 12-30-44.mp4" controls width="100%" class="course-image"></video>
+      	<img width="965" height="675" alt="Comienzo de la instalación de Windows 11" src="https://github.com/user-attachments/assets/0d92dbdc-aa5a-4ce4-94bf-8374aa783d78" class="course-image" />
+      	<p>Seleccionamos el disco duro:</p>
+      	<img width="887" height="663" alt="Selección del disco duro para instalar Windows" src="https://github.com/user-attachments/assets/57788b14-88d2-4920-ab7f-772f8d86f83d" class="course-image" />
+      	<p>Comienza la instalación:</p>
+      	<img width="1270" height="796" alt="Proceso de instalación de Windows" src="https://github.com/user-attachments/assets/4d5c311c-0498-482b-98ac-2a955f082184" class="course-image" />
+      	<p>Aquí dejo un vídeo donde se puede ver que el único sistema que arranca es Windows 11:</p>
+      	<video src="2025-10-02 12-30-44.mp4" controls width="100%" class="course-image"></video>
 s
-        <p>Ahora, me dirijo a la UEFI de la máquina virtual y arranco desde el CD donde tengo Super Grub2 Disk para restaurar el GRUB.</p>
-        <img width="708" height="501" alt="Acceso a la UEFI de la máquina virtual" src="https://github.com/user-attachments/assets/f9b144dc-789e-4629-9fe3-fec4ed53611b" class="course-image" />
-        <p>En el menú de Super Grub2 Disk, elijo la opción «Detect and show boot methods».</p>
-        <img width="723" height="415" alt="Menú de Super Grub2 Disk" src="https://github.com/user-attachments/assets/b6a805aa-163c-4fdc-b9df-9349f2adae81" class="course-image" />
-        <p>Una vez aquí, hay que seleccionar la entrada de Linux para que arranque el sistema.</p>
-        <img width="704" height="459" alt="Selección del sistema Linux" src="https://github.com/user-attachments/assets/06ddc8d9-ea7a-4789-bb7b-d92b53b36018" class="course-image" />
-        <p>Una vez he iniciado Linux, voy a la terminal para buscar la partición de arranque.</p>
-        <p>En mi caso, como se puede ver, la partición EFI donde se instalará el GRUB es nvme0n1p1.</p>
-        <img width="669" height="245" alt="image" src="https://github.com/user-attachments/assets/4756322d-e097-487d-a6a1-1bde5f1d21f8" class="course-image"/>
-        <p>Una vez localizada, instalo el GRUB en el disco principal (el gestor de arranque se instalará en la partición EFI automáticamente):</p>
-        <pre><code>sudo grub-install /dev/nvme0n1</code></pre>
-        <p>Y ahora ejecuto el siguiente comando para que el GRUB se actualice y detecte todos los sistemas operativos:</p>
-        <pre><code>sudo update-grub</code></pre>
-        <p>Como se puede comprobar, ahora en el menú del GRUB aparecen tanto Pop!_OS (identificado como Ubuntu) como Windows.</p>
-        <img width="1143" height="748" alt="image" src="https://github.com/user-attachments/assets/3165cf72-ac23-4cd6-a3cf-bd603e370bd4" class="course-image"/>
-        <p>Para finalizar, me he tomado la libertad de instalar un tema para el GRUB.</p>
-  G     <img width="1030" height="763" alt="image" src="https://github.com/user-attachments/assets/e6d2f939-98a7-47a0-b877-a6b107415d85" class="course-image"/>
+      	<p>Ahora, me dirijo a la UEFI de la máquina virtual y arranco desde el CD donde tengo Super Grub2 Disk para restaurar el GRUB.</p>
+      	<img width="708" height="501" alt="Acceso a la UEFI de la máquina virtual" src="https://github.com/user-attachments/assets/f9b144dc-789e-4629-9fe3-fec4ed53611b" class="course-image" />
+      	<p>En el menú de Super Grub2 Disk, elijo la opción «Detect and show boot methods».</p>
+      	<img width="723" height="415" alt="Menú de Super Grub2 Disk" src="https://github.com/user-attachments/assets/b6a805aa-163c-4fdc-b9df-9349f2adae81" class="course-image" />
+      	<p>Una vez aquí, hay que seleccionar la entrada de Linux para que arranque el sistema.</p>
+      	<img width="704" height="459" alt="Selección del sistema Linux" src="https://github.com/user-attachments/assets/06ddc8d9-ea7a-4789-bb7b-d92b53b36018" class="course-image" />
+      	<p>Una vez he iniciado Linux, voy a la terminal para buscar la partición de arranque.</p>
+      	<p>En mi caso, como se puede ver, la partición EFI donde se instalará el GRUB es nvme0n1p1.</p>
+      	<img width="669" height="245" alt="image" src="https://github.com/user-attachments/assets/4756322d-e097-487d-a6a1-1bde5f1d21f8" class="course-image"/>
+      	<p>Una vez localizada, instalo el GRUB en el disco principal (el gestor de arranque se instalará en la partición EFI automáticamente):</p>
+      	<pre><code>sudo grub-install /dev/nvme0n1</code></pre>
+      	<p>Y ahora ejecuto el siguiente comando para que el GRUB se actualice y detecte todos los sistemas operativos:</p>
+      	<pre><code>sudo update-grub</code></pre>
+      	<p>Como se puede comprobar, ahora en el menú del GRUB aparecen tanto Pop!_OS (identificado como Ubuntu) como Windows.</p>
+      	<img width="1143" height="748" alt="image" src="https://github.com/user-attachments/assets/3165cf72-ac23-4cd6-a3cf-bd603e370bd4" class="course-image"/>
+      	<p>Para finalizar, me he tomado la libertad de instalar un tema para el GRUB.</p>
+  	G   	<img width="1030" height="763" alt="image" src="https://github.com/user-attachments/assets/e6d2f939-98a7-47a0-b877-a6b107415d85" class="course-image"/>
     </div>
 <div class="content-section">
     <h2 class="sub">Snapshots</h2>
@@ -138,11 +139,12 @@ s
     <img width="501" height="605" alt="image" src="https://github.com/user-attachments/assets/5978f547-e82b-4a2b-ae17-69214e95d6fc" class="course-image" />
     <p>Ahora empezamos con la restauración</p>
     <img width="596" height="635" alt="image" src="https://github.com/user-attachments/assets/8707c77f-6ed4-486b-8c79-21f62a34c63c" class="course-image" />
-    <img width="1711" height="870" alt="image" src="https://github.com/user-attachments/assets/92c7984a-ad81-4ec7-bcd6-7ad29b02890f" class="course-image" />
+  	<img width="1711" height="870" alt="image" src="https://github.com/user-attachments/assets/92c7984a-ad81-4ec7-bcd6-7ad29b02890f" class="course-image" />
     <p>Y ahora, como se puede ver, se ha hecho la restauración</p>
     <img width="810" height="204" alt="image" src="https://github.com/user-attachments/assets/b723d7b7-f57a-482a-aedc-86da5b38b303" class="course-image" />
 </div>
-<div class="content-section">     <h2 class="sub">Configuración de IP</h2>
+<div class="content-section"> 
+	<h2 class="sub">Configuración de IP</h2>
     <p>Ahora empezamos configurando la IP, por ahora usamos el NetworkManager</p>
     <img width="751" height="373" alt="image" src="https://github.com/user-attachments/assets/55113c25-5a9f-443b-8a90-e4a18d8cc483" class="course-image" />
     <p>Y ahora comprobamos por terminal que se ha cambiado la IP</p>
@@ -154,7 +156,8 @@ s
     <p>Y ahora aplicamos las configuraciones y comprobamos que da el internet</p>
     <img width="814" height="231" alt="image" src="https://github.com/user-attachments/assets/a007c45b-ae6f-44e8-97d5-dd141ee29685" class="course-image" />    
 </div>
-<div class="content-section">      <h2 class="sub">Instalación de aplicaciones y "pining packages"</h2>
+<div class="content-section"> 
+	<h2 class="sub">Instalación de aplicaciones y "pining packages"</h2>
      <p>He hecho las cosas de una forma un poco distinta, en mi caso como ubuntu me estaba dando algunos problemas, he cambiado a debian 13 directamente para este apartado, lo que hare es instalar el audacity y luego me movere a la rama inestable de debian para obtener una version mas moderna, se que podria indicarle al apt que me instale un paquete anterior con apt install "nombre paquete"="version paquete", pero me resulta mas cómodo así</p>
      <p>Empezamos instalando apt con "apt install audacity -y" le pongo el -y para que se instale automáticamente sin pedir confirmación</p>
      <img width="586" height="94" alt="image" src="https://github.com/user-attachments/assets/b06d8ba7-62c0-42ca-8fdf-1b40c59c66fd" class="course-image" />
@@ -164,36 +167,37 @@ s
 </main>
 
 <style>
-/* Arreglo 1: Fondo de la página SP1 */
-body {
+/* 1. Arreglo del Fondo */
+:root {
     --bg-image: url('../assetscss/pract1.gif');
 }
 
-/* Arreglo 3: Barra de navegación fija en la parte inferior */
+/* 2. Arreglo de la Barra de Navegación "Pegajosa" (Sticky) */
 .navigation-links {
-    position: fixed;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    /* --- Comportamiento Pegajoso --- */
+    position: sticky;
+    /* Se "pegará" a 1rem de la parte superior del navegador */
+    top: 1rem; 
     z-index: 100;
 
-    /* Replicar el estilo del contenedor principal */
-    width: min(90%, 960px); /* Misma anchura que .contenedor-principal */
+    /* --- Estilo Glassmorphism (copiado de tu CSS) --- */
     background: var(--overlay);
     backdrop-filter: blur(8px);
     border: 1px solid var(--border);
-    border-bottom: 0; /* Sin borde inferior */
-    border-radius: 14px 14px 0 0; /* Esquinas superiores redondeadas */
+    border-radius: var(--radius); /* Usa el radio de borde estándar */
     box-shadow: var(--shadow-neon);
 
-    /* Sobrescribir estilos de custom.css si es necesario */
-    margin-top: 0;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    /* --- Ajustes para sobrescribir el custom.css --- */
+    margin-top: 1.5rem; /* Espacio por encima */
+    margin-bottom: 1.5rem; /* Espacio por debajo */
+    padding: 1rem 1.2rem; /* Relleno interno (en lugar de solo padding-top) */
+    border-top: 1px solid var(--border); /* Asegura que el borde sea consistente */
 }
 
-/* Dejar espacio al final del contenido para que no lo tape la barra */
+/* 3. Limpieza del CSS anterior (si existía) */
+/* Esto elimina el espacio extra en la parte inferior que necesitaba la barra fija */
 main.contenedor-principal {
-    padding-bottom: 100px; /* Ajusta este valor si la barra es más alta */
+    /* Restablece el padding-bottom al valor original de custom.css */
+    padding-bottom: 2.5rem; 
 }
 </style>
