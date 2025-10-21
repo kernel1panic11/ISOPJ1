@@ -163,7 +163,10 @@ s
      <img width="586" height="94" alt="image" src="https://github.com/user-attachments/assets/b06d8ba7-62c0-42ca-8fdf-1b40c59c66fd" class="course-image" />
     <p>Ahora una vez instalado audacity comprobamos que se ha instalado y que se ejecuta</p>
     <img width="1125" height="703" alt="image" src="https://github.com/user-attachments/assets/74cd8433-842f-41f7-a0f3-9318e92da91d" class="course-image"/>
-	
+	<p>Ahora editamos las repos </p>
+	<img width="920" height="423" alt="image" src="https://github.com/user-attachments/assets/b31b957a-9d70-44a3-b41b-a4dd88035cb1" class="course-image"/>
+	<p></p>
+
 	
 	
 </div>
