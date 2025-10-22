@@ -240,12 +240,3 @@ main.contenedor-principal {
 /* --- FIN DE ESTILOS DE BOTONES --- */
 </style>
 
-<script>
-  document.getElementById('scrollToTopBtn').addEventListener('click', function() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
-  document.getElementById('scrollToBottomBtn').addEventListener('click', function() {
-    // Usamos document.documentElement.scrollHeight para obtener la altura total de la página
-    window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'smooth' });
-  });
-</script>
