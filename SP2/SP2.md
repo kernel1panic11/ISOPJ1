@@ -43,9 +43,12 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
     <img width="699" height="180" alt="image" src="https://github.com/user-attachments/assets/ca0866b5-6e8f-4668-b300-59c24d8ac9a7" />
     medida del bloque 
     <img width="682" height="191" alt="image" src="https://github.com/user-attachments/assets/04eca4eb-684d-45af-8bc4-ec36fbfd739c" />
-    Particones: una particion, es un trozo fisico del disco duro, pero no podemos modificar la medida del bloque, eso se hace pero terminal 
+    Particones: una particion, es un trozo fisico del disco duro, pero no podemos modificar la medida del bloque, eso se hace pero terminal, un volumen es una capa de abstracion que se pone encima de las particiones y/o discos. 
     El gparted sirve para gestionar paticiones
     <img width="777" height="532" alt="image" src="https://github.com/user-attachments/assets/53f4f163-3724-4527-8ade-8cdf99407de5" />
+    particiones terminal
+    <img width="931" height="761" alt="image" src="https://github.com/user-attachments/assets/d17a2000-1cb1-48ef-9594-029f21bfeba1" />
+    
 
 
 
