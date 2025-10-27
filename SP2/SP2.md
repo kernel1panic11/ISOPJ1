@@ -1,4 +1,4 @@
-[---
+---
 layout: default
 title: "Sprint 2. Instalación, configuración de software base y gestión de ficheros."
 ---
