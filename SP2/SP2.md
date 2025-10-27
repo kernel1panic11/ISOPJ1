@@ -33,6 +33,25 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
             <li>Comandos</li>
         </ul>
     </div>
+    Disco vista vmware
+    <img width="826" height="670" alt="image" src="https://github.com/user-attachments/assets/d2fce307-de10-4ac3-80e6-8d1ea669cd9e" />
+    Medida del sector 
+    <img width="933" height="569" alt="image" src="https://github.com/user-attachments/assets/ff7b4574-eb1e-48bc-a71a-11da2425f37f" />
+    Medida del bloque 
+    <img width="621" height="128" alt="image" src="https://github.com/user-attachments/assets/a3a3b284-07db-4318-9f51-bd2eb2005c3d" />
+    Ver sistema de archivos
+    <img width="699" height="180" alt="image" src="https://github.com/user-attachments/assets/ca0866b5-6e8f-4668-b300-59c24d8ac9a7" />
+    medida del bloque 
+    <img width="682" height="191" alt="image" src="https://github.com/user-attachments/assets/04eca4eb-684d-45af-8bc4-ec36fbfd739c" />
+    Particones: una particion, es un trozo fisico del disco duro, pero no podemos modificar la medida del bloque, eso se hace pero terminal 
+    El gparted sirve para gestionar paticiones
+    <img width="777" height="532" alt="image" src="https://github.com/user-attachments/assets/53f4f163-3724-4527-8ade-8cdf99407de5" />
+
+
+
+
+
+    
     <div class="content-section">
         <h2 class="sub">Gestión de procesos</h2>
     </div>
