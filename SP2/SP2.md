@@ -1,4 +1,4 @@
----
+[---
 layout: default
 title: "Sprint 2. Instalación, configuración de software base y gestión de ficheros."
 ---
@@ -151,3 +151,4 @@ main.contenedor-principal {
 }
 /* --- FIN DE ESTILOS DE BOTONES --- */
 </style>
+](https://kernel1panic11.github.io/ISOPJ1/SP2/SP2.html)
