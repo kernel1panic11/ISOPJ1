@@ -1,0 +1,78 @@
+---
+layout: default
+title: "Sprint 2. Instalación, configuración de software base y gestión de ficheros."
+---
+
+<main class="contenedor-principal">
+    <h1 class="titulo">Sprint 2. Instalación, configuración de software base y gestión de ficheros.</h1> 
+    <div class="loading-bar"><div class="loading-progress"></div></div> 
+    
+    <div class="navigation-links">
+        <a href="{{ '/' | relative_url }}"><i class="fa-solid fa-house"></i> Volver al Inicio</a>
+        <a href="{{ '/SP2/SP3.html' | relative_url }}">Siguiente Práctica <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+
+    <div class="content-section">
+        <h2 class="sub">Tipos de licencia en Ubuntu</h2>
+        <p>
+            Ubuntu como tal utiliza varios tipos de licencia, que son las siguientes:
+        </p>
+
+<style>
+:root {
+    /* Esto anula el fondo por defecto y pone el de pract1.gif */
+    --bg-image: url('../assetscss/pract1.gif');
+}
+
+.navigation-links {
+    /* --- HACE QUE LA BARRA SEA DINÁMICA (STICKY) --- */
+    position: sticky;
+    top: 1rem; 
+    z-index: 100;
+    /* --- FIN DE LA PARTE STICKY --- */
+
+    background: var(--overlay);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--border);
+    border-radius: var(--radius); /* Corregido: Se eliminó la barra "/" */
+    box-shadow: var(--shadow-neon);
+    margin-top: 1.5rem; 
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.2rem; 
+    border-top: 1px solid var(--border); 
+}
+
+main.contenedor-principal {
+    padding-bottom: 2.5rem; 
+}
+
+/* --- ESTILOS PARA LOS BOTONES DE SCROLL --- */
+.scroll-btn {
+  position: fixed;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  background: var(--overlay);
+  color: var(--accent);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.5rem;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+  box-shadow: var(--shadow-neon);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+.scroll-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.75);
+  background: rgba(0, 255, 255, 0.1);
+}
+#scrollToTopBtn {
+  right: 20px;
+}
+#scrollToBottomBtn {
+  left: 20px;
+}
+/* --- FIN DE ESTILOS DE BOTONES --- */
+</style>
