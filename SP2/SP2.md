@@ -51,13 +51,13 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
     <img width="777" height="532" alt="image" src="https://github.com/user-attachments/assets/53f4f163-3724-4527-8ade-8cdf99407de5" class="course-image"/>
     <p>Aquí hemos creado dos particiones de mas o menos 5 gb cada una, esto lo hemos hecho usando la terminal, como se puede ver en la foto, las dos particiones se han hecho</p>
     <img width="931" height="761" alt="image" src="https://github.com/user-attachments/assets/d17a2000-1cb1-48ef-9594-029f21bfeba1" class="course-image"/>
-    Primera particion ext4
+    <p>Aquí lo que he hecho es darle un formato a la primera particion en ext4, usando el comando "mkfs.ext4 -b 2048 /dev/nvme0n1p1"</p>
     <img width="893" height="294" alt="image" src="https://github.com/user-attachments/assets/8f70f76c-b256-4adf-b9ed-ca11e9f471be" class="course-image"/>
-    Formatear segunda particion en nfts: 
+     <p>Ahora aquí lo que he hecho es darle un formato a la particion secundaria en nfts, usando el comando "mkfs.nfts /dev/nvme0n1p1", en este caso ha tardado mas que con ext4 ya que tiene que llenar la particion de zeros, desconozco el porque</p>
     <img width="563" height="134" alt="image" src="https://github.com/user-attachments/assets/9ffc4cf6-337d-4a5a-b2e7-be66dabf4a9e" class="course-image"/>
-    Comprobando por terminal 
+    <p>Comprobando por terminal que se han hecho bien las particiones: </p>
     <img width="1039" height="201" alt="image" src="https://github.com/user-attachments/assets/e6fbdcd9-fe1a-4280-b15b-b4c410f46e85" class="course-image"/>
-    Comprobando con gparted
+    <p>Y ahora lo comprobamos con gparted</p>
     <img width="771" height="257" alt="image" src="https://github.com/user-attachments/assets/10f5d46d-f9bc-47cc-bfe4-5b89e0a004dc" class="course-image"/>
     Montar particion modo temporal
     <img width="624" height="144" alt="image" src="https://github.com/user-attachments/assets/56fe0548-4eb7-4d4f-a550-8653953e5818" class="course-image"/>
@@ -68,9 +68,7 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
     <img width="820" height="179" alt="image" src="https://github.com/user-attachments/assets/732511da-07a3-4228-ac73-ee2b77ba7ca0" class="course-image"/>
     Desfragmentacion
     <img width="1288" height="514" alt="image" src="https://github.com/user-attachments/assets/f9e8f8d2-03d9-4d99-8342-e5669b44f21f" class="course-image"/>
-</div>   
-
-        
+</div>       
     <div class="content-section">
         <h2 class="sub">Gestión de procesos</h2>
     </div>
