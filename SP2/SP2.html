@@ -141,6 +141,7 @@ main.contenedor-principal {
 
 /* --- ESTILOS PARA LOS BOTONES DE SCROLL --- */
 .scroll-btn {
+V_SCROLL
   position: fixed;
   bottom: 20px;
   width: 50px;
@@ -153,8 +154,12 @@ main.contenedor-principal {
   font-size: 1.5rem;
   z-index: 1000;
   backdrop-filter: blur(5px);
+V_SCROLL
   box-shadow: var(--shadow-neon);
   transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+.scroll-btn:hover {
+s-shadow 0.2s ease, background-color 0.2s ease;
 }
 .scroll-btn:hover {
   transform: scale(1.1);
