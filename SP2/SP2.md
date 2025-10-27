@@ -73,7 +73,7 @@ Aunque mount sí puede intentar adivinar automáticamente el sistema de archivos
   	 <img width="808" height="256" alt="image" src="https://github.com/user-attachments/assets/93f4df08-d910-4f46-9f6b-04daf5424912" class="course-image"/>
   	 <p>Comprobacion despues de reinicio</p>
   	 <img width="820" height="179" alt="image" src="https://github.com/user-attachments/assets/732511da-07a3-4228-ac73-ee2b77ba7ca0" class="course-image"/>
-  	 <p>Desfragmentacion</p>
+  	 <p>Desfragmentacion, esto se hace para reganar espacio en el disco duro</p>
   	 <img width="1288" height="514" alt="image" src="https://github.com/user-attachments/assets/f9e8f8d2-03d9-4d99-8342-e5669b44f21f" class="course-image"/>
 </div>  	 	 	
   	 <div class="content-section">
