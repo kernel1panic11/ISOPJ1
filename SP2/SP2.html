@@ -9,19 +9,55 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
     
     <div class="navigation-links">
         <a href="{{ '/' | relative_url }}"><i class="fa-solid fa-house"></i> Volver al Inicio</a>
-        <a href="{{ '/SP2/SP3.html' | relative_url }}">Siguiente Práctica <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="{{ '/SP3/SP3.html' | relative_url }}">Siguiente Práctica <i class="fa-solid fa-arrow-right"></i></a>
     </div>
 
     <div class="content-section">
-        <h2 class="sub">Tipos de licencia en Ubuntu</h2>
-        <p>
-            Ubuntu como tal utiliza varios tipos de licencia, que son las siguientes:
-        </p>
+        <h2 class="sub">Sistema de fichero y particiones:</h2>
+        <ul>
+            <li>Mida del sector</li>
+            <li>Mida del block</li>
+            <li>Fragmentacio insterna</li>
+            <li>Fragmentacio externa</li>
+            <li>Tipus de formateig
+                <ul>
+                    <li>&gt;&gt;Baix nivell</li>
+                    <li>&gt;&gt;Mig nivell</li>
+                    <li>&gt;&gt;Alt nivell</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="content-section">
+        <h2 class="sub">Gestio de particios:</h2>
+        <ul>
+            <li>Gpartarted</li>
+            <li>Comandes</li>
+        </ul>
+    </div>
+
+    <div class="content-section">
+        <h2 class="sub">Gestió de procesos</h2>
+    </div>
+
+    <div class="content-section">
+        <h2 class="sub">Gestio de usuarios, gupos i permisos</h2>
+         <ul>
+            <li>&gt;&gt;Copias de seguridad y automatizacion de tareas</li>
+            <li>&gt;&gt;Quatas de usuari</li>
+        </ul>
+    </div>
+    
+    </main>
+
+<button id="scrollToTopBtn" class="scroll-btn" title="Ir arriba"><i class="fa-solid fa-arrow-up"></i></button>
+<button id="scrollToBottomBtn" class="scroll-btn" title="Ir abajo"><i class="fa-solid fa-arrow-down"></i></button>
 
 <style>
 :root {
-    /* Esto anula el fondo por defecto y pone el de pract1.gif */
-    --bg-image: url('../assetscss/pract1.gif');
+    /* Esto anula el fondo por defecto y pone el de pract2.gif */
+    --bg-image: url('../assetscss/pract2.gif');
 }
 
 .navigation-links {
@@ -34,7 +70,7 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
     background: var(--overlay);
     backdrop-filter: blur(8px);
     border: 1px solid var(--border);
-    border-radius: var(--radius); /* Corregido: Se eliminó la barra "/" */
+    border-radius: var(--radius); 
     box-shadow: var(--shadow-neon);
     margin-top: 1.5rem; 
     margin-bottom: 1.5rem;
