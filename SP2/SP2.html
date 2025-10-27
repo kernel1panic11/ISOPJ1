@@ -93,8 +93,8 @@ Aunque <code>mount</code> sí puede intentar adivinar automáticamente el sistem
 <style>
 :root {
     /* Esto anula el fondo por defecto y pone el de pract2.gif */
-	/* Ruta corregida a tu carpeta 'assetscss' */
-    --bg-image: url('../assetscss/pract2.gif');
+	/* Ruta corregida con Liquid para Jekyll */
+    --bg-image: url('{{ "/assetscss/pract2.gif" | relative_url }}');
 }
 
 /* --- AÑADIDO PARA FIJAR EL FONDO --- */
@@ -122,6 +122,8 @@ code {
     position: sticky;
     top: 1rem; 
     z-index: 100;
+  m; 
+    z-index: 100;
     /* --- FIN DE LA PARTE STICKY --- */
 
     background: var(--overlay);
@@ -131,7 +133,7 @@ code {
     box-shadow: var(--shadow-neon);
     margin-top: 1.5rem; 
     margin-bottom: 1.5rem;
-    padding: 1rem 1.2rem; 
+    padding: 1rem 1.2rem;Two spaces 
     border-top: 1px solid var(--border); 
 }
 
@@ -141,7 +143,6 @@ main.contenedor-principal {
 
 /* --- ESTILOS PARA LOS BOTONES DE SCROLL --- */
 .scroll-btn {
-V_SCROLL
   position: fixed;
   bottom: 20px;
   width: 50px;
@@ -154,12 +155,9 @@ V_SCROLL
   font-size: 1.5rem;
   z-index: 1000;
   backdrop-filter: blur(5px);
-V_SCROLL
+Two spaces 
   box-shadow: var(--shadow-neon);
   transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
-}
-.scroll-btn:hover {
-s-shadow 0.2s ease, background-color 0.2s ease;
 }
 .scroll-btn:hover {
   transform: scale(1.1);
