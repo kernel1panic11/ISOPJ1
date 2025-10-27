@@ -50,7 +50,7 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
   	 El gparted sirve para gestionar paticiones
   	 <img width="777" height="532" alt="image" src="https://github.com/user-attachments/assets/53f4f163-3724-4527-8ade-8cdf99407de5" class="course-image"/>
   	 <p>Aquí hemos creado dos particiones de mas o menos 5 gb cada una, esto lo hemos hecho usando la terminal, como se puede ver en la foto, las dos particiones se han hecho</p>
-  	 <img width="931" height="761" alt="image" src="https://github.com/user-attachments/assets/d17a2000-1cb1-48ef-9594-029f21bfeba1" class="course-image"/>
+D 	 <img width="931" height="761" alt="image" src="https://github.com/user-attachments/assets/d17a2000-1cb1-48ef-9594-029f21bfeba1" class="course-image"/>
   	 <p>Aquí lo que he hecho es darle un formato a la primera particion en ext4, usando el comando "mkfs.ext4 -b 2048 /dev/nvme0n1p1"</p>
   	 <img width="893" height="294" alt="image" src="https://github.com/user-attachments/assets/8f70f76c-b256-4adf-b9ed-ca11e9f471be" class="course-image"/>
   	 	<p>Ahora aquí lo que he hecho es darle un formato a la particion secundaria en nfts, usando el comando "mkfs.nfts /dev/nvme0n1p1", en este caso ha tardado mas que con ext4 ya que tiene que llenar la particion de zeros, desconozco el porque</p>
@@ -72,7 +72,7 @@ Aunque mount sí puede intentar adivinar automáticamente el sistema de archivos
   	 <img width="808" height="256" alt="image" src="https://github.com/user-attachments/assets/93f4df08-d910-4f46-9f6b-04daf5424912" class="course-image"/>
   	 Comprobacion despues de reinicio
   	 <img width="820" height="179" alt="image" src="https://github.com/user-attachments/assets/732511da-07a3-4228-ac73-ee2b77ba7ca0" class="course-image"/>
-  	 <p>Desfragmentacion, esto sirve para poder reclamar archivos en un disco duro</p>
+  	 Desfragmentacion
   	 <img width="1288" height="514" alt="image" src="https://github.com/user-attachments/assets/f9e8f8d2-03d9-4d99-8342-e5669b44f21f" class="course-image"/>
 </div>  	 	 	
   	 <div class="content-section">
@@ -93,7 +93,18 @@ Aunque mount sí puede intentar adivinar automáticamente el sistema de archivos
 <style>
 :root {
   	 /* Esto anula el fondo por defecto y pone el de pract2.gif */
-  	 --bg-image: url('../assetscss/pract2.gif');
+	/* CORRECCIÓN: Corregida la ruta de 'assetscss' a 'assets' */
+  	 --bg-image: url('../assets/pract2.gif'); 
+}
+
+/* --- AÑADIDO PARA FIJAR EL FONDO --- */
+body {
+	background-image: var(--bg-image);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	/* Esto ayuda a que 'position: sticky' funcione si el body tenía 'overflow: hidden' */
+	overflow: visible; 
 }
 
 .navigation-links {
@@ -111,7 +122,8 @@ Aunque mount sí puede intentar adivinar automáticamente el sistema de archivos
   	 margin-top: 1.5rem; 
   	 margin-bottom: 1.5rem;
   	 padding: 1rem 1.2rem; 
-  	 border-top: 1px solid var(--border);s
+	/* CORRECCIÓN: Eliminada la 's' al final de la línea */
+  	 border-top: 1px solid var(--border); 
 }
 
 main.contenedor-principal {
