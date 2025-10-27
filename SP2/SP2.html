@@ -90,6 +90,46 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
 <button id="scrollToTopBtn" class="scroll-btn" title="Ir arriba"><i class="fa-solid fa-arrow-up"></i></button>
 <button id="scrollToBottomBtn" class="scroll-btn" title="Ir abajo"><i class="fa-solid fa-arrow-down"></i></button>
 
+<script>
+// Botón para subir
+document.getElementById('scrollToTopBtn').addEventListener('click', function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
+// Botón para bajar
+document.getElementById('scrollToBottomBtn').addEventListener('click', function() {
+    window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: 'smooth'
+    });
+});
+
+// Mostrar/ocultar botones según la posición del scroll (opcional)
+window.addEventListener('scroll', function() {
+    const scrollTopBtn = document.getElementById('scrollToTopBtn');
+    const scrollBottomBtn = document.getElementById('scrollToBottomBtn');
+    
+    // Mostrar botón de subir solo si no estamos arriba del todo
+    if (window.pageYOffset > 300) {
+        scrollTopBtn.style.opacity = '1';
+        scrollTopBtn.style.pointerEvents = 'auto';
+    } else {
+        scrollTopBtn.style.opacity = '0.3';
+    }
+    
+    // Mostrar botón de bajar solo si no estamos abajo del todo
+    if ((window.innerHeight + window.pageYOffset) < document.body.scrollHeight - 100) {
+        scrollBottomBtn.style.opacity = '1';
+        scrollBottomBtn.style.pointerEvents = 'auto';
+    } else {
+        scrollBottomBtn.style.opacity = '0.3';
+    }
+});
+</script>
+
 <style>
 :root {
     /* Esto anula el fondo por defecto y pone el de pract2.gif */
