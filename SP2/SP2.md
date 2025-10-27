@@ -26,27 +26,30 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
             </li>
         </ul>
     </div>
-    <div class="content-section">
+<div class="content-section">
         <h2 class="sub">Gestión de particiones:</h2>
+        <p>Se puede de hacer de dos formas usando:</p>
         <ul>
             <li>Gparted</li>
             <li>Comandos</li>
         </ul>
-    </div>
-    Disco vista vmware
+    <p>Aunque como he mencionado antes hay ciertas partes que se tienen que hacer por terminal ya que por GUI no se puede</p>
+</div>
+<div>
+    <p>Para empezar, crearemos un disco virtual nuevo en vmware, lo normal es crear una sata pero en mi caso le he indicado NVME ya que así va más rapido, como se puede ver, el disco duro es de 10gb </p>
     <img width="826" height="670" alt="image" src="https://github.com/user-attachments/assets/d2fce307-de10-4ac3-80e6-8d1ea669cd9e" class="course-image"/>
-    Medida del sector 
+    <p>Ahora comprobamos el sector del nuevo disco sin formatear con "fdisk -l", como se puede ver el sector es de 512 bytes </p>
     <img width="933" height="569" alt="image" src="https://github.com/user-attachments/assets/ff7b4574-eb1e-48bc-a71a-11da2425f37f" class="course-image"/>
-    Medida del bloque 
+    <p>Ahora con el comando: "tune2fs -l (disco) podemos ver el tamaño del bloque</p>
     <img width="621" height="128" alt="image" src="https://github.com/user-attachments/assets/a3a3b284-07db-4318-9f51-bd2eb2005c3d" class="course-image"/>
-    Ver sistema de archivos
+    <p>Ahora con df -Th, podemos ver el sistema de archivos que se usa, el espacio que esta usado y el libre que hay, el poner h es opcional, pero lo pone "para humanos" entonces los representa en gb y así es mas facil de interpretar</p>
     <img width="699" height="180" alt="image" src="https://github.com/user-attachments/assets/ca0866b5-6e8f-4668-b300-59c24d8ac9a7" class="course-image"/>
-    medida del bloque 
+    <p>La medida de clúster (Windows) y bloque (Linux), es la unidad mínima lógica donde se guardan los datos a nivel de sistema operativo, por defectos son 4096 bytes (es igual a 8 sectores) y esta medida si que se puede cambiar, esta medida se puede cambiar cuando se formatea la partición, y cada partición del disco, pude tener una medida de bloque y sistema de archivos diferentesm este es el claro ejemplo, podemos ver como el archivo pesa 17 y luego su tamaño real es de 5kb</p>
     <img width="682" height="191" alt="image" src="https://github.com/user-attachments/assets/04eca4eb-684d-45af-8bc4-ec36fbfd739c" class="course-image"/>
     Particones: una particion, es un trozo fisico del disco duro, pero no podemos modificar la medida del bloque, eso se hace pero terminal, un volumen es una capa de abstracion que se pone encima de las particiones y/o discos. 
     El gparted sirve para gestionar paticiones
     <img width="777" height="532" alt="image" src="https://github.com/user-attachments/assets/53f4f163-3724-4527-8ade-8cdf99407de5" class="course-image"/>
-    particiones terminal
+    <p>Aquí hemos creado dos particiones de mas o menos 5 gb cada una, esto lo hemos hecho usando la terminal, como se puede ver en la foto, las dos particiones se han hecho</p>
     <img width="931" height="761" alt="image" src="https://github.com/user-attachments/assets/d17a2000-1cb1-48ef-9594-029f21bfeba1" class="course-image"/>
     Primera particion ext4
     <img width="893" height="294" alt="image" src="https://github.com/user-attachments/assets/8f70f76c-b256-4adf-b9ed-ca11e9f471be" class="course-image"/>
@@ -65,19 +68,9 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
     <img width="820" height="179" alt="image" src="https://github.com/user-attachments/assets/732511da-07a3-4228-ac73-ee2b77ba7ca0" class="course-image"/>
     Desfragmentacion
     <img width="1288" height="514" alt="image" src="https://github.com/user-attachments/assets/f9e8f8d2-03d9-4d99-8342-e5669b44f21f" class="course-image"/>
+</div>   
 
-
-
-    
-
-
-    
-
-
-
-
-
-    
+        
     <div class="content-section">
         <h2 class="sub">Gestión de procesos</h2>
     </div>
