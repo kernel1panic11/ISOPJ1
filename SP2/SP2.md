@@ -19,9 +19,9 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
             <li>Fragmentación externa</li>
             <li>Tipos de formateo
                 <ul>
-                    <li>&gt;&gt;Bajo nivel</li>
-                    <li>&gt;&gt;Medio nivel</li>
-                    <li>&gt;&gt;Alto nivel</li>
+<li>Bajo nivel: Lo que hace es borrar todo, sobrescribe con 000000 todo y intenta arreglar los sectores defectuosos, pero se necesitan programas específicos, no se puede hacer a través del sistema operativo.</li>
+                <li>Medio nivel: Sería un intermedio, no borra archivos, lo que sí encuentra sectores defectuosos lo marca, pero no los intenta arreglar, también se pueden recuperar los archivos.</li>
+                <li>Alto nivel: no borra los archivos, solo borra el sistema de archivos y los sectores defectuosos que puede encontrar los ignora.</li>
                 </ul>
             </li>
         </ul>
