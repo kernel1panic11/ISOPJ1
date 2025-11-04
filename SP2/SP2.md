@@ -87,9 +87,25 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
         <p>En /etc/shadow, se encuentan las contraseñas de los usuarios encriptado, se puede manipular el algoritmo usado en el sistema editando otro archivo, tambien se ocupa de controlar la caducidad de las contraseñas</p>
         <img width="806" height="372" alt="image" src="https://github.com/user-attachments/assets/1bf21b36-436b-4512-bc61-b40ab12d5d49" />
         <p>/etc/gshadow, aquí se gestionan las contraseñas del grupo y tambien se puede ver el usuario administrador de un grupo, solo puede ver un unico admin por grupo, si se pone otro se tiene que quitar el anterior</p>
-        <img width="834" height="431" alt="image" src="https://github.com/user-attachments/assets/1fefee5b-6444-4431-a69d-aa789a822610" />
+        <img width="834" height="431" alt="image" src="https://github.com/user-attachments/assets/1fefee5b-6444-4431-a69d-aa789a822610" /
+    <p>Creado user con adduser</p>
+    <img width="760" height="424" alt="image" src="https://github.com/user-attachments/assets/fb1c3fb9-91dc-4a40-81f4-ae7d782b9acc" />
+    <p> Cuando creeas el user, no se crean las carpetas de la home hasta que inicies sesion con el usuario</p>
+    <img width="793" height="112" alt="image" src="https://github.com/user-attachments/assets/b921cc91-ab98-4dcf-bf7c-c6535eb8de12" />
+    ahora que hemos creado el user con useradd no crea la home y la shell es sh en vez de bash
+<img width="386" height="80" alt="image" src="https://github.com/user-attachments/assets/7d9c5a34-2c62-4e5e-9a59-8996416c6250" />
 
-    
+y ahora cambiamos la shell con el comando usermod
+<img width="353" height="39" alt="image" src="https://github.com/user-attachments/assets/2c84959e-dde9-4bee-95d0-8ac03ab50002" />
+Ahora cambiamos el dueño de la carpeta 
+<img width="399" height="31" alt="image" src="https://github.com/user-attachments/assets/f0e8a615-1156-4852-9587-cefd89ba2511" />
+<img width="461" height="158" alt="image" src="https://github.com/user-attachments/assets/7cf8760e-73ea-410a-824e-c49f5492cee2" />
+
+
+
+
+
+
         <ul>
             <li>&gt;&gt;Copias de seguridad y automatización de tareas</li>
             <li>&gt;&gt;Cuotas de usuario</li>
@@ -237,4 +253,5 @@ main.contenedor-principal {
 }
 /* --- FIN DE ESTILOS DE BOTONES --- */
 </style>
+
 
