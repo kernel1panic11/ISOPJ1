@@ -100,10 +100,24 @@ y ahora cambiamos la shell con el comando usermod
 Ahora cambiamos el dueño de la carpeta 
 <img width="399" height="31" alt="image" src="https://github.com/user-attachments/assets/f0e8a615-1156-4852-9587-cefd89ba2511" />
 <img width="461" height="158" alt="image" src="https://github.com/user-attachments/assets/7cf8760e-73ea-410a-824e-c49f5492cee2" />
+añadir user a un grupo
+<img width="294" height="19" alt="image" src="https://github.com/user-attachments/assets/640ea1eb-f91c-41f8-b6f3-e287a06eaa56" />
+quitar user de un grupo
+<img width="302" height="50" alt="image" src="https://github.com/user-attachments/assets/7a54ec05-8c12-43ba-80ce-02f8dff1eac3" />
+
+añadir gina a sudo 
+<img width="285" height="31" alt="image" src="https://github.com/user-attachments/assets/92018145-02f8-49f6-b519-5ffd0459fb93" />
+
+borrar user pero no te borra la home 
+<img width="253" height="54" alt="image" src="https://github.com/user-attachments/assets/51ff854f-80af-4f96-8915-31f55e4d0d6e" />
 
 
+Ahora borrando la home 
+<img width="544" height="59" alt="image" src="https://github.com/user-attachments/assets/d298827a-ec8c-4018-9c54-82a2bb76d31f" />
 
+para bloquear user 
 
+<img width="814" height="60" alt="image" src="https://github.com/user-attachments/assets/1f925e2b-afb5-4fe7-a217-dfb6f68bc11d" />
 
 
         <ul>
@@ -253,5 +267,6 @@ main.contenedor-principal {
 }
 /* --- FIN DE ESTILOS DE BOTONES --- */
 </style>
+
 
 
