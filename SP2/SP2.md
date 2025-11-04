@@ -119,6 +119,25 @@ para bloquear user
 
 <img width="814" height="60" alt="image" src="https://github.com/user-attachments/assets/1f925e2b-afb5-4fe7-a217-dfb6f68bc11d" />
 
+para desbloquear user:
+<img width="836" height="62" alt="image" src="https://github.com/user-attachments/assets/03104388-e969-4eff-a5a6-8f547fca642f" />
+
+Modificar el nombre del grupo y borrar el grupo
+<img width="376" height="111" alt="image" src="https://github.com/user-attachments/assets/3802a252-2b9b-472f-8192-792bcb57d0f7" />
+
+Añadier users a grupos de 3 formas difrentes
+<img width="390" height="126" alt="image" src="https://github.com/user-attachments/assets/d0f20f04-a006-4dcd-b71f-c9931d32fbba" />
+
+User admin con gshadow
+<img width="377" height="67" alt="image" src="https://github.com/user-attachments/assets/ef26d36f-2103-462b-bdea-f0b55ecaefa4" />
+
+
+<img width="477" height="147" alt="image" src="https://github.com/user-attachments/assets/ad3bbeff-a1ae-4fda-85f5-40a5394f556f" />
+
+con este modifica grupo principal del user
+
+<img width="381" height="64" alt="image" src="https://github.com/user-attachments/assets/23413d00-c98f-427a-8b29-2dc97565e397" />
+
 
         <ul>
             <li>&gt;&gt;Copias de seguridad y automatización de tareas</li>
@@ -267,6 +286,7 @@ main.contenedor-principal {
 }
 /* --- FIN DE ESTILOS DE BOTONES --- */
 </style>
+
 
 
 
