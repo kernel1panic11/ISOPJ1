@@ -81,62 +81,62 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
     <div class="content-section">
         <h2 class="sub">Gestión de usuarios, grupos y permisos</h2>
         <p>/etc/passwd. este tiene todos los usuarios del sistema </p>
-        <img width="819" height="353" alt="image" src="https://github.com/user-attachments/assets/5805d903-ca58-47eb-88a6-647319ef0a19" />
+        <img width="819" height="353" alt="image" src="https://github.com/user-attachments/assets/5805d903-ca58-47eb-88a6-647319ef0a19" class="course-image"/>
         <p>En /etc/group estan todos los grupos y los usuarios que forman parte de este grupo</p>
-        <img width="771" height="370" alt="image" src="https://github.com/user-attachments/assets/ab803637-a1d6-46e4-ab59-c69bf64950eb" />
+        <img width="771" height="370" alt="image" src="https://github.com/user-attachments/assets/ab803637-a1d6-46e4-ab59-c69bf64950eb" class="course-image"/>
         <p>En /etc/shadow, se encuentan las contraseñas de los usuarios encriptado, se puede manipular el algoritmo usado en el sistema editando otro archivo, tambien se ocupa de controlar la caducidad de las contraseñas</p>
-        <img width="806" height="372" alt="image" src="https://github.com/user-attachments/assets/1bf21b36-436b-4512-bc61-b40ab12d5d49" />
+        <img width="806" height="372" alt="image" src="https://github.com/user-attachments/assets/1bf21b36-436b-4512-bc61-b40ab12d5d49" class="course-image"/>
         <p>/etc/gshadow, aquí se gestionan las contraseñas del grupo y tambien se puede ver el usuario administrador de un grupo, solo puede ver un unico admin por grupo, si se pone otro se tiene que quitar el anterior</p>
-        <img width="834" height="431" alt="image" src="https://github.com/user-attachments/assets/1fefee5b-6444-4431-a69d-aa789a822610" /
+        <img width="834" height="431" alt="image" src="https://github.com/user-attachments/assets/1fefee5b-6444-4431-a69d-aa789a822610" class="course-image"/>
     <p>Creado user con adduser</p>
-    <img width="760" height="424" alt="image" src="https://github.com/user-attachments/assets/fb1c3fb9-91dc-4a40-81f4-ae7d782b9acc" />
+    <img width="760" height="424" alt="image" src="https://github.com/user-attachments/assets/fb1c3fb9-91dc-4a40-81f4-ae7d782b9acc" class="course-image"/>
     <p> Cuando creeas el user, no se crean las carpetas de la home hasta que inicies sesion con el usuario</p>
-    <img width="793" height="112" alt="image" src="https://github.com/user-attachments/assets/b921cc91-ab98-4dcf-bf7c-c6535eb8de12" />
+    <img width="793" height="112" alt="image" src="https://github.com/user-attachments/assets/b921cc91-ab98-4dcf-bf7c-c6535eb8de12" class="course-image"/>
     ahora que hemos creado el user con useradd no crea la home y la shell es sh en vez de bash
-<img width="386" height="80" alt="image" src="https://github.com/user-attachments/assets/7d9c5a34-2c62-4e5e-9a59-8996416c6250" />
+<img width="386" height="80" alt="image" src="https://github.com/user-attachments/assets/7d9c5a34-2c62-4e5e-9a59-8996416c6250" class="course-image"/>
 
 y ahora cambiamos la shell con el comando usermod
-<img width="353" height="39" alt="image" src="https://github.com/user-attachments/assets/2c84959e-dde9-4bee-95d0-8ac03ab50002" />
+<img width="353" height="39" alt="image" src="https://github.com/user-attachments/assets/2c84959e-dde9-4bee-95d0-8ac03ab50002" class="course-image"/>
 Ahora cambiamos el dueño de la carpeta 
-<img width="399" height="31" alt="image" src="https://github.com/user-attachments/assets/f0e8a615-1156-4852-9587-cefd89ba2511" />
-<img width="461" height="158" alt="image" src="https://github.com/user-attachments/assets/7cf8760e-73ea-410a-824e-c49f5492cee2" />
+<img width="399" height="31" alt="image" src="https://github.com/user-attachments/assets/f0e8a615-1156-4852-9587-cefd89ba2511" class="course-image"/>
+<img width="461" height="158" alt="image" src="https://github.com/user-attachments/assets/7cf8760e-73ea-410a-824e-c49f5492cee2" class="course-image"/>
 añadir user a un grupo
-<img width="294" height="19" alt="image" src="https://github.com/user-attachments/assets/640ea1eb-f91c-41f8-b6f3-e287a06eaa56" />
+<img width="294" height="19" alt="image" src="https://github.com/user-attachments/assets/640ea1eb-f91c-41f8-b6f3-e287a06eaa56" class="course-image"/>
 quitar user de un grupo
-<img width="302" height="50" alt="image" src="https://github.com/user-attachments/assets/7a54ec05-8c12-43ba-80ce-02f8dff1eac3" />
+<img width="302" height="50" alt="image" src="https://github.com/user-attachments/assets/7a54ec05-8c12-43ba-80ce-02f8dff1eac3" class="course-image"/>
 
 añadir gina a sudo 
-<img width="285" height="31" alt="image" src="https://github.com/user-attachments/assets/92018145-02f8-49f6-b519-5ffd0459fb93" />
+<img width="285" height="31" alt="image" src="https://github.com/user-attachments/assets/92018145-02f8-49f6-b519-5ffd0459fb93" class="course-image"/>
 
 borrar user pero no te borra la home 
-<img width="253" height="54" alt="image" src="https://github.com/user-attachments/assets/51ff854f-80af-4f96-8915-31f55e4d0d6e" />
+<img width="253" height="54" alt="image" src="https://github.com/user-attachments/assets/51ff854f-80af-4f96-8915-31f55e4d0d6e" class="course-image"/>
 
 
 Ahora borrando la home 
-<img width="544" height="59" alt="image" src="https://github.com/user-attachments/assets/d298827a-ec8c-4018-9c54-82a2bb76d31f" />
+<img width="544" height="59" alt="image" src="https://github.com/user-attachments/assets/d298827a-ec8c-4018-9c54-82a2bb76d31f" class="course-image"/>
 
 para bloquear user 
 
-<img width="814" height="60" alt="image" src="https://github.com/user-attachments/assets/1f925e2b-afb5-4fe7-a217-dfb6f68bc11d" />
+<img width="814" height="60" alt="image" src="https://github.com/user-attachments/assets/1f925e2b-afb5-4fe7-a217-dfb6f68bc11d" class="course-image"/>
 
 para desbloquear user:
-<img width="836" height="62" alt="image" src="https://github.com/user-attachments/assets/03104388-e969-4eff-a5a6-8f547fca642f" />
+<img width="836" height="62" alt="image" src="https://github.com/user-attachments/assets/03104388-e969-4eff-a5a6-8f547fca642f" class="course-image"/>
 
 Modificar el nombre del grupo y borrar el grupo
-<img width="376" height="111" alt="image" src="https://github.com/user-attachments/assets/3802a252-2b9b-472f-8192-792bcb57d0f7" />
+<img width="376" height="111" alt="image" src="https://github.com/user-attachments/assets/3802a252-2b9b-472f-8192-792bcb57d0f7" class="course-image"/>
 
 Añadier users a grupos de 3 formas difrentes
-<img width="390" height="126" alt="image" src="https://github.com/user-attachments/assets/d0f20f04-a006-4dcd-b71f-c9931d32fbba" />
+<img width="390" height="126" alt="image" src="https://github.com/user-attachments/assets/d0f20f04-a006-4dcd-b71f-c9931d32fbba" class="course-image"/>
 
 User admin con gshadow
-<img width="377" height="67" alt="image" src="https://github.com/user-attachments/assets/ef26d36f-2103-462b-bdea-f0b55ecaefa4" />
+<img width="377" height="67" alt="image" src="https://github.com/user-attachments/assets/ef26d36f-2103-462b-bdea-f0b55ecaefa4" class="course-image"/>
 
 
-<img width="477" height="147" alt="image" src="https://github.com/user-attachments/assets/ad3bbeff-a1ae-4fda-85f5-40a5394f556f" />
+<img width="477" height="147" alt="image" src="https://github.com/user-attachments/assets/ad3bbeff-a1ae-4fda-85f5-40a5394f556f" class="course-image"/>
 
 con este modifica grupo principal del user
 
-<img width="381" height="64" alt="image" src="https://github.com/user-attachments/assets/23413d00-c98f-427a-8b29-2dc97565e397" />
+<img width="381" height="64" alt="image" src="https://github.com/user-attachments/assets/23413d00-c98f-427a-8b29-2dc97565e397" class="course-image"/>
 
 
         <ul>
@@ -286,6 +286,7 @@ main.contenedor-principal {
 }
 /* --- FIN DE ESTILOS DE BOTONES --- */
 </style>
+
 
 
 
