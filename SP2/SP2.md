@@ -80,6 +80,16 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
     </div>
     <div class="content-section">
         <h2 class="sub">Gestión de usuarios, grupos y permisos</h2>
+        <p>/etc/passwd. este tiene todos los usuarios del sistema </p>
+        <img width="819" height="353" alt="image" src="https://github.com/user-attachments/assets/5805d903-ca58-47eb-88a6-647319ef0a19" />
+        <p>En /etc/group estan todos los grupos y los usuarios que forman parte de este grupo</p>
+        <img width="771" height="370" alt="image" src="https://github.com/user-attachments/assets/ab803637-a1d6-46e4-ab59-c69bf64950eb" />
+        <p>En /etc/shadow, se encuentan las contraseñas de los usuarios encriptado, se puede manipular el algoritmo usado en el sistema editando otro archivo, tambien se ocupa de controlar la caducidad de las contraseñas</p>
+        <img width="806" height="372" alt="image" src="https://github.com/user-attachments/assets/1bf21b36-436b-4512-bc61-b40ab12d5d49" />
+        <p>/etc/gshadow, aquí se gestionan las contraseñas del grupo y tambien se puede ver el usuario administrador de un grupo, solo puede ver un unico admin por grupo, si se pone otro se tiene que quitar el anterior</p>
+        <img width="834" height="431" alt="image" src="https://github.com/user-attachments/assets/1fefee5b-6444-4431-a69d-aa789a822610" />
+
+    
         <ul>
             <li>&gt;&gt;Copias de seguridad y automatización de tareas</li>
             <li>&gt;&gt;Cuotas de usuario</li>
@@ -176,7 +186,7 @@ code {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 1rem;
+    gap: 1rem;￼
 }
 
 .navigation-links a {
@@ -227,3 +237,4 @@ main.contenedor-principal {
 }
 /* --- FIN DE ESTILOS DE BOTONES --- */
 </style>
+
