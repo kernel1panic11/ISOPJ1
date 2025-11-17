@@ -112,10 +112,11 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
 <p>Ahora borrando la home </p>
 <img width="544" height="59" alt="image" src="https://github.com/user-attachments/assets/d298827a-ec8c-4018-9c54-82a2bb76d31f" class="course-image"/>
 <p>El comando para bloquear un usuario</p>
-<img width="814" height="60" alt="image" src="https://github.com/user-attachments/assets/1f925e2b-afb5-4fe7-a217-dfb6f68bc11d" class="course-image"/>
+<img width="469" height="52" alt="image" src="https://github.com/user-attachments/assets/ab70587a-0818-42ce-ab64-991dfee08ec0" />
+
 
 <p>Para desbloquear un usuario:</p>
-<img width="836" height="62" alt="image" src="https://github.com/user-attachments/assets/03104388-e969-4eff-a5a6-8f547fca642f" class="course-image"/>
+<img width="483" height="23" alt="image" src="https://github.com/user-attachments/assets/6e7cfcf0-c0e4-457b-8a76-0cf21de4e62d" />
 <p>Modificar el nombre del grupo y borrar el grupo</p>
 <img width="376" height="111" alt="image" src="https://github.com/user-attachments/assets/3802a252-2b9b-472f-8192-792bcb57d0f7" class="course-image"/>
 <p>Añadir usuarios a grupos de 3 formas diferentes</p>
@@ -125,6 +126,16 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
 <img width="477" height="147" alt="image" src="https://github.com/user-attachments/assets/ad3bbeff-a1ae-4fda-85f5-40a5394f556f" class="course-image"/>
 <p>Con este se modifica el grupo principal del usuario</p>
 <img width="381" height="64" alt="image" src="https://github.com/user-attachments/assets/23413d00-c98f-427a-8b29-2dc97565e397" class="course-image"/>
+<p>Ahora hemos creado un grupo pero le hemos editado el nombre al correcto</p>
+<img width="541" height="126" alt="image" src="https://github.com/user-attachments/assets/6d87fb40-1866-4aa1-8d02-fdd01f92df19" class="course-image"/>
+<p> Añadiendo y eliminando usuarios de un grupo de tres formas difrentes</p>
+<img width="634" height="379" alt="image" src="https://github.com/user-attachments/assets/be4f3977-0ed6-4df8-94ea-9cde25aeb053" class="course-image"/>
+<p>Este comando sirve para establecer el grupo principal de un usuario, un usuario puede estar en un unico grupo principal pero en todos los que quiera secundarios</p>
+<img width="551" height="141" alt="image" src="https://github.com/user-attachments/assets/cb66469f-eca2-47bd-8c39-3f8bd52fc635" class="course-image"/>
+<p>Siempre puedes borrar grupos y a los usuarios no les pasa nada, excepto cuando este grupo sea el principal de un usuario</p>
+<img width="732" height="112" alt="image" src="https://github.com/user-attachments/assets/18537ae3-a8be-4aa0-a8b1-29348496d50c" class="course-image"/>
+
+
 
 
         <ul>
@@ -274,3 +285,4 @@ main.contenedor-principal {
 }
 /* --- FIN DE ESTILOS DE BOTONES --- */
 </style>
+
