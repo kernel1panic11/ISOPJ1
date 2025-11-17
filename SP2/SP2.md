@@ -146,6 +146,17 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
 <img width="761" height="229" alt="image" src="https://github.com/user-attachments/assets/e3a3362a-5a4e-4b5e-9317-42a54425339e" class="course-image"/>
 <p>Y ahora las comprobaciones de <code>useradd</code></p>
 <img width="726" height="226" alt="image" src="https://github.com/user-attachments/assets/dd329b63-5e3f-40d9-9c05-71a47aa47beb"  class="course-image"/>
+<p>Editando el .profile</p>
+<img width="661" height="196" alt="image" src="https://github.com/user-attachments/assets/741b9a4e-9146-484b-bc11-84cdc5d27eff" class="course-image"/>
+<p>Editando el .bashrc</p>
+<img width="739" height="135" alt="image" src="https://github.com/user-attachments/assets/ec0d687b-441c-4fb9-9389-4a351ea0d282" class="course-image"/>
+<p>Editando el .bash_logout</p>
+<img width="698" height="135" alt="image" src="https://github.com/user-attachments/assets/d9c36819-fd4d-49cb-9472-760652c9c5c1" class="course-image"/>
+<p>Comprobaciones</p>
+<img width="835" height="244" alt="image" src="https://github.com/user-attachments/assets/5d5f4794-2d61-4b1e-a635-d984348f8344" class="course-image"/>
+<img width="395" height="175" alt="image" src="https://github.com/user-attachments/assets/045adebb-1fcf-4771-abce-5e2b6c8635c8" class="course-image"/>
+<img width="450" height="101" alt="image" src="https://github.com/user-attachments/assets/91f63103-919c-450e-8f12-28d3a7d810bc" class="course-image"/>
+
 
 
 
@@ -300,4 +311,5 @@ main.contenedor-principal {
 }
 /* --- FIN DE ESTILOS DE BOTONES --- */
 </style>
+
 
