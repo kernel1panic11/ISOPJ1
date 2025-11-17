@@ -112,9 +112,9 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
 <p>Ahora borrando la home </p>
 <img width="544" height="59" alt="image" src="https://github.com/user-attachments/assets/d298827a-ec8c-4018-9c54-82a2bb76d31f" class="course-image"/>
 <p>El comando para bloquear un usuario</p>
-<img width="469" height="52" alt="image" src="https://github.com/user-attachments/assets/ab70587a-0818-42ce-ab64-991dfee08ec0" />
+<img width="469" height="52" alt="image" src="https://github.com/user-attachments/assets/ab70587a-0818-42ce-ab64-991dfee08ec0" class="course-image"/>
 <p>Para desbloquear un usuario:</p>
-<img width="483" height="23" alt="image" src="https://github.com/user-attachments/assets/6e7cfcf0-c0e4-457b-8a76-0cf21de4e62d" />
+<img width="483" height="23" alt="image" src="https://github.com/user-attachments/assets/6e7cfcf0-c0e4-457b-8a76-0cf21de4e62d" class="course-image"/>
 <p>Modificar el nombre del grupo y borrar el grupo</p>
 <img width="376" height="111" alt="image" src="https://github.com/user-attachments/assets/3802a252-2b9b-472f-8192-792bcb57d0f7" class="course-image"/>
 <p>Añadir usuarios a grupos de 3 formas diferentes</p>
@@ -300,3 +300,4 @@ main.contenedor-principal {
 }
 /* --- FIN DE ESTILOS DE BOTONES --- */
 </style>
+
