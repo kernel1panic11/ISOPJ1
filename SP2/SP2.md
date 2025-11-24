@@ -155,7 +155,6 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
         <img width="395" height="175" alt="image" src="https://github.com/user-attachments/assets/045adebb-1fcf-4771-abce-5e2b6c8635c8" class="course-image"/>
         <img width="450" height="101" alt="image" src="https://github.com/user-attachments/assets/91f63103-919c-450e-8f12-28d3a7d810bc" class="course-image"/>
         <p>Empezamos creando el usuario <code>cire</code> y el grupo <code>palomas</code>.</p>
-
         <p>Aquí lo que hacemos es crear dos archivos para que solo <code>root</code> pueda acceder al archivo.</p>
         <img width="502" height="367" alt="image" src="https://github.com/user-attachments/assets/e39396ab-c519-4451-9fa8-71cc6cb5b25a" class="course-image"/>
         <p>Ahora comprobamos que al archivo y a la carpeta solo puede acceder el usuario <code>root</code>.</p>
@@ -171,7 +170,6 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
         <img width="550" height="332" alt="image" src="https://github.com/user-attachments/assets/74ee5060-48a5-46ad-904e-d97eb7c3bbb4" class="course-image"/>
         <p>Ahora editamos la carpeta, cambiamos sus permisos y se los quitamos:</p>
         <img width="556" height="215" alt="image" src="https://github.com/user-attachments/assets/8892850b-0600-4fef-87d3-2c4cd1c1ea20" class="course-image"/>
-
         <ul>
             <li>&gt;&gt; Copias de seguridad y automatización de tareas</li>
             <li>&gt;&gt; Cuotas de usuario</li>
@@ -319,3 +317,4 @@ main.contenedor-principal {
 }
 /* --- FIN DE ESTILOS DE BOTONES --- */
 </style>
+
