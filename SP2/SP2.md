@@ -158,9 +158,21 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
 <img width="450" height="101" alt="image" src="https://github.com/user-attachments/assets/91f63103-919c-450e-8f12-28d3a7d810bc" class="course-image"/>
 <p>Empezamos creando el usuario "cire" y el grupo "palomas" </p>
 
-
-
-
+<p>Aquí lo que hacemos es crear dos archivos para que solo root pueda aceder al archivo</p>
+<img width="502" height="367" alt="image" src="https://github.com/user-attachments/assets/e39396ab-c519-4451-9fa8-71cc6cb5b25a" class="course-image"/>
+<p>Ahora aquí, comprobamos que el archivo y carpeta solo pueden aceder el usuario root</p>
+<img width="381" height="332" alt="image" src="https://github.com/user-attachments/assets/79282174-5a75-40a4-8f9a-671bf61c4a5b" class="course-image"/>
+<p>Ahora añadimos la excepcion y lo comprobamos</p>
+<img width="522" height="310" alt="image" src="https://github.com/user-attachments/assets/64aef155-4a2f-43a4-9199-c180bdfdf03f" class="course-image"/>
+<p>Como se puede ver el usuario "blau" no puede acceder al archivo</p>
+<img width="935" height="398" alt="image" src="https://github.com/user-attachments/assets/55ea14fd-b9a5-4471-a621-66865c04440d" class="course-image"/>
+<p>Ahora lo hacemos con el otro usuario, el "roig"</p>
+<img width="905" height="393" alt="image" src="https://github.com/user-attachments/assets/f9e17e4a-a51f-475c-94eb-6f18d7a6dda6" class="course-image"/>
+<p>Como se puede ver da otro error, esto es porque lo tenemos en la /var</p>
+<p>Ahora restablecemos los perms</p>                                                                        
+<img width="550" height="332" alt="image" src="https://github.com/user-attachments/assets/74ee5060-48a5-46ad-904e-d97eb7c3bbb4" class="course-image"/>
+<p>Ahora editar la carpeta y sus permisos y se los quitamos</p>
+<img width="556" height="215" alt="image" src="https://github.com/user-attachments/assets/8892850b-0600-4fef-87d3-2c4cd1c1ea20" class="course-image"/>
 
 
 
@@ -311,6 +323,7 @@ main.contenedor-principal {
 }
 /* --- FIN DE ESTILOS DE BOTONES --- */
 </style>
+
 
 
 
