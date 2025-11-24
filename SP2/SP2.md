@@ -156,7 +156,7 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
 <img width="835" height="244" alt="image" src="https://github.com/user-attachments/assets/5d5f4794-2d61-4b1e-a635-d984348f8344" class="course-image"/>
 <img width="395" height="175" alt="image" src="https://github.com/user-attachments/assets/045adebb-1fcf-4771-abce-5e2b6c8635c8" class="course-image"/>
 <img width="450" height="101" alt="image" src="https://github.com/user-attachments/assets/91f63103-919c-450e-8f12-28d3a7d810bc" class="course-image"/>
-
+<p>Empezamos creando el usuario "cire" y el grupo "palomas" </p>
 
 
 
@@ -311,5 +311,6 @@ main.contenedor-principal {
 }
 /* --- FIN DE ESTILOS DE BOTONES --- */
 </style>
+
 
 
