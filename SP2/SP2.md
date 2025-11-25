@@ -170,6 +170,17 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
         <img width="550" height="332" alt="image" src="https://github.com/user-attachments/assets/74ee5060-48a5-46ad-904e-d97eb7c3bbb4" class="course-image"/>
         <p>Ahora editamos la carpeta, cambiamos sus permisos y se los quitamos:</p>
         <img width="556" height="215" alt="image" src="https://github.com/user-attachments/assets/8892850b-0600-4fef-87d3-2c4cd1c1ea20" class="course-image"/>
+        <p>Para configurar la mascara en todos los user</p>
+        <img width="916" height="432" alt="image" src="https://github.com/user-attachments/assets/3e497453-14a2-41c6-bbec-b665ca27a247" class="course-image"/>
+        <p>Esto es para configurar la mascara para un solo user</p>
+        <img width="892" height="407" alt="image" src="https://github.com/user-attachments/assets/bd8cfd95-ca81-42d8-b2e5-00e19fef0ec6" class="course-image"/>
+        <p>Esto es para cambiar la mascara de un usuario de forma temporal</p>
+        <img width="541" height="336" alt="image" src="https://github.com/user-attachments/assets/37260031-0f73-4680-9666-5a234e4992eb" class="course-image"/>
+        <img width="652" height="127" alt="image" src="https://github.com/user-attachments/assets/963c8b65-395e-4383-8024-b4e816d4aba3" class="course-image"/>
+        <p>Y ahora creo un user y entro a ese usuario y lo compruebo, creando una carpeta y un archivo</p>
+        <img width="437" height="152" alt="image" src="https://github.com/user-attachments/assets/995078b8-ed18-428c-843e-2788ed82c586" class="course-image"/>
+
+
         <ul>
             <li>&gt;&gt; Copias de seguridad y automatización de tareas</li>
             <li>&gt;&gt; Cuotas de usuario</li>
@@ -317,4 +328,5 @@ main.contenedor-principal {
 }
 /* --- FIN DE ESTILOS DE BOTONES --- */
 </style>
+
 
