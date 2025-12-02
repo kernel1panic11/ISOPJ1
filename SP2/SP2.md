@@ -209,6 +209,15 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
         <img width="652" height="127" alt="image" src="https://github.com/user-attachments/assets/963c8b65-395e-4383-8024-b4e816d4aba3" class="course-image"/>
         <p>Y ahora creo un usuario y entro a ese usuario y lo compruebo, creando una carpeta y un archivo para ver qué permisos se aplican automáticamente.</p>
         <img width="437" height="152" alt="image" src="https://github.com/user-attachments/assets/995078b8-ed18-428c-843e-2788ed82c586" class="course-image"/>
+        <h2 class="sub">Procesos</h2>
+        <p>Con el pstree podemos ver los procesos en forma de arbol en la terminal </p>
+        <img width="959" height="887" alt="image" src="https://github.com/user-attachments/assets/c5ae73e4-d0df-4ebe-afd6-b81583fd426b" class="course-image"/>
+        <p>Ahora con root podemos ver los procesos de un user</p>
+        <img width="748" height="207" alt="image" src="https://github.com/user-attachments/assets/6c41959e-0617-4654-99ea-21192ec97082" class="course-image"/>
+        <p>Con ps aux, vemos todo los procesos corriendos </p>
+        <img width="906" height="390" alt="image" src="https://github.com/user-attachments/assets/ff763c6e-40ab-4a5b-a2d5-98490f3b44d6" class="course-image"/>
+        
+
 
 
         <ul>
@@ -360,3 +369,4 @@ main.contenedor-principal {
 }
 /* --- FIN DE ESTILOS DE BOTONES --- */
 </style>
+
