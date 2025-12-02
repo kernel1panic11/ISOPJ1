@@ -227,7 +227,11 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
         <img width="217" height="65" alt="image" src="https://github.com/user-attachments/assets/3f89c329-5339-4abc-b730-f27239a606f8" class="course-image"/>
         <p>Y con <code>top &amp;</code> mandas procesos a segundo plano.</p>
         <img width="268" height="67" alt="image" src="https://github.com/user-attachments/assets/8c16f8e0-cc7a-48e3-8654-ccba518273b7" class="course-image"/>
-
+        <img width="535" height="85" alt="image" src="https://github.com/user-attachments/assets/23ac3ed1-a152-48ba-8968-a378373186f1" class="course-image"/>
+        <p>Con <code>renice</code> podemos cambiarle la prioridad a un proceso.</p>
+        <p>Y con <code>nice</code> lanzas un proceso con la prioridad que tú quieras.</p>
+        <p>Extra: con <code>pkill</code> puedes matar a todos los procesos por un nombre, por si se queda alguno huérfano.</p>
+        
         <ul>
             <li>&gt;&gt; Copias de seguridad y automatización de tareas</li>
             <li>&gt;&gt; Cuotas de usuario</li>
@@ -359,7 +363,7 @@ main.contenedor-principal {
     z-index: 1000;
     backdrop-filter: blur(5px);
     box-shadow: var(--shadow-neon);
-    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+    transition: transform 0.2s.ease, box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
 .scroll-btn:hover {
