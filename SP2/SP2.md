@@ -58,7 +58,7 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
         <img width="931" height="761" alt="image" src="https://github.com/user-attachments/assets/d17a2000-1cb1-48ef-9594-029f21bfeba1" class="course-image"/>
         <p>Aquí lo que he hecho es darle formato a la primera partición en <strong>ext4</strong>, usando el comando <code>mkfs.ext4 -b 2048 /dev/nvme0n1p1</code>. El parámetro <code>-b 2048</code> indica un tamaño de bloque de 2048 bytes en lugar de los 4096 típicos.</p>
         <img width="893" height="294" alt="image" src="https://github.com/user-attachments/assets/8f70f76c-b256-4adf-b9ed-ca11e9f471be" class="course-image"/>
-        <p>Ahora, aquí lo que he hecho es darle formato a la partición secundaria en <strong>NTFS</strong>, usando el comando <code>mkfs.ntfs /dev/nvme0n1p1</code>. En este caso ha tardado más que con ext4 ya que tiene que llenar la partición de ceros. Desconozco el porqué.</p>
+        <p>Ahora, aquí lo que he hecho es darle formato a la partición secundaria en <strong>NTFS</strong>, usando el comando <code>mkfs.ntfs /dev/nvme0n1p1</code>. En este caso ha tardado más que con ext4 ya que tiene que llenar la partición de ceros. Desconozco el por qué.</p>
         <p><strong>Nota</strong>: en realidad, al ser la segunda partición, el dispositivo correcto normalmente sería <code>/dev/nvme0n1p2</code>. Es importante fijarse bien al formatear, porque si te equivocas puedes borrar datos de otra partición.</p>
         <img width="563" height="134" alt="image" src="https://github.com/user-attachments/assets/9ffc4cf6-337d-4a5a-b2e7-be66dabf4a9e" class="course-image"/>
         <p>Comprobando por terminal que se han creado bien las particiones:</p>
@@ -92,7 +92,7 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
             <li><code>ps aux</code>: muestra la lista de procesos en ejecución con detalles (PID, usuario, CPU, memoria, etc.).</li>
             <li><code>top</code> o <code>htop</code>: muestran procesos en tiempo real y permiten ordenarlos por uso de CPU, memoria, etc.</li>
             <li><code>kill PID</code>: envía una señal a un proceso (por defecto <code>SIGTERM</code>) para que se cierre.</li>
-            <li><code>kill -9 PID</code>: envía <code>SIGKILL</code> (forzado) cuando el proceso no responde a <code>SIGTERM</code>.</li>
+            <li><code>kill -9 PID</code>: envía <code>SIGKILL</code> (forzada) cuando el proceso no responde a <code>SIGTERM</code>.</li>
             <li><code>nice</code> y <code>renice</code>: permiten ajustar la prioridad de los procesos.</li>
         </ul>
         <p>También es útil usar <code>systemctl</code> para gestionar servicios (que son procesos gestionados por <code>systemd</code>): <code>systemctl start</code>, <code>stop</code>, <code>restart</code>, <code>status</code>, etc.</p>
@@ -184,7 +184,7 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
         <img width="395" height="175" alt="image" src="https://github.com/user-attachments/assets/045adebb-1fcf-4771-abce-5e2b6c8635c8" class="course-image"/>
         <img width="450" height="101" alt="image" src="https://github.com/user-attachments/assets/91f63103-919c-450e-8f12-28d3a7d810bc" class="course-image"/>
         <p>Empezamos creando el usuario <code>cire</code> y el grupo <code>palomas</code>.</p>
-        <p>Aquí lo que hacemos es crear dos archivos para que solo <code>root</code> pueda acceder al archivo.</p>
+        <p>Aquí lo que hacemos es crear dos archivos para que solo <code>root</code> pueda acceder a los archivos.</p>
         <img width="502" height="367" alt="image" src="https://github.com/user-attachments/assets/e39396ab-c519-4451-9fa8-71cc6cb5b25a" class="course-image"/>
         <p>Ahora comprobamos que al archivo y a la carpeta solo puede acceder el usuario <code>root</code>.</p>
         <img width="381" height="332" alt="image" src="https://github.com/user-attachments/assets/79282174-5a75-40a4-8f9a-671bf61c4a5b" class="course-image"/>
@@ -210,26 +210,23 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
         <p>Y ahora creo un usuario y entro a ese usuario y lo compruebo, creando una carpeta y un archivo para ver qué permisos se aplican automáticamente.</p>
         <img width="437" height="152" alt="image" src="https://github.com/user-attachments/assets/995078b8-ed18-428c-843e-2788ed82c586" class="course-image"/>
         <h2 class="sub">Procesos</h2>
-        <p>Con el pstree podemos ver los procesos en forma de arbol en la terminal </p>
+        <p>Con <code>pstree</code> podemos ver los procesos en forma de árbol en la terminal.</p>
         <img width="959" height="887" alt="image" src="https://github.com/user-attachments/assets/c5ae73e4-d0df-4ebe-afd6-b81583fd426b" class="course-image"/>
-        <p>Ahora con root podemos ver los procesos de un user</p>
+        <p>Ahora, con <code>root</code>, podemos ver los procesos de un usuario.</p>
         <img width="748" height="207" alt="image" src="https://github.com/user-attachments/assets/6c41959e-0617-4654-99ea-21192ec97082" class="course-image"/>
-        <p>Con ps aux, vemos todo los procesos corriendos </p>
+        <p>Con <code>ps aux</code>, vemos todos los procesos corriendo.</p>
         <img width="906" height="390" alt="image" src="https://github.com/user-attachments/assets/ff763c6e-40ab-4a5b-a2d5-98490f3b44d6" class="course-image"/>
         <img width="347" height="62" alt="image" src="https://github.com/user-attachments/assets/16b17826-4386-4a1e-bab0-870fed29e790" class="course-image"/>
-        <p>Ahora probamos con htop para ver los procesos</p>
+        <p>Ahora probamos con <code>htop</code> para ver los procesos.</p>
         <img width="1681" height="750" alt="image" src="https://github.com/user-attachments/assets/1e4eb66a-3593-4d9d-a0f5-a3f7123b3fd0" class="course-image"/>
-        <p>Como se puede ver htop es como "top" solo que con mejor interfaz, con "F4" podemos filtrar procesos y con "F9" matamos un proceso</p>
-        <p>Tambien esta btop, que para mis gusto es mucho mejor ya que te admite poder usar el raton para interactuar con los procesos, poder monitorear el uso de ancho de banda, la velocidad de interent y tambien el uso de ram y gpu, incluso la muestra de taseo </p>
+        <p>Como se puede ver, <code>htop</code> es como <code>top</code>, solo que con mejor interfaz. Con <code>F4</code> podemos filtrar procesos y con <code>F9</code> matamos un proceso.</p>
+        <p>También está <code>btop</code>, que para mi gusto es mucho mejor ya que te permite poder usar el ratón para interactuar con los procesos, poder monitorizar el uso de ancho de banda, la velocidad de Internet y también el uso de RAM y GPU, incluso la muestra de taseo.</p>
         <img width="252" height="48" alt="image" src="https://github.com/user-attachments/assets/7e2af435-1ed0-43c8-84c5-ce4336b2bca9" class="course-image"/>
         <img width="1672" height="756" alt="image" src="https://github.com/user-attachments/assets/403d89e8-4259-40c8-8b5d-a49f7af6bcb7" class="course-image"/>
-        <p>Con jobs podemos ver los procesos de fondo</p>
+        <p>Con <code>jobs</code> podemos ver los procesos de fondo.</p>
         <img width="217" height="65" alt="image" src="https://github.com/user-attachments/assets/3f89c329-5339-4abc-b730-f27239a606f8" class="course-image"/>
-        <p>Y con "top &" mandas procesos al segundo plano </p>
+        <p>Y con <code>top &amp;</code> mandas procesos a segundo plano.</p>
         <img width="268" height="67" alt="image" src="https://github.com/user-attachments/assets/8c16f8e0-cc7a-48e3-8654-ccba518273b7" class="course-image"/>
-
-        
-
 
         <ul>
             <li>&gt;&gt; Copias de seguridad y automatización de tareas</li>
@@ -380,5 +377,3 @@ main.contenedor-principal {
 }
 /* --- FIN DE ESTILOS DE BOTONES --- */
 </style>
-
-
