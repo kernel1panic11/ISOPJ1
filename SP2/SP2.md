@@ -231,7 +231,6 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
         <p>Con <code>renice</code> podemos cambiarle la prioridad a un proceso.</p>
         <p>Y con <code>nice</code> lanzas un proceso con la prioridad que tú quieras.</p>
         <p>Extra: con <code>pkill</code> puedes matar a todos los procesos por un nombre, por si se queda alguno huérfano.</p>
-        
         <ul>
             <li>&gt;&gt; Copias de seguridad y automatización de tareas</li>
             <li>&gt;&gt; Cuotas de usuario</li>
@@ -245,12 +244,12 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
             <li>&gt;&gt; Practica programes backup</li>
             <li>&gt;&gt; Teoria automatizacion scripts, cron y anacron</li>
             <li>&gt;&gt; Practicas de automatizacion</li>
-        </ul>
-        </ul>
-
-    
-    
-
+            </ul>
+    <img width="912" height="379" alt="image" src="https://github.com/user-attachments/assets/198fab29-3c37-4989-b220-c7aa8a114ae8" class="course-image"/>
+    <p>Corn y anacron son herramientas de automatizacion </p>
+    <p>Difrencia entre corn y anacrin</p>
+    <p>Cron ejecuta tareas programadas en una fecha y hora especifica, si el sistema esta apagado la tarea se pierde, es ideal para tareas en fechas y horas conretas y acciones especificias de un usuario,</p>
+    <p>Anacron es ideal para tareas periodicas, donde no hace falta una fecha y hora especifica, normalmente se utiliza para tareas de mantenimiento del sistema y no reuiere que el sistema este inciado porque cuando se inicie sesion se ejecutara</p>
 
     </div>
 </main>
@@ -395,4 +394,5 @@ main.contenedor-principal {
 }
 /* --- FIN DE ESTILOS DE BOTONES --- */
 </style>
+
 
