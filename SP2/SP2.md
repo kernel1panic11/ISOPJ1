@@ -236,8 +236,22 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
             <li>&gt;&gt; Copias de seguridad y automatización de tareas</li>
             <li>&gt;&gt; Cuotas de usuario</li>
         </ul>
-        <p>Las <strong>copias de seguridad</strong> se pueden hacer de forma manual (con <code>cp</code>, <code>rsync</code>, etc.) o automática usando tareas programadas con <code>cron</code>. Por ejemplo, se puede crear un script que haga backup de <code>/home</code> y añadirlo a <code>crontab</code> para que se ejecute cada noche.</p>
-        <p>Las <strong>cuotas de usuario</strong> permiten limitar el espacio que puede usar cada usuario o grupo en un sistema de archivos. Esto se hace activando cuotas en la partición (opción en <code>/etc/fstab</code>) y luego usando herramientas como <code>edquota</code>, <code>quota</code> y <code>repquota</code> para configurarlas y ver el uso.</p>
+    </div>
+    <div class="content-section">
+    <h2 class="sub">Copias de seguridad y automatización de tareas:</h2>
+            <ul>
+            <li>&gt;&gt; Teoria de comandes backup</li>
+            <li>&gt;&gt; Practica comandas backup</li>
+            <li>&gt;&gt; Practica programes backup</li>
+            <li>&gt;&gt; Teoria automatizacion scripts, cron y anacron</li>
+            <li>&gt;&gt; Practicas de automatizacion</li>
+        </ul>
+        </ul>
+
+    
+    
+
+
     </div>
 </main>
 
@@ -381,3 +395,4 @@ main.contenedor-principal {
 }
 /* --- FIN DE ESTILOS DE BOTONES --- */
 </style>
+
