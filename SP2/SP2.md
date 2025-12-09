@@ -250,6 +250,20 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
     <p>Difrencia entre corn y anacrin</p>
     <p>Cron ejecuta tareas programadas en una fecha y hora especifica, si el sistema esta apagado la tarea se pierde, es ideal para tareas en fechas y horas conretas y acciones especificias de un usuario,</p>
     <p>Anacron es ideal para tareas periodicas, donde no hace falta una fecha y hora especifica, normalmente se utiliza para tareas de mantenimiento del sistema y no reuiere que el sistema este inciado porque cuando se inicie sesion se ejecutara</p>
+<p>Todo lo que se ponga aquí afectara a todos los users</p>
+<img width="1543" height="415" alt="image" src="https://github.com/user-attachments/assets/d819d069-3fd9-4419-a377-8e3cd09b98b0" class="course-image"/>
+<p>Y con esto es para hacerlo para un unico user</p>
+<img width="537" height="159" alt="image" src="https://github.com/user-attachments/assets/ac35f7d6-f47d-4434-ab1c-8c919d80b86c" class="course-image"/>
+<p>En este directorio todo lo que se ponga dentro automaticamente lo ejecutara crontab</p>
+<img width="416" height="181" alt="image" src="https://github.com/user-attachments/assets/27e90534-7d34-4a39-b813-b92ffdbdf1de" class="course-image"/>
+
+<img width="975" height="130" alt="image" src="https://github.com/user-attachments/assets/f1c0d7d7-fd1f-44d2-bead-c0518a55c6a6" />
+<img width="665" height="134" alt="image" src="https://github.com/user-attachments/assets/36b22968-fe3c-4e3e-acf4-13b822471f10" />
+
+<img width="681" height="141" alt="image" src="https://github.com/user-attachments/assets/b2f68917-01b4-42a1-b043-17be2632632a" />
+<img width="1013" height="248" alt="image" src="https://github.com/user-attachments/assets/f10b8998-8920-4754-aaaa-9474bfcf7c3b" />
+
+
 
     </div>
 </main>
@@ -394,5 +408,6 @@ main.contenedor-principal {
 }
 /* --- FIN DE ESTILOS DE BOTONES --- */
 </style>
+
 
 
