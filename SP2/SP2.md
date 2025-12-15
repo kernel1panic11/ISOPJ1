@@ -257,11 +257,23 @@ title: "Sprint 2. Instalación, configuración de software base y gestión de fi
 <p>En este directorio todo lo que se ponga dentro automaticamente lo ejecutara crontab</p>
 <img width="416" height="181" alt="image" src="https://github.com/user-attachments/assets/27e90534-7d34-4a39-b813-b92ffdbdf1de" class="course-image"/>
 
-<img width="975" height="130" alt="image" src="https://github.com/user-attachments/assets/f1c0d7d7-fd1f-44d2-bead-c0518a55c6a6" />
-<img width="665" height="134" alt="image" src="https://github.com/user-attachments/assets/36b22968-fe3c-4e3e-acf4-13b822471f10" />
+<img width="975" height="130" alt="image" src="https://github.com/user-attachments/assets/f1c0d7d7-fd1f-44d2-bead-c0518a55c6a6" class="course-image"/>
+<img width="665" height="134" alt="image" src="https://github.com/user-attachments/assets/36b22968-fe3c-4e3e-acf4-13b822471f10" class="course-image"/>
 
-<img width="681" height="141" alt="image" src="https://github.com/user-attachments/assets/b2f68917-01b4-42a1-b043-17be2632632a" />
-<img width="1013" height="248" alt="image" src="https://github.com/user-attachments/assets/f10b8998-8920-4754-aaaa-9474bfcf7c3b" />
+<img width="681" height="141" alt="image" src="https://github.com/user-attachments/assets/b2f68917-01b4-42a1-b043-17be2632632a" class="course-image"/>
+<img width="1013" height="248" alt="image" src="https://github.com/user-attachments/assets/f10b8998-8920-4754-aaaa-9474bfcf7c3b" class="course-image"/>
+
+<h2 class="sub">Cuatas de disco:</h2>
+<p>La cuatoa de disco es la limitacion que se le da de espacio a los usuarios de disco</p>
+<p>Ahora aquí lo que hacemos es instalar el quata para hacer las limitaciones de cuaota </p>
+<img width="1715" height="345" alt="image" src="https://github.com/user-attachments/assets/f5fee57a-8c13-496f-ab67-de9c76799d48" class="course-image"/>
+<p>Creamos la carpeta donde van a ir los datos </p>
+<img width="428" height="129" alt="image" src="https://github.com/user-attachments/assets/63bde42c-33c7-4861-a66b-a646631b34ed" class="course-image"/>
+<p>Ahora comprobamos que el disco se ha montado</p>
+<img width="917" height="282" alt="image" src="https://github.com/user-attachments/assets/8b218f5e-b2cc-4ec3-ac51-af6b2cd1ff21" class="course-image"/>
+<img width="858" height="250" alt="image" src="https://github.com/user-attachments/assets/d90d5892-4c24-4123-9375-114ad89fbf5b" class="course-image"/>
+<p>Ahora creamos un usuario de pruebas para comprobar que funciona</p>
+
 
 
 
@@ -408,6 +420,7 @@ main.contenedor-principal {
 }
 /* --- FIN DE ESTILOS DE BOTONES --- */
 </style>
+
 
 
 
