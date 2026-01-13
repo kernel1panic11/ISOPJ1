@@ -25,10 +25,13 @@ title: "Sprint 3. Administracion de dominios y seguridad"
                 </ul>
             </li>
         </ul>
-        <p>En la práctica, hoy en día se suele hablar más de <strong>formateo rápido</strong> (solo recrea las estructuras del sistema de archivos) y <strong>formateo completo</strong> (recorre el disco y marca sectores defectuosos). El “bajo nivel” real lo hace el fabricante del disco; las herramientas que usamos simulan este comportamiento escribiendo en toda la superficie.</p>
-        <p>El tamaño del <strong>sector</strong> lo fija el fabricante del disco (por ejemplo, 512 B o 4 KB físicos), mientras que el tamaño del <strong>bloque</strong> o clúster se define al crear el sistema de archivos. Un tamaño de bloque más grande reduce las tablas de asignación, pero desperdicia más espacio (más fragmentación interna). Un tamaño de bloque más pequeño aprovecha mejor el espacio, pero aumenta el tamaño de las tablas y el número de accesos.</p>
-        <p>La <strong>fragmentación interna</strong> es el espacio que se pierde dentro de un bloque cuando el archivo no lo llena entero (por ejemplo, un archivo de 17 B en un bloque de 4096 B desperdicia 4079 B). La <strong>fragmentación externa</strong> ocurre cuando un archivo está repartido en muchos trozos no contiguos en el disco, lo que empeora el rendimiento al leerlo.</p>
+        <p></p>
     </div>
+
+<img width="1898" height="161" alt="image" src="https://github.com/user-attachments/assets/e4916ad7-1898-4624-a235-fd7b80b40e9d" />
+<img width="1395" height="333" alt="image" src="https://github.com/user-attachments/assets/d4d3b772-7efb-4a4e-acf4-e6736d01be92" />
+<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/33ad9380-1df9-4ec8-8043-41dceb1f5e45" />
+
 
 </main>
 
