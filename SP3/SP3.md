@@ -27,15 +27,27 @@ title: "Sprint 3. Administracion de dominios y seguridad"
         </ul>
         <p></p>
     </div>
+     <h2 class="sub">LDAP</h2>
+<p>Empezamos editando el hostname, con este nombre sera con el que sera reconozido en la red </p>
+<img width="1898" height="161" alt="image" src="https://github.com/user-attachments/assets/e4916ad7-1898-4624-a235-fd7b80b40e9d" class="course-image"/>
+<p>Ahora editamos el /etc/host </p>
+<img width="1395" height="333" alt="image" src="https://github.com/user-attachments/assets/d4d3b772-7efb-4a4e-acf4-e6736d01be92" class="course-image"/>
+<p>Despues de esto, lo que hacemos es instalarle el ldap al ubuntu que hara de servidor </p>
+<img width="881" height="385" alt="image" src="https://github.com/user-attachments/assets/6a68e5fc-bd14-4449-8091-d095cb3796f0" class="course-image"/>
+<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/33ad9380-1df9-4ec8-8043-41dceb1f5e45" class="course-image"/>
+<p>Despues de hacer esta configuracion del moodel nos descargamos una carpeta y la descomprimimos</p>
+<p>Dentro de ellas esta lo siguientes archivos</p>
+<img width="749" height="32" alt="image" src="https://github.com/user-attachments/assets/76fbac39-eeb4-43d6-a30f-2b11b645a936" class="course-image"/>
+<p>Despues de esto ejecutamos un dpkg --reconfigure slapd para reconfigurar el servidor </p>
+<img width="1028" height="609" alt="image" src="https://github.com/user-attachments/assets/a214d1f2-f598-4b84-a44d-5babb4a33abd" class="course-image"/>
 
-<img width="1898" height="161" alt="image" src="https://github.com/user-attachments/assets/e4916ad7-1898-4624-a235-fd7b80b40e9d" />
-<img width="1395" height="333" alt="image" src="https://github.com/user-attachments/assets/d4d3b772-7efb-4a4e-acf4-e6736d01be92" />
-<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/33ad9380-1df9-4ec8-8043-41dceb1f5e45" />
-<img width="1913" height="1045" alt="image" src="https://github.com/user-attachments/assets/79aef0d6-7e14-4af2-83d6-c08b6c761428" />
-<img width="1920" height="1039" alt="image" src="https://github.com/user-attachments/assets/68a8d204-742a-4cd4-a0d5-9c97b28e33b0" />
-<img width="1920" height="1002" alt="image" src="https://github.com/user-attachments/assets/b0a42273-3a74-4de1-af58-1cc5090e2ab0" />
-<img width="1011" height="159" alt="image" src="https://github.com/user-attachments/assets/dad9c00c-0beb-468f-81d7-93e1d134d876" />
-<img width="1920" height="654" alt="image" src="https://github.com/user-attachments/assets/78b6bb87-a20b-447e-846f-c6e85d7688ca" />
+
+    
+<img width="1913" height="1045" alt="image" src="https://github.com/user-attachments/assets/79aef0d6-7e14-4af2-83d6-c08b6c761428" class="course-image"/>
+<img width="1920" height="1039" alt="image" src="https://github.com/user-attachments/assets/68a8d204-742a-4cd4-a0d5-9c97b28e33b0" class="course-image"/>
+<img width="1920" height="1002" alt="image" src="https://github.com/user-attachments/assets/b0a42273-3a74-4de1-af58-1cc5090e2ab0" class="course-image"/>
+<img width="1011" height="159" alt="image" src="https://github.com/user-attachments/assets/dad9c00c-0beb-468f-81d7-93e1d134d876" class="course-image"/>
+<img width="1920" height="654" alt="image" src="https://github.com/user-attachments/assets/78b6bb87-a20b-447e-846f-c6e85d7688ca" class="course-image"/>
 
 
 
