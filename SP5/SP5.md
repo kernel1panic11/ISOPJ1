@@ -7,10 +7,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;600;700&family=Exo+2:wght@300;400;600&display=swap');
-<p> Servidor 
+<h2> Servidor de actualizaciones ubuntu (CDN) </h2>
+   <p> Empezamos instalando el apache2 </p>     
+**<img width="812" height="249" alt="image" src="https://github.com/user-attachments/assets/a4b43d1e-6732-43f2-9155-83a3a02b3c9c" />
+**
+<p> Despues de eso instalamos el apt-mirror </p>
+<img width="804" height="250" alt="image" src="https://github.com/user-attachments/assets/55e4665d-e127-4ae7-a1c9-d148b55c5c1f" />
 
+<p> En este archivo ponemos todos los archivos que quieres que el server se descargue, es decir que haga de cdn</p>
+    <img width="572" height="99" alt="image" src="https://github.com/user-attachments/assets/0302cb80-cd2b-4e03-b290-1eb47eac7ef9" />
 
-        
+<p>En este caso para que no tarde la vida, lo que hemos hecho es descomentar todas las repos y solo dejar la del chrome</p>
+<img width="836" height="177" alt="image" src="https://github.com/user-attachments/assets/494e569b-4820-4c51-91bc-fdaf366c070e" />
+<p>Una vez hecho esto guardamos y ejecutamos apt-mirror y con esto nos descargamos la aplicacion </p>
+<img width="833" height="342" alt="image" src="https://github.com/user-attachments/assets/d78fde5f-855d-4908-90cc-f5327e3b80d2" />
+<p>Ahora configuramos el apache para poder compartir los recursos y que los clientes se puedan conectar</p>
+<img width="662" height="100" alt="image" src="https://github.com/user-attachments/assets/ca459090-3048-4ba0-a15f-a2004e6f1fb1" />
+<p>En esa carpeta tienes el archivo, y allí hacemos un softlink</p>
+ <img width="955" height="220" alt="image" src="https://github.com/user-attachments/assets/35e18fd2-304f-4c8f-90c5-82ccefa8747b" />
+<p>Como se puede ver el vinculo se ha creado perfectamente</p>
+
         :root {
             --bg:        #0a0b10;
             --surface:   rgba(14, 16, 26, 0.85);
