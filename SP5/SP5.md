@@ -9,7 +9,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;600;700&family=Exo+2:wght@300;400;600&display=swap');
 <h2> Servidor de actualizaciones ubuntu (CDN) </h2>
    <p> Empezamos instalando el apache2 </p>     
-**<img width="812" height="249" alt="image" src="https://github.com/user-attachments/assets/a4b43d1e-6732-43f2-9155-83a3a02b3c9c" />
+**<img width="812" height="249" alt="image" src="https://github.com/user-attachments/assets/a4b43d1e-6732-43f2-9155-83a3a02b3c9c" class="course-image"/>
 **
 <p> Despues de eso instalamos el apt-mirror </p>
 <img width="804" height="250" alt="image" src="https://github.com/user-attachments/assets/55e4665d-e127-4ae7-a1c9-d148b55c5c1f" />
