@@ -26,6 +26,8 @@
 <p>En esa carpeta tienes el archivo, y allí hacemos un softlink</p>
  <img width="955" height="220" alt="image" src="https://github.com/user-attachments/assets/35e18fd2-304f-4c8f-90c5-82ccefa8747b" />
 <p>Como se puede ver el vinculo se ha creado perfectamente</p>
+<img width="838" height="427" alt="image" src="https://github.com/user-attachments/assets/e2beb3b8-71a7-4d4c-94f4-e363d3cae97f" />
+<p>Ahora vamos al cliente y añadimos la ip del otro server</p>
 
         :root {
             --bg:        #0a0b10;
