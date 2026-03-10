@@ -29,6 +29,9 @@
 <img width="838" height="427" alt="image" src="https://github.com/user-attachments/assets/e2beb3b8-71a7-4d4c-94f4-e363d3cae97f" />
 <p>Ahora vamos al cliente y añadimos la ip del otro server</p>
 
+<p>AHora vamos a hacer lo mismo pero con el paquete del antigravity, hay dos formas de hacer esto, una es descargandose el paquete y la otra con una repo externa, que en este caso lo haremos con la repo externa</p>
+<img width="1548" height="250" alt="image" src="https://github.com/user-attachments/assets/5e8a9ae7-c40e-48ef-8fce-4544735c240f" />
+
         :root {
             --bg:        #0a0b10;
             --surface:   rgba(14, 16, 26, 0.85);
