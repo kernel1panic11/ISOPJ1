@@ -1,83 +1,17 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spring 5. Logs y monitorización</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;600;700&family=Exo+2:wght@300;400;600&display=swap');
+---
+layout: default
+title: "Sprint 5. Logs y monitorización"
+---
 
-        :root {
-            --bg: #0a0b10;
-            --surface: rgba(14, 16, 26, 0.85);
-            --border: rgba(0, 255, 255, 0.18);
-            --accent: #00ffff;
-            --accent2: #7b2fff;
-            --text: #e8eaf0;
-            --code-bg: #0d1117;
-            --code-fg: #58a6ff;
-            --radius: 10px;
-            --shadow-neon: 0 0 18px rgba(0,255,255,0.25);
-        }
-
-        body {
-            background-color: var(--bg);
-            color: var(--text);
-            font-family: 'Exo 2', sans-serif;
-            line-height: 1.75;
-            margin: 0;
-            padding: 20px;
-        }
-
-        .contenedor-principal {
-            max-width: 960px;
-            margin: 0 auto;
-        }
-
-        .content-section {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-            padding: 2.5rem;
-            box-shadow: var(--shadow-neon);
-            margin-bottom: 30px;
-        }
-
-        h1, h2 {
-            font-family: 'Rajdhani', sans-serif;
-            text-transform: uppercase;
-            color: var(--accent);
-        }
-
-        .img-wrap {
-            margin: 20px 0;
-            text-align: center;
-        }
-
-        .img-wrap img {
-            max-width: 100%;
-            border-radius: 8px;
-            border: 1px solid var(--border);
-        }
-
-        .code-block {
-            background: var(--code-bg);
-            border-left: 4px solid var(--accent2);
-            padding: 15px;
-            margin: 20px 0;
-            font-family: 'Share Tech Mono', monospace;
-            color: #79c0ff;
-            overflow-x: auto;
-            white-space: pre;
-        }
-    </style>
-</head>
-<body>
+<style>
+:root { --bg-image: url('{{ "/assetscss/pract22.gif" | relative_url }}'); }
+</style>
 
 <main class="contenedor-principal">
+    <h1 class="titulo">Sprint 5. Logs y monitorización</h1>
+    <div class="loading-bar"><div class="loading-progress"></div></div>
     <div class="content-section">
-        <h1>Servidor de actualizaciones Ubuntu (CDN)</h1>
+        <h2 class="sub">Servidor de actualizaciones Ubuntu (CDN)</h2>
         
         <p>Empezamos instalando el <code>apache2</code>:</p>
         <div class="img-wrap">
@@ -140,6 +74,30 @@ sudo apt install google-chrome-stable</div>
         <div class="code-block">deb http://dl.google.com/linux/chrome/deb/ stable main
 clean http://dl.google.com/linux/chrome/deb/</div>
     </div>
+
+    <div class="content-section">
+        <h2 class="sub">Configurar el cliente</h2>
+
+        <p>Abrimos el archivo de repositorios del cliente:</p>
+        <div class="code-block">nano /etc/apt/sources.list</div>
+        <p><strong>Sources.list del cliente:</strong></p>
+        <img src="https://github.com/user-attachments/assets/sp5-sources-list-client" alt="Sources.list cliente" class="course-image"/>
+
+        <p>Como Google Chrome requiere firma, importamos su clave pública:</p>
+        <p><strong>Error de firma (antes de importar la clave):</strong></p>
+        <img src="https://github.com/user-attachments/assets/sp5-error-gpg-no-pubkey" alt="Error GPG NO_PUBKEY al hacer apt update" class="course-image"/>
+
+        <p>Después ejecutamos <code>apt update</code> para comprobar que el cliente obtiene paquetes desde el servidor local:</p>
+        <img src="https://github.com/user-attachments/assets/sp5-apt-update-client" alt="Apt update cliente desde repositorio local" class="course-image"/>
+
+        <p>Instalamos el paquete desde el servidor:</p>
+        <div class="code-block">apt install google-chrome-stable</div>
+        <img src="https://github.com/user-attachments/assets/sp5-instalacion-chrome" alt="Instalación de Google Chrome desde el servidor local" class="course-image"/>
+
+        <p>Y, como se ve en la captura, Google Chrome queda instalado correctamente:</p>
+        <img src="https://github.com/user-attachments/assets/sp5-chrome-instalado" alt="Google Chrome instalado en el cliente" class="course-image"/>
+    </div>
+
 
     <div class="content-section">
         <h2>Directorio de almacenamiento de registros</h2>
@@ -213,5 +171,3 @@ logger -i -s -p mail.notice "Prueba"</div>
     </div>
 </main>
 
-</body>
-</html>
