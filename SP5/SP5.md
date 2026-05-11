@@ -1,137 +1,216 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spring 5. Logs y monitorización</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;600;700&family=Exo+2:wght@300;400;600&display=swap');
-
-        :root {
-            --bg: #0a0b10;
-            --surface: rgba(14, 16, 26, 0.85);
-            --border: rgba(0, 255, 255, 0.18);
-            --accent: #00ffff;
-            --accent2: #7b2fff;
-            --text: #e8eaf0;
-            --code-bg: #0d1117;
-            --code-fg: #58a6ff;
-            --radius: 10px;
-            --shadow-neon: 0 0 18px rgba(0,255,255,0.25);
-        }
-
-        body {
-            background-color: var(--bg);
-            color: var(--text);
-            font-family: 'Exo 2', sans-serif;
-            line-height: 1.75;
-            margin: 0;
-            padding: 20px;
-        }
-
-        .contenedor-principal {
-            max-width: 960px;
-            margin: 0 auto;
-        }
-
-        .content-section {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-            padding: 2.5rem;
-            box-shadow: var(--shadow-neon);
-            margin-bottom: 30px;
-        }
-
-        h1, h2 {
-            font-family: 'Rajdhani', sans-serif;
-            text-transform: uppercase;
-            color: var(--accent);
-        }
-
-        .img-wrap {
-            margin: 20px 0;
-            text-align: center;
-        }
-
-        .img-wrap img {
-            max-width: 100%;
-            border-radius: 8px;
-            border: 1px solid var(--border);
-        }
-
-        .code-block {
-            background: var(--code-bg);
-            border-left: 4px solid var(--accent2);
-            padding: 15px;
-            margin: 20px 0;
-            font-family: 'Share Tech Mono', monospace;
-            color: #79c0ff;
-            overflow-x: auto;
-            white-space: pre;
-        }
-    </style>
-</head>
-<body>
+---
+layout: default
+title: "Sprint 5: Monitorización, Auditorías y Software Cliente/Servidor"
+---
 
 <main class="contenedor-principal">
-    <div class="content-section">
-        <h1>Servidor de actualizaciones Ubuntu (CDN)</h1>
-        
-        <p>Empezamos instalando el <code>apache2</code>:</p>
-        <div class="img-wrap">
-            <img src="https://github.com/user-attachments/assets/a4b43d1e-6732-43f2-9155-83a3a02b3c9c" alt="Apache">
-        </div>
+  <h1 class="titulo">Sprint 5: Monitorización, Auditorías y Software Cliente/Servidor</h1>
+  <div class="loading-bar"><div class="loading-progress"></div></div>
 
-        <p>Después instalamos el <code>apt-mirror</code>:</p>
-        <div class="img-wrap">
-            <img src="https://github.com/user-attachments/assets/55e4665d-e127-4ae7-a1c9-d148b55c5c1f" alt="Apt-mirror">
-        </div>
+## 1. Conceptos fundamentales de logging
 
-        <p>En este archivo ponemos los repositorios que el servidor debe descargar (CDN):</p>
-        <div class="img-wrap">
-            <img src="https://github.com/user-attachments/assets/0302cb80-cd2b-4e03-b290-1eb47eac7ef9" alt="Configuración">
-        </div>
+Para gestionar los logs, Linux utiliza dos conceptos principales para clasificar la información:
 
-        <p>Descomentamos las repos y dejamos solo la de Chrome para ganar tiempo:</p>
-        <div class="img-wrap">
-            <img src="https://github.com/user-attachments/assets/494e569b-4820-4c51-91bc-fdaf366c070e" alt="Repositorios">
-        </div>
+* **Facility:** define el origen o tipo de programa que genera el mensaje (por ejemplo: `auth`, `cron`, `kern`, `mail`). El asterisco (`*`) indica todas las fuentes.
+* **Priority (nivel):** define la gravedad del mensaje (por ejemplo: `debug`, `info`, `notice`, `warning`, `err`, `crit`, `alert`, `emerg`).
+* Con punto (`.`) indicamos ese nivel y todos los superiores.
+* Con igual (`.=`) indicamos solo ese nivel exacto.
 
-        <p>Ejecutamos <code>apt-mirror</code> para descargar la aplicación:</p>
-        <div class="img-wrap">
-            <img src="https://github.com/user-attachments/assets/d78fde5f-855d-4908-90cc-f5327e3b80d2" alt="Ejecución">
-        </div>
+### La herramienta `logger`
 
-        <p>Configuramos Apache y creamos el <strong>softlink</strong>:</p>
-        <div class="img-wrap">
-            <img src="https://github.com/user-attachments/assets/ca459090-3048-4ba0-a15f-a2004e6f1fb1" alt="Apache Config">
-        </div>
-        <div class="img-wrap">
-            <img src="https://github.com/user-attachments/assets/35e18fd2-304f-4c8f-90c5-82ccefa8747b" alt="Softlink">
-        </div>
+El comando `logger` permite añadir entradas manuales al log del sistema desde terminal.
 
-        <p>Uso de repositorios externos para paquetes específicos como <em>antigravity</em>:</p>
-        <div class="img-wrap">
-            <img src="https://github.com/user-attachments/assets/5e8a9ae7-c40e-48ef-8fce-4544735c240f" alt="Antigravity">
-        </div>
-    </div>
+> **Ejemplo:** `logger -i -s -p mail.err "Mensaje de error"`
+> * `-i`: añade el PID del proceso.
+> * `-s`: muestra el mensaje también por stderr.
+> * `-p`: especifica *facility* y *priority*.
 
-    <div class="content-section">
-        <h2>Directorio de almacenamiento de registros</h2>
-        <p>Listado del contenido de <code>/var/log</code>:</p>
-        
-        <div class="code-block">
-root@cliente:/var/log# ls
-alternatives.log  btmp            kern.log          syslog
-auth.log          dist-upgrade    lastlog           syslog.1
-apt               dpkg.log        journal           unattended-upgrades
-boot.log          faillog         private           wtmp
-bootstrap.log     fontconfig.conf installer         vboxadd-setup.log
-        </div>
-    </div>
+---
+
+## 2. Directorios y archivos importantes
+
+La mayoría de logs del sistema se almacenan en `/var/log`. Aunque muchos servicios escriben en `syslog`, otros paquetes crean sus propias rutas.
+
+<img width="1181" height="235" alt="image" src="https://github.com/user-attachments/assets/a4107def-0e00-4b8b-9cd2-d9e2b57926f1" />
+
+Si visualizamos `syslog`, podemos ver actividad general del sistema en tiempo real.
+
+<img width="1208" height="709" alt="image" src="https://github.com/user-attachments/assets/7b87c153-76c5-4a76-8bdd-89f41addc4ca" />
+
+---
+
+## 3. Rotación de logs (`logrotate`)
+
+Para evitar que los logs llenen el disco, `logrotate`:
+
+1. Comprime logs antiguos (`.gz`).
+2. Los renombra (`syslog.1`, `syslog.2.gz`).
+3. Elimina logs viejos según días o tamaño.
+
+La configuración se encuentra en `/etc/logrotate.d/`.
+
+<img width="1012" height="109" alt="image" src="https://github.com/user-attachments/assets/8470044a-eda1-4ee9-973c-e55b6c4faed9" />
+
+---
+
+## 4. Configuración de `rsyslog`
+
+En Ubuntu/Debian, muchas reglas por defecto están en `/etc/rsyslog.d/50-default.conf`.
+
+<img width="1233" height="683" alt="image" src="https://github.com/user-attachments/assets/cc484c0c-752c-4122-8982-aad728ef4138" />
+
+### Pruebas de funcionamiento
+
+Para monitorizar cambios en directo:
+`tail -f /var/log/syslog`
+
+1. `logger -i -s -p kern.notice "Prueba"`
+2. `logger -i -s -p mail.notice "Prueba"`
+3. Probar filtros con y sin `=` en `mail.err`.
+4. Crear log personalizado, por ejemplo:
+`*.crit -/var/log/pau.log`
+
+---
+
+## 5. `journalctl`
+
+Además de logs en texto, `systemd` usa un journal binario consultable con `journalctl`.
+
+Ejemplo:
+`journalctl --facility=mail`
+
+<img width="646" height="69" alt="image" src="https://github.com/user-attachments/assets/32039832-b9f5-4be2-a548-0a72b9e1c1c6" />
+
+---
+
+## TAREA 1: Rendimiento y monitorización
+
+Para observar el rendimiento del sistema usamos el **Monitor del sistema de Ubuntu**. Permite revisar procesos activos, consumo de recursos y estado de sistemas de archivos.
+
+### Pestaña 1: Procesos
+
+Muestra procesos en ejecución con datos como **PID, usuario, CPU y memoria**.
+
+<img width="699" height="590" alt="image" src="https://github.com/user-attachments/assets/f92f86ba-7f1e-4b39-9439-7c40bb3563bc" />
+
+### Pestaña 2: Recursos
+
+Muestra gráficas en tiempo real de **CPU, RAM, swap y red**.
+
+<img width="676" height="504" alt="image" src="https://github.com/user-attachments/assets/a2730a83-b391-49a2-b416-14d550ec88b6" />
+
+### Pestaña 3: Sistemas de archivos
+
+Muestra discos/particiones con **espacio usado y disponible**.
+
+<img width="657" height="308" alt="image" src="https://github.com/user-attachments/assets/edad65f4-baae-44fc-9216-5b729c62c817" />
+
+---
+
+# TAREA CONJUNTA: Centralización de logs con `rsyslog`
+
+**Fecha:** 03/03/26  
+**Componentes:** Valle (Grupo A), Pau (Grupo B)
+
+Se configura una máquina como servidor de logs y otra como cliente para enviar registros por red.
+
+## Paso 1: Preparación (ambos hosts)
+
+* Configurar IPs y comprobar con `ip a`.
+* Desactivar firewall temporalmente: `sudo ufw disable`.
+* Verificar `rsyslog`: `sudo apt update && sudo apt install rsyslog -y`.
+
+## Paso 2: Servidor
+
+Editar:
+`sudo nano /etc/rsyslog.conf`
+
+Habilitar UDP:
+```
+module(load="imudp")
+input(type="imudp" port="514")
+```
+
+Reiniciar:
+`sudo systemctl restart rsyslog`
+
+## Paso 3: Cliente
+
+Editar:
+`sudo nano /etc/rsyslog.d/50-default.conf`
+
+Añadir:
+`*.* @192.168.1.10:514`
+
+Reiniciar:
+`sudo systemctl restart rsyslog`
+
+## Paso 4: Verificación
+
+En servidor:
+`tail -f /var/log/syslog`
+
+En cliente:
+`logger "prueba de envío de logs"`
+
+---
+
+# Servidor de actualizaciones
+
+**Fecha:** 09/03/26
+
+Documentación para montar servidor local de paquetes con `apt-mirror` + Apache y usarlo desde clientes.
+
+## 1) Servidor
+
+```
+sudo su
+apt update
+apt install apache2
+apt install apt-mirror
+```
+
+## 2) Configurar `apt-mirror`
+
+Editar:
+`nano /etc/apt/mirror.list`
+
+Para la práctica, dejar solo repositorio de Google Chrome.
+
+Ejecutar:
+`apt-mirror`
+
+## 3) Exponer con Apache
+
+Crear softlink:
+`ln -s /var/spool/apt-mirror/mirror/dl.google.com/linux/chrome/deb /var/www/html/`
+
+## 4) Cliente
+
+Editar repositorios:
+`nano /etc/apt/sources.list`
+
+Importar firma de Chrome, actualizar e instalar:
+
+```
+apt update
+apt install google-chrome-stable
+```
+
 </main>
 
-</body>
-</html>
+<style>
+:root {
+  --bg-image: url('{{ "/assetscss/pract22.gif" | relative_url }}');
+}
+
+main.contenedor-principal img {
+  width: 100%;
+  max-width: 1000px;
+  display: block;
+  margin: 1rem auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-neon);
+}
+</style>
