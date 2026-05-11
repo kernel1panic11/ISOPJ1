@@ -76,6 +76,30 @@ clean http://dl.google.com/linux/chrome/deb/</div>
     </div>
 
     <div class="content-section">
+        <h2 class="sub">Configurar el cliente</h2>
+
+        <p>Abrimos el archivo de repositorios del cliente:</p>
+        <div class="code-block">nano /etc/apt/sources.list</div>
+        <p><strong>Sources.list del cliente:</strong></p>
+        <img src="https://github.com/user-attachments/assets/sp5-sources-list-client" alt="Sources.list cliente" class="course-image"/>
+
+        <p>Como Google Chrome requiere firma, importamos su clave pública:</p>
+        <p><strong>Error de firma (antes de importar la clave):</strong></p>
+        <img src="https://github.com/user-attachments/assets/sp5-error-gpg-no-pubkey" alt="Error GPG NO_PUBKEY al hacer apt update" class="course-image"/>
+
+        <p>Después ejecutamos <code>apt update</code> para comprobar que el cliente obtiene paquetes desde el servidor local:</p>
+        <img src="https://github.com/user-attachments/assets/sp5-apt-update-client" alt="Apt update cliente desde repositorio local" class="course-image"/>
+
+        <p>Instalamos el paquete desde el servidor:</p>
+        <div class="code-block">apt install google-chrome-stable</div>
+        <img src="https://github.com/user-attachments/assets/sp5-instalacion-chrome" alt="Instalación de Google Chrome desde el servidor local" class="course-image"/>
+
+        <p>Y, como se ve en la captura, Google Chrome queda instalado correctamente:</p>
+        <img src="https://github.com/user-attachments/assets/sp5-chrome-instalado" alt="Google Chrome instalado en el cliente" class="course-image"/>
+    </div>
+
+
+    <div class="content-section">
         <h2>Directorio de almacenamiento de registros</h2>
         <p>Listado del contenido de <code>/var/log</code>:</p>
         
