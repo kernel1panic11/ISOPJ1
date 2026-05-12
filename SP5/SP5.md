@@ -396,7 +396,7 @@ img/12
 </p>
 
 <div class="img-wrap">
-    <img class="sp5-img" src="img/12.png" alt="Instalación Google Chrome">
+    <img class="sp5-img" src="https://github.com/user-attachments/assets/feb84d4a-a253-46c7-a5d9-23b3ba70c911" alt="Instalación Google Chrome">
 </div>
 
 <p>
