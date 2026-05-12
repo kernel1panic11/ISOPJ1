@@ -73,150 +73,334 @@ h1, h2 {
 
 <main class="contenedor-principal">
 
-    <div class="content-section">
+<div class="content-section">
 
-        <h1>Sprint 5. Logs y monitorización</h1>
+<h1>Sprint 5. Logs y monitorización</h1>
 
-        <h2>Servidor de actualizaciones Ubuntu (CDN)</h2>
+<h2>Conceptos fundamentales de logging</h2>
 
-        <p>
-        Empezamos instalando el <code>apache2</code><br>
-        img/1
-        </p>
+<p>
+Para gestionar los logs, Linux utiliza dos conceptos principales para clasificar la información.
+</p>
 
-        <div class="img-wrap">
-            <img class="sp5-img" src="img/1.png" alt="Apache instalado">
-        </div>
+<p>
+<strong>Facility:</strong> define el origen o tipo de programa que genera el mensaje.
+</p>
 
-        <p>
-        Después instalamos el <code>apt-mirror</code><br>
-        img/2
-        </p>
+<p>
+<strong>Priority:</strong> define la gravedad del mensaje.
+</p>
 
-        <div class="img-wrap">
-            <img class="sp5-img" src="img/2.png" alt="Instalación apt-mirror">
-        </div>
+<div class="code-block">logger -i -s -p mail.err "Mensaje de error"</div>
 
-        <p>
-        En este archivo ponemos los repositorios que el servidor debe descargar.<br>
-        img/3
-        </p>
+</div>
 
-        <div class="img-wrap">
-            <img class="sp5-img" src="img/3.png" alt="Configuración mirror.list">
-        </div>
+<div class="content-section">
 
-        <p>
-        Descomentamos las repos y dejamos solo la de Chrome para ganar tiempo.<br>
-        img/4
-        </p>
+<h2>Directorio de almacenamiento de registros</h2>
 
-        <div class="img-wrap">
-            <img class="sp5-img" src="img/4.png" alt="Repositorios activos">
-        </div>
+<p>
+Listado del contenido de <code>/var/log</code>.<br>
+img/14
+</p>
 
-        <p>
-        Ejecutamos <code>apt-mirror</code> para descargar los paquetes del repositorio.<br>
-        img/5
-        </p>
+<div class="img-wrap">
+    <img class="sp5-img" src="img/14.png" alt="Contenido /var/log">
+</div>
 
-        <div class="img-wrap">
-            <img class="sp5-img" src="img/5.png" alt="Ejecución apt-mirror">
-        </div>
+</div>
 
-        <p>
-        Configuramos Apache.<br>
-        img/6
-        </p>
+<div class="content-section">
 
-        <div class="img-wrap">
-            <img class="sp5-img" src="img/6.png" alt="Configuración Apache">
-        </div>
+<h2>Rotación de logs con logrotate</h2>
 
-        <p>
-        Creamos el <strong>softlink</strong>.<br>
-        img/7
-        </p>
+<p>
+Acceso al directorio de configuración.<br>
+img/15
+</p>
 
-        <div class="img-wrap">
-            <img class="sp5-img" src="img/7.png" alt="Softlink creado">
-        </div>
+<div class="img-wrap">
+    <img class="sp5-img" src="img/15.png" alt="logrotate">
+</div>
 
-        <p>
-        Uso de repositorios externos para paquetes específicos como <em>antigravity</em>.<br>
-        img/8
-        </p>
+<p>
+Configuración de rsyslog para logrotate.<br>
+img/16
+</p>
 
-        <div class="img-wrap">
-            <img class="sp5-img" src="img/8.png" alt="Repositorio antigravity">
-        </div>
+<div class="img-wrap">
+    <img class="sp5-img" src="img/16.png" alt="Configuración rsyslog">
+</div>
 
-    </div>
+</div>
 
-    <div class="content-section">
+<div class="content-section">
 
-        <h2>Configurar el cliente</h2>
+<h2>Configuración de rsyslog</h2>
 
-        <p>
-        Abrimos el archivo de repositorios del cliente.
-        </p>
+<p>
+Archivo principal de configuración.<br>
+img/17
+</p>
 
-        <div class="code-block">nano /etc/apt/sources.list</div>
+<div class="img-wrap">
+    <img class="sp5-img" src="img/17.png" alt="rsyslog">
+</div>
 
-        <p>
-        Sources.list del cliente<br>
-        img/9
-        </p>
+<p>
+Prueba con <code>kern.notice</code>.<br>
+img/18
+</p>
 
-        <div class="img-wrap">
-            <img class="sp5-img" src="img/9.png" alt="Sources.list cliente">
-        </div>
+<div class="img-wrap">
+    <img class="sp5-img" src="img/18.png" alt="kern.notice">
+</div>
 
-        <p>
-        Como Google Chrome requiere firma, importamos su clave pública.
-        </p>
+<p>
+Prueba con <code>mail.notice</code>.<br>
+img/19
+</p>
 
-        <p>
-        Error de firma antes de importar la clave.<br>
-        img/10
-        </p>
+<div class="img-wrap">
+    <img class="sp5-img" src="img/19.png" alt="mail.notice">
+</div>
 
-        <div class="img-wrap">
-            <img class="sp5-img" src="img/10.png" alt="Error GPG">
-        </div>
+<p>
+Filtrado de niveles específicos.<br>
+img/20
+</p>
 
-        <p>
-        Ejecutamos <code>apt update</code> para comprobar que el cliente obtiene paquetes desde el servidor local.<br>
-        img/11
-        </p>
+<div class="img-wrap">
+    <img class="sp5-img" src="img/20.png" alt="Filtros">
+</div>
 
-        <div class="img-wrap">
-            <img class="sp5-img" src="img/11.png" alt="Apt update cliente">
-        </div>
+<p>
+Logs personalizados.<br>
+img/21
+</p>
 
-        <p>
-        Instalamos Google Chrome desde el servidor local.
-        </p>
+<div class="img-wrap">
+    <img class="sp5-img" src="img/21.png" alt="Logs personalizados">
+</div>
 
-        <div class="code-block">apt install google-chrome-stable</div>
+</div>
 
-        <p>
-        Instalación de Google Chrome desde el servidor local.<br>
-        img/12
-        </p>
+<div class="content-section">
 
-        <div class="img-wrap">
-            <img class="sp5-img" src="img/12.png" alt="Instalación Google Chrome">
-        </div>
+<h2>journalctl</h2>
 
-        <p>
-        Como se observa en la captura, Google Chrome queda instalado correctamente en el cliente.
-        </p>
+<div class="code-block">journalctl --facility=mail</div>
 
-        <div class="img-wrap">
-            <img class="sp5-img" src="https://github.com/user-attachments/assets/b496a703-459b-40d3-9ee3-a0b03250142f" alt="Google Chrome instalado">
-        </div>
+<p>
+Consulta de logs con journalctl.<br>
+img/22
+</p>
 
-    </div>
+<div class="img-wrap">
+    <img class="sp5-img" src="img/22.png" alt="journalctl">
+</div>
+
+</div>
+
+<div class="content-section">
+
+<h2>Centralización de logs con rsyslog</h2>
+
+<p>
+Configuración IP de las máquinas.<br>
+img/23
+</p>
+
+<div class="img-wrap">
+    <img class="sp5-img" src="img/23.png" alt="IPs">
+</div>
+
+<p>
+Comprobación de IPs.<br>
+img/24
+</p>
+
+<div class="img-wrap">
+    <img class="sp5-img" src="img/24.png" alt="ip a">
+</div>
+
+<p>
+Instalación de rsyslog.<br>
+img/25
+</p>
+
+<div class="img-wrap">
+    <img class="sp5-img" src="img/25.png" alt="Instalación rsyslog">
+</div>
+
+<p>
+Configuración UDP del servidor.<br>
+img/26
+</p>
+
+<div class="img-wrap">
+    <img class="sp5-img" src="img/26.png" alt="UDP">
+</div>
+
+<p>
+Reinicio del servicio rsyslog.<br>
+img/27
+</p>
+
+<div class="img-wrap">
+    <img class="sp5-img" src="img/27.png" alt="restart rsyslog">
+</div>
+
+<p>
+Configuración del cliente.<br>
+img/28
+</p>
+
+<div class="img-wrap">
+    <img class="sp5-img" src="img/28.png" alt="cliente rsyslog">
+</div>
+
+<p>
+Recepción correcta de logs.<br>
+img/29
+</p>
+
+<div class="img-wrap">
+    <img class="sp5-img" src="img/29.png" alt="logs recibidos">
+</div>
+
+</div>
+
+<div class="content-section">
+
+<h2>Servidor de actualizaciones Ubuntu (CDN)</h2>
+
+<p>
+Instalación de Apache2.<br>
+img/1
+</p>
+
+<div class="img-wrap">
+    <img class="sp5-img" src="img/1.png" alt="Apache">
+</div>
+
+<p>
+Instalación de apt-mirror.<br>
+img/2
+</p>
+
+<div class="img-wrap">
+    <img class="sp5-img" src="img/2.png" alt="apt-mirror">
+</div>
+
+<p>
+Configuración de mirror.list.<br>
+img/3
+</p>
+
+<div class="img-wrap">
+    <img class="sp5-img" src="img/3.png" alt="mirror.list">
+</div>
+
+<p>
+Repositorios activos.<br>
+img/4
+</p>
+
+<div class="img-wrap">
+    <img class="sp5-img" src="img/4.png" alt="Repos">
+</div>
+
+<p>
+Ejecución de apt-mirror.<br>
+img/5
+</p>
+
+<div class="img-wrap">
+    <img class="sp5-img" src="img/5.png" alt="apt-mirror">
+</div>
+
+<p>
+Configuración Apache.<br>
+img/6
+</p>
+
+<div class="img-wrap">
+    <img class="sp5-img" src="img/6.png" alt="Apache config">
+</div>
+
+<p>
+Softlink creado.<br>
+img/7
+</p>
+
+<div class="img-wrap">
+    <img class="sp5-img" src="img/7.png" alt="Softlink">
+</div>
+
+<p>
+Repositorio antigravity.<br>
+img/8
+</p>
+
+<div class="img-wrap">
+    <img class="sp5-img" src="img/8.png" alt="Antigravity">
+</div>
+
+</div>
+
+<div class="content-section">
+
+<h2>Configurar el cliente</h2>
+
+<div class="code-block">nano /etc/apt/sources.list</div>
+
+<p>
+Sources.list del cliente.<br>
+img/9
+</p>
+
+<div class="img-wrap">
+    <img class="sp5-img" src="img/9.png" alt="sources.list">
+</div>
+
+<p>
+Error GPG antes de importar la clave.<br>
+img/10
+</p>
+
+<div class="img-wrap">
+    <img class="sp5-img" src="img/10.png" alt="error GPG">
+</div>
+
+<p>
+Apt update desde el servidor local.<br>
+img/11
+</p>
+
+<div class="img-wrap">
+    <img class="sp5-img" src="img/11.png" alt="apt update">
+</div>
+
+<div class="code-block">apt install google-chrome-stable</div>
+
+<p>
+Instalación de Google Chrome.<br>
+img/12
+</p>
+
+<div class="img-wrap">
+    <img class="sp5-img" src="img/12.png" alt="Chrome">
+</div>
+
+<p>
+Google Chrome instalado correctamente.
+</p>
+
+<div class="img-wrap">
+    <img class="sp5-img" src="https://github.com/user-attachments/assets/b496a703-459b-40d3-9ee3-a0b03250142f" alt="Google Chrome instalado">
+</div>
+
+</div>
 
 </main>
