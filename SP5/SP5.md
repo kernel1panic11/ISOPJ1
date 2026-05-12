@@ -380,23 +380,23 @@ img/10
 </div>
 
 <p>
-Apt update desde el servidor local.<br>
+Instalación de rsyslog en el cliente.<br>
 img/11
 </p>
 
 <div class="img-wrap">
-    <img class="sp5-img" src="img/11.png" alt="apt update">
+    <img class="sp5-img" src="img/11.png" alt="Instalación rsyslog">
 </div>
 
 <div class="code-block">apt install google-chrome-stable</div>
 
 <p>
-Instalación de Google Chrome.<br>
+Instalación de Google Chrome desde el servidor local.<br>
 img/12
 </p>
 
 <div class="img-wrap">
-    <img class="sp5-img" src="img/12.png" alt="Google Chrome">
+    <img class="sp5-img" src="img/12.png" alt="Instalación Google Chrome">
 </div>
 
 <p>
