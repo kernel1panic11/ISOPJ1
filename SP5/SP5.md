@@ -15,40 +15,40 @@ title: "Sprint 5. Logs y monitorización"
         
         <p>Empezamos instalando el <code>apache2</code>:</p>
         <div class="img-wrap">
-            <img src="https://github.com/user-attachments/assets/a4b43d1e-6732-43f2-9155-83a3a02b3c9c" alt="Apache">
+            <img src="{{ "/SP5/img/1.png" | relative_url }}" alt="Apache">
         </div>
 
         <p>Después instalamos el <code>apt-mirror</code>:</p>
         <div class="img-wrap">
-            <img src="https://github.com/user-attachments/assets/55e4665d-e127-4ae7-a1c9-d148b55c5c1f" alt="Apt-mirror">
+            <img src="{{ "/SP5/img/2.png" | relative_url }}" alt="Apt-mirror">
         </div>
 
         <p>En este archivo ponemos los repositorios que el servidor debe descargar:</p>
         <div class="img-wrap">
-            <img src="https://github.com/user-attachments/assets/0302cb80-cd2b-4e03-b290-1eb47eac7ef9" alt="Configuración">
+            <img src="{{ "/SP5/img/3.png" | relative_url }}" alt="Configuración">
         </div>
 
         <p>Descomentamos las repos y dejamos solo la de Chrome para ganar tiempo:</p>
         <div class="img-wrap">
-            <img src="https://github.com/user-attachments/assets/494e569b-4820-4c51-91bc-fdaf366c070e" alt="Repositorios">
+            <img src="{{ "/SP5/img/4.png" | relative_url }}" alt="Repositorios">
         </div>
 
         <p>Ejecutamos <code>apt-mirror</code> para descargar los paquetes del repositorio:</p>
         <div class="img-wrap">
-            <img src="https://github.com/user-attachments/assets/d78fde5f-855d-4908-90cc-f5327e3b80d2" alt="Ejecución">
+            <img src="{{ "/SP5/img/5.png" | relative_url }}" alt="Ejecución">
         </div>
 
         <p>Configuramos Apache y creamos el <strong>softlink</strong>:</p>
         <div class="img-wrap">
-            <img src="https://github.com/user-attachments/assets/ca459090-3048-4ba0-a15f-a2004e6f1fb1" alt="Apache Config">
+            <img src="{{ "/SP5/img/6.png" | relative_url }}" alt="Apache Config">
         </div>
         <div class="img-wrap">
-            <img src="https://github.com/user-attachments/assets/35e18fd2-304f-4c8f-90c5-82ccefa8747b" alt="Softlink">
+            <img src="{{ "/SP5/img/7.png" | relative_url }}" alt="Softlink">
         </div>
 
         <p>Uso de repositorios externos para paquetes específicos como <em>antigravity</em>:</p>
         <div class="img-wrap">
-            <img src="https://github.com/user-attachments/assets/5e8a9ae7-c40e-48ef-8fce-4544735c240f" alt="Antigravity">
+            <img src="{{ "/SP5/img/8.png" | relative_url }}" alt="Antigravity">
         </div>
     </div>
 
@@ -81,21 +81,21 @@ clean http://dl.google.com/linux/chrome/deb/</div>
         <p>Abrimos el archivo de repositorios del cliente:</p>
         <div class="code-block">nano /etc/apt/sources.list</div>
         <p><strong>Sources.list del cliente:</strong></p>
-        <img src="https://github.com/user-attachments/assets/sp5-sources-list-client" alt="Sources.list cliente" class="course-image"/>
+        <img src="{{ "/SP5/img/9.png" | relative_url }}" alt="Sources.list cliente" class="course-image"/>
 
         <p>Como Google Chrome requiere firma, importamos su clave pública:</p>
         <p><strong>Error de firma (antes de importar la clave):</strong></p>
-        <img src="https://github.com/user-attachments/assets/sp5-error-gpg-no-pubkey" alt="Error GPG NO_PUBKEY al hacer apt update" class="course-image"/>
+        <img src="{{ "/SP5/img/10.png" | relative_url }}" alt="Error GPG NO_PUBKEY al hacer apt update" class="course-image"/>
 
         <p>Después ejecutamos <code>apt update</code> para comprobar que el cliente obtiene paquetes desde el servidor local:</p>
-        <img src="https://github.com/user-attachments/assets/sp5-apt-update-client" alt="Apt update cliente desde repositorio local" class="course-image"/>
+        <img src="{{ "/SP5/img/11.png" | relative_url }}" alt="Apt update cliente desde repositorio local" class="course-image"/>
 
         <p>Instalamos el paquete desde el servidor:</p>
         <div class="code-block">apt install google-chrome-stable</div>
-        <img src="https://github.com/user-attachments/assets/sp5-instalacion-chrome" alt="Instalación de Google Chrome desde el servidor local" class="course-image"/>
+        <img src="{{ "/SP5/img/12.png" | relative_url }}" alt="Instalación de Google Chrome desde el servidor local" class="course-image"/>
 
         <p>Y, como se ve en la captura, Google Chrome queda instalado correctamente:</p>
-        <img src="https://github.com/user-attachments/assets/sp5-chrome-instalado" alt="Google Chrome instalado en el cliente" class="course-image"/>
+        <img src="{{ "/SP5/img/13.png" | relative_url }}" alt="Google Chrome instalado en el cliente" class="course-image"/>
     </div>
 
 
@@ -169,5 +169,119 @@ logger -i -s -p mail.notice "Prueba"</div>
 
         <p>La pestaña de sistemas de archivos muestra discos y particiones con espacio usado y disponible.</p>
     </div>
-</main>
 
+    <div class="content-section">
+        <h2>Evidencias adicionales del sprint (capturas 14 a 35)</h2>
+        <p>Estas capturas completan toda la evidencia visual almacenada en <code>SP5/img</code> y se mantienen dentro del mismo contenedor del documento.</p>
+
+        <h3>Captura 14</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/14.png" | relative_url }}" alt="Captura 14 del Sprint 5">
+        </div>
+
+        <h3>Captura 15</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/15.png" | relative_url }}" alt="Captura 15 del Sprint 5">
+        </div>
+
+        <h3>Captura 16</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/16.png" | relative_url }}" alt="Captura 16 del Sprint 5">
+        </div>
+
+        <h3>Captura 17</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/17.png" | relative_url }}" alt="Captura 17 del Sprint 5">
+        </div>
+
+        <h3>Captura 18</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/18.png" | relative_url }}" alt="Captura 18 del Sprint 5">
+        </div>
+
+        <h3>Captura 19</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/19.png" | relative_url }}" alt="Captura 19 del Sprint 5">
+        </div>
+
+        <h3>Captura 20</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/20.png" | relative_url }}" alt="Captura 20 del Sprint 5">
+        </div>
+
+        <h3>Captura 21</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/21.png" | relative_url }}" alt="Captura 21 del Sprint 5">
+        </div>
+
+        <h3>Captura 22</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/22.png" | relative_url }}" alt="Captura 22 del Sprint 5">
+        </div>
+
+        <h3>Captura 23</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/23.png" | relative_url }}" alt="Captura 23 del Sprint 5">
+        </div>
+
+        <h3>Captura 24</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/24.png" | relative_url }}" alt="Captura 24 del Sprint 5">
+        </div>
+
+        <h3>Captura 25</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/25.png" | relative_url }}" alt="Captura 25 del Sprint 5">
+        </div>
+
+        <h3>Captura 26</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/26.png" | relative_url }}" alt="Captura 26 del Sprint 5">
+        </div>
+
+        <h3>Captura 27</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/27.png" | relative_url }}" alt="Captura 27 del Sprint 5">
+        </div>
+
+        <h3>Captura 28</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/28.png" | relative_url }}" alt="Captura 28 del Sprint 5">
+        </div>
+
+        <h3>Captura 29</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/29.png" | relative_url }}" alt="Captura 29 del Sprint 5">
+        </div>
+
+        <h3>Captura 30</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/30.png" | relative_url }}" alt="Captura 30 del Sprint 5">
+        </div>
+
+        <h3>Captura 31</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/31.png" | relative_url }}" alt="Captura 31 del Sprint 5">
+        </div>
+
+        <h3>Captura 32</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/32.png" | relative_url }}" alt="Captura 32 del Sprint 5">
+        </div>
+
+        <h3>Captura 33</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/33.png" | relative_url }}" alt="Captura 33 del Sprint 5">
+        </div>
+
+        <h3>Captura 34</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/34.png" | relative_url }}" alt="Captura 34 del Sprint 5">
+        </div>
+
+        <h3>Captura 35</h3>
+        <div class="img-wrap">
+            <img src="{{ "/SP5/img/35.png" | relative_url }}" alt="Captura 35 del Sprint 5">
+        </div>
+    </div>
+</main>
